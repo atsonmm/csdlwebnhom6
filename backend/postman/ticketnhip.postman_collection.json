@@ -1,0 +1,1780 @@
+{
+  "info": {
+    "name": "TicketNhịp API (FastAPI)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000/api"
+    }
+  ],
+  "item": [
+    {
+      "name": "0 · Hệ thống",
+      "item": [
+        {
+          "name": "Kiểm tra máy chủ & CSDL",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/health"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 OK', () => pm.response.to.have.status(200));",
+                  "pm.test('PostgreSQL 18', () => pm.expect(pm.response.json().postgres).to.match(/^18/));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1 · Danh mục",
+      "item": [
+        {
+          "name": "Thể loại",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/categories"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có categories', () => pm.expect(pm.response.json()).to.have.property('categories'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Mã giảm giá NHIP50",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/coupons/NHIP50"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có amount', () => pm.expect(pm.response.json()).to.have.property('amount'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Chi tiết sự kiện",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/events/concert-dem-4-hen-giua-tinh-ha"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có tiers', () => pm.expect(pm.response.json()).to.have.property('tiers'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vé còn lại (theo ghế)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/events/khi-di-san-hoa-vu-dieu/availability"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có unavailableSeats', () => pm.expect(pm.response.json()).to.have.property('unavailableSeats'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Tìm kiếm không dấu",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/events?q=da%20lat"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có events', () => pm.expect(pm.response.json()).to.have.property('events'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Trang chủ",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/home"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có sections', () => pm.expect(pm.response.json()).to.have.property('sections'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sơ đồ khu vực (arena)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/maps/arena"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có zones', () => pm.expect(pm.response.json()).to.have.property('zones'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Danh sách sự kiện",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/events?limit=10"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có events', () => pm.expect(pm.response.json()).to.have.property('events'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "API không tồn tại (404)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/khong-co"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('404', () => pm.response.to.have.status(404));",
+                  "pm.test('có error', () => pm.expect(pm.response.json()).to.have.property('error'));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2 · Tài khoản",
+      "item": [
+        {
+          "name": "Đăng ký",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/register",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\": \"Khách Postman\", \"identifier\": \"postman@ticketnhip.vn\", \"password\": \"matkhau123\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('201', () => pm.response.to.have.status(201));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Tôi là ai",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/auth/me"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('đã đăng nhập', () => pm.expect(pm.response.json().user).to.not.equal(null));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Đăng xuất",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/logout",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Đăng nhập",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"postman@ticketnhip.vn\", \"password\": \"matkhau123\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Đăng nhập sai mật khẩu",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"postman@ticketnhip.vn\", \"password\": \"sai\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('401', () => pm.response.to.have.status(401));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Quên mật khẩu",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/forgot",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"postman@ticketnhip.vn\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const u = pm.response.json().devResetUrl; if (u) pm.collectionVariables.set('resetToken', new URL(u).searchParams.get('reset'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Đặt lại mật khẩu",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/reset",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"token\": \"{{resetToken}}\", \"password\": \"matkhau123\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3 · Đặt vé",
+      "item": [
+        {
+          "name": "Đăng nhập khách demo",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"khach1@demo.ticketnhip.vn\", \"password\": \"demo123456\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Đặt vé theo loại vé (kèm mã giảm giá)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/orders",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"slug\": \"kich-hen-anh-o-ben-song\", \"items\": [{\"tierId\": \"vip\", \"qty\": 2}], \"buyer\": {\"name\": \"Nguyễn Minh Anh\", \"email\": \"khach1@demo.ticketnhip.vn\", \"phone\": \"0900000001\"}, \"method\": \"qr\", \"coupon\": \"NHIP50\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('201', () => pm.response.to.have.status(201));",
+                  "pm.test('có mã vé', () => pm.expect(pm.response.json().order.tickets.length).to.equal(2));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vé của tôi",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/orders"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có đơn', () => pm.expect(pm.response.json().orders.length).to.be.above(0));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Đặt ghế đã bán (409)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/orders",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"slug\": \"anh-kim-reunion\", \"seats\": [\"B-M11\"], \"buyer\": {\"name\": \"Nguyễn Minh Anh\", \"email\": \"khach1@demo.ticketnhip.vn\", \"phone\": \"0900000001\"}, \"method\": \"card\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('409', () => pm.response.to.have.status(409));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "4 · Ban tổ chức & Quản trị",
+      "item": [
+        {
+          "name": "Đăng nhập (tài khoản Postman)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"postman@ticketnhip.vn\", \"password\": \"matkhau123\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Đăng ký Ban tổ chức",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/organizer/register",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"orgName\": \"Công ty Sự kiện Postman\", \"phone\": \"0912345678\", \"description\": \"Đơn vị thử nghiệm\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('201', () => pm.response.to.have.status(201));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Tạo sự kiện (chờ duyệt)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/organizer/events",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"title\": \"Đêm Nhạc Postman\", \"category\": \"nhac-song\", \"city\": \"Hà Nội\", \"venue\": \"Nhà hát Lớn\", \"address\": \"\", \"date\": \"2026-12-30\", \"startTime\": \"19:30\", \"endTime\": \"22:00\", \"description\": \"Đêm nhạc thử nghiệm tạo từ Postman.\\n\\nCửa mở 18:30.\", \"tiers\": [{\"name\": \"Vé thường\", \"price\": 200000, \"quantity\": 100, \"perks\": \"\"}]}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('201', () => pm.response.to.have.status(201));",
+                  "pm.collectionVariables.set('eventId', pm.response.json().event.id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bàn làm việc Ban tổ chức",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/me"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có sự kiện', () => pm.expect(pm.response.json().events.length).to.be.above(0));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Đăng nhập quản trị",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"admin@ticketnhip.vn\", \"password\": \"admin123456\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Tổng quan toàn sàn",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/overview"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có totals', () => pm.expect(pm.response.json()).to.have.property('totals'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Duyệt sự kiện",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/events/{{eventId}}/review",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"decision\": \"approve\", \"reason\": \"\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "5 · Dashboard Ban tổ chức",
+      "item": [
+        {
+          "name": "Đăng nhập lại (Ban tổ chức Postman)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"postman@ticketnhip.vn\", \"password\": \"matkhau123\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Thống kê 7 ngày",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/stats?days=7"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('đủ 7 ngày', () => pm.expect(pm.response.json().days.length).to.equal(7));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Chi tiết sự kiện (ngăn kéo)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/events/{{eventId}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('gộp − giảm giá = doanh thu', () => { const m = pm.response.json().money; pm.expect(m.gross - m.discount).to.equal(m.revenue); });"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "6 · Ban tổ chức — đơn hàng",
+      "item": [
+        {
+          "name": "Đăng nhập lại (Ban tổ chức Postman)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"postman@ticketnhip.vn\", \"password\": \"matkhau123\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sổ đơn — trang 1",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/orders?q=&status=all&page=1&pageSize=20"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const b = pm.response.json();",
+                  "pm.test('có phân trang + tổng hợp', () => { pm.expect(b.page).to.equal(1); pm.expect(b.summary).to.have.keys('paidOrders', 'paidRevenue', 'tickets'); });"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sổ đơn — chỉ đơn đã hoàn",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/orders?status=refunded"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('mọi đơn đều refunded', () => pm.response.json().orders.forEach(o => pm.expect(o.status).to.equal('refunded')));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sổ đơn — tìm ký tự đặc biệt (không lỗi 500)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/orders?q=%25"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('% không khớp mọi đơn', () => pm.expect(pm.response.json().total).to.equal(0));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sổ đơn — trạng thái sai (400)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/orders?status=x"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('400', () => pm.response.to.have.status(400));",
+                  "pm.test('có error', () => pm.expect(pm.response.json().error).to.be.a('string'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Báo cáo doanh thu — 30 ngày theo ngày",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/reports?groupBy=day"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const b = pm.response.json();",
+                  "pm.test('30 bucket liên tục', () => pm.expect(b.series.length).to.equal(30));",
+                  "pm.test('thực nhận = doanh thu − phí', () => pm.expect(b.totals.net).to.equal(b.totals.revenue - b.totals.fee));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Báo cáo doanh thu — theo tháng",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/reports?from=2026-10-01&to=2026-11-30&groupBy=month"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('2 tháng', () => pm.expect(pm.response.json().series.map(s => s.key)).to.eql(['2026-10', '2026-11']));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Báo cáo doanh thu — khoảng quá dài (400)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/reports?from=2025-01-01&to=2026-06-01"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('400', () => pm.response.to.have.status(400));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Soát vé — mã sai định dạng (400)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/organizer/checkin",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"code\": \"abc\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('400', () => pm.response.to.have.status(400));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Soát vé — mã không có (404)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/organizer/checkin",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"code\": \"ZZZZ-ZZZZ\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('404', () => pm.response.to.have.status(404));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Soát vé — mã thật (đặt biến ticketCode = mã trong Vé của tôi)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/organizer/checkin",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"code\": \"{{ticketCode}}\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('checked-in hoặc already', () => pm.expect(['checked-in', 'already']).to.include(pm.response.json().result));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Huỷ sự kiện (đặt biến eventId; có đơn thì cần lý do)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/organizer/events/{{eventId}}",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"reason\": \"Địa điểm tổ chức không còn khả dụng\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 hoặc 409', () => pm.expect([200, 409]).to.include(pm.response.code));",
+                  "if (pm.response.code === 200) pm.test('xoá hẳn hoặc hoàn tiền', () => pm.expect(pm.response.json()).to.have.property('deleted'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Huỷ sự kiện — thiếu lý do (400 nếu đã có đơn)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/organizer/events/{{eventId}}",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"reason\": \"\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('có phản hồi JSON', () => pm.response.json());"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Chi tiết sự kiện — form + mức được sửa",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/events/{{eventId}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const b = pm.response.json();",
+                  "pm.test('có form + editable', () => { pm.expect(b).to.have.property('form'); pm.expect(['full','limited','none']).to.include(b.editable.mode); });",
+                  "pm.collectionVariables.set('eventForm', JSON.stringify(Object.assign({}, b.form, { tiers: b.form.tiers.map(t => ({ id: t.id, name: t.name, price: t.price, quantity: t.quantity, perks: t.perks })) })));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sửa sự kiện (gửi lại form hiện tại, chỉ đổi địa chỉ)",
+          "request": {
+            "method": "PATCH",
+            "url": "{{baseUrl}}/organizer/events/{{eventId}}",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{{eventForm}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const f = JSON.parse(pm.collectionVariables.get('eventForm') || '{}');",
+                  "f.address = '99 Phố Huế, Hà Nội';",
+                  "pm.collectionVariables.set('eventForm', JSON.stringify(f));"
+                ]
+              }
+            },
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 hoặc 409 (không còn sửa được)', () => pm.expect([200, 409]).to.include(pm.response.code));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Rút tiền — số dư + lịch sử",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/withdrawals"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có số dư', () => pm.expect(pm.response.json().balance).to.have.keys('settledNet', 'held', 'pending', 'paid', 'available'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Rút tiền — gửi yêu cầu 50.000 ₫ (201, hoặc 409 nếu số dư không đủ)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/organizer/withdrawals",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"amount\": 50000, \"bankName\": \"Vietcombank\", \"accountNo\": \"0123456789\", \"accountName\": \"CONG TY SU KIEN POSTMAN\"}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('201 hoặc 409', () => pm.expect([201, 409]).to.include(pm.response.code));",
+                  "if (pm.response.code === 201) pm.test('đang chờ xử lý', () => pm.expect(pm.response.json().withdrawal.status).to.eql('pending'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Rút tiền — dưới mức tối thiểu (400)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/organizer/withdrawals",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"amount\": 1000, \"bankName\": \"Vietcombank\", \"accountNo\": \"0123456789\", \"accountName\": \"CONG TY SU KIEN POSTMAN\"}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('400', () => pm.response.to.have.status(400));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Khách mua nhiều nhất (30 ngày, DENSE_RANK)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/top-customers"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có danh sách khách', () => pm.expect(pm.response.json().customers).to.be.an('array'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sơ đồ khu / ghế có sẵn",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/organizer/venue-maps"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('có sơ đồ', () => pm.expect(pm.response.json().maps.length).to.be.above(0));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Tạo sự kiện theo sơ đồ khu (arena, giá theo nhóm)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/organizer/events",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Đêm nhạc theo sơ đồ (Postman)\",\n  \"category\": \"nhac-song\",\n  \"city\": \"Hà Nội\",\n  \"venue\": \"Sân khấu Arena\",\n  \"address\": \"\",\n  \"date\": \"2027-03-15\",\n  \"startTime\": \"19:30\",\n  \"endTime\": \"22:00\",\n  \"description\": \"Sự kiện thử bán theo sơ đồ khu có sẵn của sàn TicketNhịp.\",\n  \"layout\": \"zones\",\n  \"mapId\": \"arena\",\n  \"prices\": {\n    \"sky\": 300000,\n    \"svip\": 4000000,\n    \"vip\": 3000000,\n    \"fanzone\": 2500000,\n    \"ga1\": 1100000,\n    \"ga2\": 900000,\n    \"cat1\": 800000,\n    \"cat2\": 600000,\n    \"cat3\": 400000\n  }\n}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('201', () => pm.response.to.have.status(201));",
+                  "if (pm.response.code === 201) pm.collectionVariables.set('eventId', pm.response.json().event.id);"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7 · Quản trị sàn — vận hành",
+      "item": [
+        {
+          "name": "Đăng nhập Quản trị (dev)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"identifier\": \"admin@ticketnhip.vn\", \"password\": \"admin123456\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sổ đơn toàn sàn",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/orders?status=all&page=1&pageSize=20"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const b = pm.response.json();",
+                  "pm.test('mỗi đơn có orgName (null = sàn tự bán)', () => b.orders.forEach(o => pm.expect(o).to.have.property('orgName')));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Danh sách Ban tổ chức",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/organizers"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const list = pm.response.json().organizers;",
+                  "pm.test('có userId + orgName', () => list.forEach(o => pm.expect(o).to.include.keys('userId', 'orgName', 'code')));",
+                  "if (list.length) pm.collectionVariables.set('organizerId', list[0].userId);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sổ đơn — lọc theo một Ban tổ chức",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/orders?organizerId={{organizerId}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Báo cáo toàn sàn — 6 tuần",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/reports?groupBy=week"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const b = pm.response.json();",
+                  "pm.test('tổng = Σ theo BTC', () => pm.expect(b.byOrganizer.reduce((s, r) => s + r.revenue, 0)).to.equal(b.totals.revenue));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Danh sách Ban tổ chức (kèm số liệu)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/organizers"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const list = pm.response.json().organizers;",
+                  "pm.test('có số liệu', () => list.forEach(o => pm.expect(o).to.include.keys('events', 'live', 'pending', 'revenue', 'fee')));",
+                  "if (list.length) pm.collectionVariables.set('organizerId', list[0].userId);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sự kiện của một Ban tổ chức",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/organizers/{{organizerId}}/events"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Tra mã vé (chỉ xem)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/tickets/K7QF-29XM"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 hoặc 404', () => pm.expect([200, 404]).to.include(pm.response.code));",
+                  "if (pm.response.code === 200) pm.test('có vé + đơn + sự kiện', () => pm.expect(pm.response.json()).to.have.keys('ticket', 'order', 'event'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Tra mã vé — sai định dạng (400)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/tickets/abc"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('400', () => pm.response.to.have.status(400));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Gỡ sự kiện vi phạm (đặt biến eventId) — luôn huỷ mềm + hoàn tiền",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/admin/events/{{eventId}}/cancel",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"reason\": \"Sự kiện vi phạm điều khoản của sàn\"}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 hoặc 409 (đã huỷ / đã diễn)', () => pm.expect([200, 409]).to.include(pm.response.code));",
+                  "if (pm.response.code === 200) pm.test('không xoá hẳn, gỡ bởi admin', () => {",
+                  "  const b = pm.response.json();",
+                  "  pm.expect(b.deleted).to.eql(false);",
+                  "  pm.expect(b.event.cancelledBy).to.eql('admin');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Gỡ sự kiện — thiếu lý do (400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/admin/events/{{eventId}}/cancel",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"reason\": \"\"}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('400 hoặc 409', () => pm.expect([400, 409]).to.include(pm.response.code));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Yêu cầu rút tiền chờ xử lý (lưu withdrawalId đầu tiên)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/withdrawals?status=pending"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "const list = pm.response.json().withdrawals;",
+                  "if (list.length) pm.collectionVariables.set('withdrawalId', list[0].id);"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Duyệt rút tiền — đã chuyển (đặt biến withdrawalId)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/admin/withdrawals/{{withdrawalId}}/decide",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"decision\": \"paid\", \"note\": null}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 / 404 / 409', () => pm.expect([200, 404, 409]).to.include(pm.response.code));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Duyệt rút tiền — từ chối thiếu lý do (400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/admin/withdrawals/{{withdrawalId}}/decide",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"decision\": \"rejected\", \"note\": \"\"}"
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('400 (hoặc 404 nếu chưa có yêu cầu)', () => pm.expect([400, 404]).to.include(pm.response.code));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sự kiện đang bán chưa có đơn 7 ngày (NOT EXISTS)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/events/stale?days=7"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200', () => pm.response.to.have.status(200));",
+                  "pm.test('days = 7', () => pm.expect(pm.response.json().days).to.eql(7));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Sự kiện đứng bán — số ngày sai (400)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/events/stale?days=0"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('400', () => pm.response.to.have.status(400));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Xem trước hồ sơ sự kiện (mọi trạng thái)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/events/{{eventId}}"
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('200 hoặc 404', () => pm.expect([200, 404]).to.include(pm.response.code));",
+                  "if (pm.response.code === 200) pm.test('cùng dạng trang sự kiện', () => pm.expect(pm.response.json()).to.have.keys('event', 'summary', 'organizer'));"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
