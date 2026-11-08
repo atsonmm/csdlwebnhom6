@@ -1,0 +1,3967 @@
+[
+  {
+    "slug": "concert-dem-4-hen-giua-tinh-ha",
+    "title": "Concert Đêm 4: Hẹn Giữa Tinh Hà",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Hà Nội",
+    "venue": "Trung tâm Triển lãm [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "zones",
+    "map": "arena",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-15T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "minPrice": 800000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức các chương trình âm nhạc quy mô lớn, mang tới những đêm diễn được dàn dựng công phu về âm thanh, ánh sáng và sân khấu."
+    },
+    "description": [
+      "Sau ba đêm diễn cháy vé, “Hẹn Giữa Tinh Hà” chính thức trở lại với Đêm 4: đêm diễn được mở thêm để dành tặng những khán giả chưa kịp sở hữu tấm vé trong các lần mở bán trước.",
+      "Sân khấu chính kết hợp runway và B-stage cùng hệ thống ánh sáng mô phỏng dải ngân hà sẽ đưa khán giả đi qua những bản hit quen thuộc và các tiết mục đặc biệt chỉ có trong đêm diễn này.",
+      "Cửa mở từ 17:30. Khán giả nên có mặt sớm để check-in, nhận quà lưu niệm và tham gia các hoạt động bên lề tại khu vực sảnh chờ."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261115-1900",
+        "start": "2026-11-15T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "fanzone-a",
+        "name": "FANZONE A",
+        "price": 2500000,
+        "perks": "Khu đứng sát sân khấu chính và runway.",
+        "max": 4,
+        "group": "fanzone",
+        "groupLabel": "FANZONE",
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "fanzone-b",
+        "name": "FANZONE B",
+        "price": 2500000,
+        "perks": "Khu đứng sát sân khấu chính và runway.",
+        "max": 4,
+        "group": "fanzone",
+        "groupLabel": "FANZONE",
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "ga-1a",
+        "name": "GA 1A",
+        "price": 1100000,
+        "perks": "Khu đứng hai bên fanzone.",
+        "max": 6,
+        "group": "ga1",
+        "groupLabel": "GA 1",
+        "color": "#e879f9"
+      },
+      {
+        "id": "ga-1b",
+        "name": "GA 1B",
+        "price": 1100000,
+        "perks": "Khu đứng hai bên fanzone.",
+        "max": 6,
+        "group": "ga1",
+        "groupLabel": "GA 1",
+        "color": "#e879f9"
+      },
+      {
+        "id": "ga-2a",
+        "name": "GA 2A",
+        "price": 800000,
+        "perks": "Khu đứng phía ngoài.",
+        "max": 6,
+        "group": "ga2",
+        "groupLabel": "GA 2",
+        "color": "#f0abfc"
+      },
+      {
+        "id": "ga-2b",
+        "name": "GA 2B",
+        "price": 800000,
+        "perks": "Khu đứng phía ngoài.",
+        "max": 6,
+        "group": "ga2",
+        "groupLabel": "GA 2",
+        "color": "#f0abfc"
+      },
+      {
+        "id": "cat-3a",
+        "name": "CAT 3A",
+        "price": 1500000,
+        "perks": "Ghế ngồi khán đài góc.",
+        "max": 6,
+        "group": "cat3",
+        "groupLabel": "CAT 3",
+        "color": "#c026d3"
+      },
+      {
+        "id": "cat-3b",
+        "name": "CAT 3B",
+        "price": 1500000,
+        "perks": "Ghế ngồi khán đài góc.",
+        "max": 6,
+        "group": "cat3",
+        "groupLabel": "CAT 3",
+        "color": "#c026d3"
+      },
+      {
+        "id": "cat-2a",
+        "name": "CAT 2A",
+        "price": 1800000,
+        "perks": "Ghế ngồi khán đài hai bên.",
+        "max": 6,
+        "group": "cat2",
+        "groupLabel": "CAT 2",
+        "color": "#6d3fc4"
+      },
+      {
+        "id": "cat-2b",
+        "name": "CAT 2B",
+        "price": 1800000,
+        "perks": "Ghế ngồi khán đài hai bên.",
+        "max": 6,
+        "group": "cat2",
+        "groupLabel": "CAT 2",
+        "color": "#6d3fc4"
+      },
+      {
+        "id": "vip-a",
+        "name": "VIP A",
+        "price": 4000000,
+        "perks": "Ghế ngồi gần B-stage, check-in sớm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#2a86a8"
+      },
+      {
+        "id": "vip-b",
+        "name": "VIP B",
+        "price": 4000000,
+        "perks": "Ghế ngồi gần B-stage, check-in sớm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#2a86a8"
+      },
+      {
+        "id": "svip-a",
+        "name": "SVIP A",
+        "price": 5000000,
+        "perks": "Ghế ngồi trung tâm phía sau B-stage, quà tặng độc quyền.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#4fc3e8"
+      },
+      {
+        "id": "svip-b",
+        "name": "SVIP B",
+        "price": 5000000,
+        "perks": "Ghế ngồi trung tâm phía sau B-stage, quà tặng độc quyền.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#4fc3e8"
+      },
+      {
+        "id": "sky",
+        "name": "SKY LOUNGE",
+        "price": 10000000,
+        "perks": "Khu lounge riêng, ghế sofa, đồ uống miễn phí, lối đi riêng.",
+        "max": 2,
+        "group": "sky",
+        "groupLabel": "SKY LOUNGE",
+        "color": "#8be4f7"
+      },
+      {
+        "id": "cat-1a",
+        "name": "CAT 1A",
+        "price": 2500000,
+        "perks": "Ghế ngồi khán đài phía sau, nhìn thẳng sân khấu.",
+        "max": 6,
+        "group": "cat1",
+        "groupLabel": "CAT 1",
+        "color": "#a855f7"
+      },
+      {
+        "id": "cat-1b",
+        "name": "CAT 1B",
+        "price": 2500000,
+        "perks": "Ghế ngồi khán đài phía sau, nhìn thẳng sân khấu.",
+        "max": 6,
+        "group": "cat1",
+        "groupLabel": "CAT 1",
+        "color": "#a855f7"
+      }
+    ]
+  },
+  {
+    "slug": "concert-anh-em-vuot-nui",
+    "title": "Concert Anh Em Vượt Núi",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Hà Nội",
+    "venue": "Sân vận động [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "zones",
+    "map": "arena",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-05T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "23:30",
+    "minPrice": 1000000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Đêm nhạc quy tụ dàn nghệ sĩ “anh em” trong một sân khấu quy mô sân vận động. Sau khi hai đêm đầu bán hết, ban tổ chức chính thức công bố thêm đêm 3 và 4.",
+      "Khán giả vui lòng mang theo giấy tờ tuỳ thân khi check-in. Mỗi tài khoản được mua tối đa 4 vé cho mỗi khu."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261205-1930",
+        "start": "2026-12-05T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "23:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "fanzone-a",
+        "name": "FANZONE A",
+        "price": 2200000,
+        "perks": "Khu đứng sát sân khấu chính và runway.",
+        "max": 4,
+        "group": "fanzone",
+        "groupLabel": "FANZONE",
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "fanzone-b",
+        "name": "FANZONE B",
+        "price": 2200000,
+        "perks": "Khu đứng sát sân khấu chính và runway.",
+        "max": 4,
+        "group": "fanzone",
+        "groupLabel": "FANZONE",
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "ga-1a",
+        "name": "GA 1A",
+        "price": 1200000,
+        "perks": "Khu đứng hai bên fanzone.",
+        "max": 6,
+        "group": "ga1",
+        "groupLabel": "GA 1",
+        "color": "#e879f9"
+      },
+      {
+        "id": "ga-1b",
+        "name": "GA 1B",
+        "price": 1200000,
+        "perks": "Khu đứng hai bên fanzone.",
+        "max": 6,
+        "group": "ga1",
+        "groupLabel": "GA 1",
+        "color": "#e879f9"
+      },
+      {
+        "id": "ga-2a",
+        "name": "GA 2A",
+        "price": 1000000,
+        "perks": "Khu đứng phía ngoài.",
+        "max": 6,
+        "group": "ga2",
+        "groupLabel": "GA 2",
+        "color": "#f0abfc"
+      },
+      {
+        "id": "ga-2b",
+        "name": "GA 2B",
+        "price": 1000000,
+        "perks": "Khu đứng phía ngoài.",
+        "max": 6,
+        "group": "ga2",
+        "groupLabel": "GA 2",
+        "color": "#f0abfc"
+      },
+      {
+        "id": "cat-3a",
+        "name": "CAT 3A",
+        "price": 1300000,
+        "perks": "Ghế ngồi khán đài góc.",
+        "max": 6,
+        "group": "cat3",
+        "groupLabel": "CAT 3",
+        "color": "#c026d3"
+      },
+      {
+        "id": "cat-3b",
+        "name": "CAT 3B",
+        "price": 1300000,
+        "perks": "Ghế ngồi khán đài góc.",
+        "max": 6,
+        "group": "cat3",
+        "groupLabel": "CAT 3",
+        "color": "#c026d3"
+      },
+      {
+        "id": "cat-2a",
+        "name": "CAT 2A",
+        "price": 1600000,
+        "perks": "Ghế ngồi khán đài hai bên.",
+        "max": 6,
+        "group": "cat2",
+        "groupLabel": "CAT 2",
+        "color": "#6d3fc4"
+      },
+      {
+        "id": "cat-2b",
+        "name": "CAT 2B",
+        "price": 1600000,
+        "perks": "Ghế ngồi khán đài hai bên.",
+        "max": 6,
+        "group": "cat2",
+        "groupLabel": "CAT 2",
+        "color": "#6d3fc4"
+      },
+      {
+        "id": "vip-a",
+        "name": "VIP A",
+        "price": 3500000,
+        "perks": "Ghế ngồi gần B-stage, check-in sớm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#2a86a8"
+      },
+      {
+        "id": "vip-b",
+        "name": "VIP B",
+        "price": 3500000,
+        "perks": "Ghế ngồi gần B-stage, check-in sớm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#2a86a8"
+      },
+      {
+        "id": "svip-a",
+        "name": "SVIP A",
+        "price": 4500000,
+        "perks": "Ghế ngồi trung tâm phía sau B-stage, quà tặng độc quyền.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#4fc3e8"
+      },
+      {
+        "id": "svip-b",
+        "name": "SVIP B",
+        "price": 4500000,
+        "perks": "Ghế ngồi trung tâm phía sau B-stage, quà tặng độc quyền.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#4fc3e8"
+      },
+      {
+        "id": "sky",
+        "name": "SKY LOUNGE",
+        "price": 8000000,
+        "perks": "Khu lounge riêng, ghế sofa, đồ uống miễn phí, lối đi riêng.",
+        "max": 2,
+        "group": "sky",
+        "groupLabel": "SKY LOUNGE",
+        "color": "#8be4f7"
+      },
+      {
+        "id": "cat-1a",
+        "name": "CAT 1A",
+        "price": 2000000,
+        "perks": "Ghế ngồi khán đài phía sau, nhìn thẳng sân khấu.",
+        "max": 6,
+        "group": "cat1",
+        "groupLabel": "CAT 1",
+        "color": "#a855f7"
+      },
+      {
+        "id": "cat-1b",
+        "name": "CAT 1B",
+        "price": 2000000,
+        "perks": "Ghế ngồi khán đài phía sau, nhìn thẳng sân khấu.",
+        "max": 6,
+        "group": "cat1",
+        "groupLabel": "CAT 1",
+        "color": "#a855f7"
+      }
+    ]
+  },
+  {
+    "slug": "fanmeeting-ve-nha",
+    "title": "Fanmeeting “Về Nhà”",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "TP.HCM",
+    "venue": "Nhà hát [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "zones",
+    "map": "theatre-tiers",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-22T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 799000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Có những đêm nhạc để nghe, và có những đêm để gặp lại nhau. “Về Nhà” là buổi fanmeeting thân mật với sức chứa giới hạn, nơi khoảng cách giữa sân khấu và khán giả gần hơn bao giờ hết.",
+      "Chương trình gồm phần trình diễn acoustic, trò chuyện cùng khán giả, các mini game và phần ký tặng dành riêng cho chủ sở hữu vé Tổ 1."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261122-1900",
+        "start": "2026-11-22T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "to1",
+        "name": "Tổ 1",
+        "price": 2490000,
+        "perks": "Ba hàng ghế đầu tầng 1, tham gia ký tặng và chụp ảnh nhóm.",
+        "max": 2,
+        "group": "to1",
+        "groupLabel": "TỔ 1",
+        "color": "#ef5b4b"
+      },
+      {
+        "id": "to2-trai",
+        "name": "Tổ 2 · Trái",
+        "price": 1490000,
+        "perks": "Ghế ngồi tầng 1, poster có chữ ký in.",
+        "max": 4,
+        "group": "to2",
+        "groupLabel": "TỔ 2",
+        "color": "#2fa36b"
+      },
+      {
+        "id": "to2-phai",
+        "name": "Tổ 2 · Phải",
+        "price": 1490000,
+        "perks": "Ghế ngồi tầng 1, poster có chữ ký in.",
+        "max": 4,
+        "group": "to2",
+        "groupLabel": "TỔ 2",
+        "color": "#2fa36b"
+      },
+      {
+        "id": "to2-giua",
+        "name": "Tổ 2 · Giữa",
+        "price": 1490000,
+        "perks": "Ghế ngồi tầng 1, poster có chữ ký in.",
+        "max": 4,
+        "group": "to2",
+        "groupLabel": "TỔ 2",
+        "color": "#2fa36b"
+      },
+      {
+        "id": "to3-trai",
+        "name": "Tổ 3 · Trái",
+        "price": 1099000,
+        "perks": "Ghế ngồi tầng 1 phía sau và tầng 2 phía trước.",
+        "max": 4,
+        "group": "to3",
+        "groupLabel": "TỔ 3",
+        "color": "#7559f0"
+      },
+      {
+        "id": "to3-phai",
+        "name": "Tổ 3 · Phải",
+        "price": 1099000,
+        "perks": "Ghế ngồi tầng 1 phía sau và tầng 2 phía trước.",
+        "max": 4,
+        "group": "to3",
+        "groupLabel": "TỔ 3",
+        "color": "#7559f0"
+      },
+      {
+        "id": "to3-t2-trai",
+        "name": "Tổ 3 · Tầng 2 trái",
+        "price": 1099000,
+        "perks": "Ghế ngồi tầng 1 phía sau và tầng 2 phía trước.",
+        "max": 4,
+        "group": "to3",
+        "groupLabel": "TỔ 3",
+        "color": "#7559f0"
+      },
+      {
+        "id": "to3-t2-phai",
+        "name": "Tổ 3 · Tầng 2 phải",
+        "price": 1099000,
+        "perks": "Ghế ngồi tầng 1 phía sau và tầng 2 phía trước.",
+        "max": 4,
+        "group": "to3",
+        "groupLabel": "TỔ 3",
+        "color": "#7559f0"
+      },
+      {
+        "id": "to3-hang-trai",
+        "name": "Tổ 3 · Hàng trái",
+        "price": 1099000,
+        "perks": "Ghế ngồi tầng 1 phía sau và tầng 2 phía trước.",
+        "max": 4,
+        "group": "to3",
+        "groupLabel": "TỔ 3",
+        "color": "#7559f0"
+      },
+      {
+        "id": "to3-hang-giua",
+        "name": "Tổ 3 · Hàng giữa",
+        "price": 1099000,
+        "perks": "Ghế ngồi tầng 1 phía sau và tầng 2 phía trước.",
+        "max": 4,
+        "group": "to3",
+        "groupLabel": "TỔ 3",
+        "color": "#7559f0"
+      },
+      {
+        "id": "to3-hang-phai",
+        "name": "Tổ 3 · Hàng phải",
+        "price": 1099000,
+        "perks": "Ghế ngồi tầng 1 phía sau và tầng 2 phía trước.",
+        "max": 4,
+        "group": "to3",
+        "groupLabel": "TỔ 3",
+        "color": "#7559f0"
+      },
+      {
+        "id": "to4-trai",
+        "name": "Tổ 4 · Trái",
+        "price": 799000,
+        "perks": "Ghế ngồi tầng 2, nhận lightstick phiên bản đặc biệt.",
+        "max": 6,
+        "group": "to4",
+        "groupLabel": "TỔ 4",
+        "color": "#f5a524"
+      },
+      {
+        "id": "to4-giua",
+        "name": "Tổ 4 · Giữa",
+        "price": 799000,
+        "perks": "Ghế ngồi tầng 2, nhận lightstick phiên bản đặc biệt.",
+        "max": 6,
+        "group": "to4",
+        "groupLabel": "TỔ 4",
+        "color": "#f5a524"
+      },
+      {
+        "id": "to4-phai",
+        "name": "Tổ 4 · Phải",
+        "price": 799000,
+        "perks": "Ghế ngồi tầng 2, nhận lightstick phiên bản đặc biệt.",
+        "max": 6,
+        "group": "to4",
+        "groupLabel": "TỔ 4",
+        "color": "#f5a524"
+      }
+    ]
+  },
+  {
+    "slug": "live-concert-xv-15-nam",
+    "title": "Live Concert XV — 15 năm",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "TP.HCM",
+    "venue": "Nhà thi đấu [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "zones",
+    "map": "hall-grid",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-14T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 1200000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Live Concert XV — 15 năm là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Nhà thi đấu [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261114-1930",
+        "start": "2026-11-14T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "svip-1",
+        "name": "SVIP-1",
+        "price": 4000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-2",
+        "name": "SVIP-2",
+        "price": 4000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-3",
+        "name": "SVIP-3",
+        "price": 4000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-4",
+        "name": "SVIP-4",
+        "price": 4000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-5",
+        "name": "SVIP-5",
+        "price": 4000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "vip-1",
+        "name": "VIP-1",
+        "price": 3000000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-2",
+        "name": "VIP-2",
+        "price": 3000000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-3",
+        "name": "VIP-3",
+        "price": 3000000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-4",
+        "name": "VIP-4",
+        "price": 3000000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-5",
+        "name": "VIP-5",
+        "price": 3000000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "a-1",
+        "name": "KHU A-1",
+        "price": 2000000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-2",
+        "name": "KHU A-2",
+        "price": 2000000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-3",
+        "name": "KHU A-3",
+        "price": 2000000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-4",
+        "name": "KHU A-4",
+        "price": 2000000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-5",
+        "name": "KHU A-5",
+        "price": 2000000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "b-1",
+        "name": "KHU B-1",
+        "price": 1200000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-2",
+        "name": "KHU B-2",
+        "price": 1200000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-3",
+        "name": "KHU B-3",
+        "price": 1200000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-4",
+        "name": "KHU B-4",
+        "price": 1200000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-5",
+        "name": "KHU B-5",
+        "price": 1200000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      }
+    ]
+  },
+  {
+    "slug": "birthday-show-bach-khanh",
+    "title": "Birthday Show: Bạch Khanh",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Hà Nội",
+    "venue": "Phòng trà [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "zones",
+    "map": "hall-grid",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-21T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "22:30",
+    "minPrice": 850000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Birthday Show: Bạch Khanh là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Phòng trà [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261121-2000",
+        "start": "2026-11-21T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "svip-1",
+        "name": "SVIP-1",
+        "price": 2500000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-2",
+        "name": "SVIP-2",
+        "price": 2500000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-3",
+        "name": "SVIP-3",
+        "price": 2500000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-4",
+        "name": "SVIP-4",
+        "price": 2500000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-5",
+        "name": "SVIP-5",
+        "price": 2500000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "vip-1",
+        "name": "VIP-1",
+        "price": 1800000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-2",
+        "name": "VIP-2",
+        "price": 1800000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-3",
+        "name": "VIP-3",
+        "price": 1800000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-4",
+        "name": "VIP-4",
+        "price": 1800000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-5",
+        "name": "VIP-5",
+        "price": 1800000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "a-1",
+        "name": "KHU A-1",
+        "price": 1200000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-2",
+        "name": "KHU A-2",
+        "price": 1200000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-3",
+        "name": "KHU A-3",
+        "price": 1200000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-4",
+        "name": "KHU A-4",
+        "price": 1200000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-5",
+        "name": "KHU A-5",
+        "price": 1200000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "b-1",
+        "name": "KHU B-1",
+        "price": 850000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-2",
+        "name": "KHU B-2",
+        "price": 850000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-3",
+        "name": "KHU B-3",
+        "price": 850000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-4",
+        "name": "KHU B-4",
+        "price": 850000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-5",
+        "name": "KHU B-5",
+        "price": 850000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      }
+    ]
+  },
+  {
+    "slug": "da-quang-live-show",
+    "title": "Dạ Quang — Live Show",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Đà Lạt",
+    "venue": "Sân khấu [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "zones",
+    "map": "hall-grid",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-13T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 990000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Dạ Quang — Live Show là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Sân khấu [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261213-2000",
+        "start": "2026-12-13T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "svip-1",
+        "name": "SVIP-1",
+        "price": 3000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-2",
+        "name": "SVIP-2",
+        "price": 3000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-3",
+        "name": "SVIP-3",
+        "price": 3000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-4",
+        "name": "SVIP-4",
+        "price": 3000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "svip-5",
+        "name": "SVIP-5",
+        "price": 3000000,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ.",
+        "max": 4,
+        "group": "svip",
+        "groupLabel": "SVIP",
+        "color": "#f5ec7a"
+      },
+      {
+        "id": "vip-1",
+        "name": "VIP-1",
+        "price": 2200000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-2",
+        "name": "VIP-2",
+        "price": 2200000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-3",
+        "name": "VIP-3",
+        "price": 2200000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-4",
+        "name": "VIP-4",
+        "price": 2200000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "vip-5",
+        "name": "VIP-5",
+        "price": 2200000,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm.",
+        "max": 4,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#3b7dd8"
+      },
+      {
+        "id": "a-1",
+        "name": "KHU A-1",
+        "price": 1500000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-2",
+        "name": "KHU A-2",
+        "price": 1500000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-3",
+        "name": "KHU A-3",
+        "price": 1500000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-4",
+        "name": "KHU A-4",
+        "price": 1500000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "a-5",
+        "name": "KHU A-5",
+        "price": 1500000,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt.",
+        "max": 6,
+        "group": "a",
+        "groupLabel": "KHU A",
+        "color": "#f07a7a"
+      },
+      {
+        "id": "b-1",
+        "name": "KHU B-1",
+        "price": 990000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-2",
+        "name": "KHU B-2",
+        "price": 990000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-3",
+        "name": "KHU B-3",
+        "price": 990000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-4",
+        "name": "KHU B-4",
+        "price": 990000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      },
+      {
+        "id": "b-5",
+        "name": "KHU B-5",
+        "price": 990000,
+        "perks": "Khu phía sau, giá tốt.",
+        "max": 6,
+        "group": "b",
+        "groupLabel": "KHU B",
+        "color": "#d27fca"
+      }
+    ]
+  },
+  {
+    "slug": "khi-di-san-hoa-vu-dieu",
+    "title": "Khi Di sản hoá Vũ điệu",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "TP.HCM",
+    "venue": "Nhà hát [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "seats",
+    "map": "nha-hat-lon",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-07T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "21:30",
+    "minPrice": 1600000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Khi Di sản hoá Vũ điệu là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Nhà hát [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261107-1930",
+        "start": "2026-11-07T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "21:30"
+      },
+      {
+        "id": "20261114-1930",
+        "start": "2026-11-14T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "21:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "diamond",
+        "name": "DIAMOND",
+        "price": 3600000,
+        "perks": "Ba hàng đầu khu giữa, gần sân khấu nhất.",
+        "max": 10,
+        "group": "diamond",
+        "groupLabel": "DIAMOND",
+        "color": "#c084fc"
+      },
+      {
+        "id": "gold",
+        "name": "GOLD",
+        "price": 2800000,
+        "perks": "Khu giữa hàng D–F và hai khu bên hàng A–F.",
+        "max": 10,
+        "group": "gold",
+        "groupLabel": "GOLD",
+        "color": "#f2b705"
+      },
+      {
+        "id": "silver",
+        "name": "SILVER",
+        "price": 2100000,
+        "perks": "Hàng G–I, tầm nhìn bao quát.",
+        "max": 10,
+        "group": "silver",
+        "groupLabel": "SILVER",
+        "color": "#7cc4f2"
+      },
+      {
+        "id": "bronze",
+        "name": "BRONZE",
+        "price": 1600000,
+        "perks": "Hàng J–L và ban công.",
+        "max": 10,
+        "group": "bronze",
+        "groupLabel": "BRONZE",
+        "color": "#e9a8c8"
+      }
+    ]
+  },
+  {
+    "slug": "anh-kim-reunion",
+    "title": "Ánh Kim — Reunion",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Hà Nội",
+    "venue": "Nhà hát [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "seats",
+    "map": "nha-hat-lon",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-20T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 1200000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Ánh Kim — Reunion là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Nhà hát [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261220-1930",
+        "start": "2026-12-20T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "diamond",
+        "name": "DIAMOND",
+        "price": 3200000,
+        "perks": "Ba hàng đầu khu giữa, gần sân khấu nhất.",
+        "max": 10,
+        "group": "diamond",
+        "groupLabel": "DIAMOND",
+        "color": "#c084fc"
+      },
+      {
+        "id": "gold",
+        "name": "GOLD",
+        "price": 2500000,
+        "perks": "Khu giữa hàng D–F và hai khu bên hàng A–F.",
+        "max": 10,
+        "group": "gold",
+        "groupLabel": "GOLD",
+        "color": "#f2b705"
+      },
+      {
+        "id": "silver",
+        "name": "SILVER",
+        "price": 1800000,
+        "perks": "Hàng G–I, tầm nhìn bao quát.",
+        "max": 10,
+        "group": "silver",
+        "groupLabel": "SILVER",
+        "color": "#7cc4f2"
+      },
+      {
+        "id": "bronze",
+        "name": "BRONZE",
+        "price": 1200000,
+        "perks": "Hàng J–L và ban công.",
+        "max": 10,
+        "group": "bronze",
+        "groupLabel": "BRONZE",
+        "color": "#e9a8c8"
+      }
+    ]
+  },
+  {
+    "slug": "nhac-kich-pho-den-long",
+    "title": "Nhạc kịch “Phố Đèn Lồng”",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "Hà Nội",
+    "venue": "Nhà hát [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "seats",
+    "map": "nha-hat-lon",
+    "status": "coming",
+    "saleOpensAt": "2026-11-20T10:00:00+07:00",
+    "start": "2026-12-24T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 750000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Nhạc kịch “Phố Đèn Lồng” là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Nhà hát [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261224-1900",
+        "start": "2026-12-24T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "diamond",
+        "name": "DIAMOND",
+        "price": 2400000,
+        "perks": "Ba hàng đầu khu giữa, gần sân khấu nhất.",
+        "max": 10,
+        "group": "diamond",
+        "groupLabel": "DIAMOND",
+        "color": "#c084fc"
+      },
+      {
+        "id": "gold",
+        "name": "GOLD",
+        "price": 1800000,
+        "perks": "Khu giữa hàng D–F và hai khu bên hàng A–F.",
+        "max": 10,
+        "group": "gold",
+        "groupLabel": "GOLD",
+        "color": "#f2b705"
+      },
+      {
+        "id": "silver",
+        "name": "SILVER",
+        "price": 1200000,
+        "perks": "Hàng G–I, tầm nhìn bao quát.",
+        "max": 10,
+        "group": "silver",
+        "groupLabel": "SILVER",
+        "color": "#7cc4f2"
+      },
+      {
+        "id": "bronze",
+        "name": "BRONZE",
+        "price": 750000,
+        "perks": "Hàng J–L và ban công.",
+        "max": 10,
+        "group": "bronze",
+        "groupLabel": "BRONZE",
+        "color": "#e9a8c8"
+      }
+    ]
+  },
+  {
+    "slug": "vo-dien-xom-tro-lam-tro",
+    "title": "Vở diễn: Xóm Trọ Lắm Trò",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "Đà Lạt",
+    "venue": "Sân khấu [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "seats",
+    "map": "san-khau-nho",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-08T14:30:00+07:00",
+    "startTime": "14:30",
+    "endTime": "17:00",
+    "minPrice": 250000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Vở diễn: Xóm Trọ Lắm Trò là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Sân khấu [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261108-1430",
+        "start": "2026-11-08T14:30:00+07:00",
+        "startTime": "14:30",
+        "endTime": "17:00"
+      },
+      {
+        "id": "20261108-1930",
+        "start": "2026-11-08T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:00"
+      },
+      {
+        "id": "20261115-1930",
+        "start": "2026-11-15T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 350000,
+        "perks": "Ba hàng đầu, gần sân khấu.",
+        "max": 10,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#f2b705"
+      },
+      {
+        "id": "thuong",
+        "name": "VÉ THƯỜNG",
+        "price": 250000,
+        "perks": "Hàng D–I.",
+        "max": 10,
+        "group": "thuong",
+        "groupLabel": "VÉ THƯỜNG",
+        "color": "#7cc4f2"
+      }
+    ]
+  },
+  {
+    "slug": "kich-tam-cam-dai-chien",
+    "title": "Kịch: Tấm Cám Đại Chiến",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "seats",
+    "map": "san-khau-nho",
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-12T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 220000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Kịch: Tấm Cám Đại Chiến là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 6,
+    "shows": [
+      {
+        "id": "20261112-2000",
+        "start": "2026-11-12T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 320000,
+        "perks": "Ba hàng đầu, gần sân khấu.",
+        "max": 10,
+        "group": "vip",
+        "groupLabel": "VIP",
+        "color": "#f2b705"
+      },
+      {
+        "id": "thuong",
+        "name": "VÉ THƯỜNG",
+        "price": 220000,
+        "perks": "Hàng D–I.",
+        "max": 10,
+        "group": "thuong",
+        "groupLabel": "VÉ THƯỜNG",
+        "color": "#7cc4f2"
+      }
+    ]
+  },
+  {
+    "slug": "kich-hen-anh-o-ben-song",
+    "title": "Kịch: Hẹn Anh Ở Bến Sông",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "TP.HCM",
+    "venue": "Sân khấu kịch [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-15T16:00:00+07:00",
+    "startTime": "16:00",
+    "endTime": "19:00",
+    "minPrice": 330000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Vở kịch tâm lý xã hội xoay quanh một bến sông miền Tây, nơi những con người tưởng chừng xa lạ có chung một lời hẹn chưa thành.",
+      "Tác giả & đạo diễn: [TÊN]. Với sự tham gia của các nghệ sĩ: [DANH SÁCH NGHỆ SĨ]."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261115-1600",
+        "start": "2026-11-15T16:00:00+07:00",
+        "startTime": "16:00",
+        "endTime": "19:00"
+      },
+      {
+        "id": "20261121-2000",
+        "start": "2026-11-21T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 360000,
+        "perks": "Ghế ngồi tầng trệt, 5 hàng đầu.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "thuong",
+        "name": "Vé thường",
+        "price": 330000,
+        "perks": "Ghế ngồi tầng trệt.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "thuong-lau",
+        "name": "Vé thường (trên lầu)",
+        "price": 330000,
+        "perks": "Ghế ngồi tầng lầu.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "le-hoi-bia-thu-cong",
+    "title": "Lễ hội Bia Thủ Công",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-06T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 1299000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Lễ hội Bia Thủ Công là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261106-2000",
+        "start": "2026-11-06T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 1299000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 2340000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 3900000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "live-show-ba-giong-ca",
+    "title": "Live Show: Ba Giọng Ca",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Lâm Đồng",
+    "venue": "[ĐỊA ĐIỂM] Lâm Đồng",
+    "address": "[ĐỊA CHỈ], Lâm Đồng",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-14T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 800000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Live Show: Ba Giọng Ca là một trong những sự kiện được mong chờ nhất mùa này tại Lâm Đồng. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Lâm Đồng.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261114-1900",
+        "start": "2026-11-14T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 800000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 1440000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 2400000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "show-thuc-canh-co-lau",
+    "title": "Show thực cảnh: Cờ Lau",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "Hà Nội",
+    "venue": "Khu du lịch [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-06T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 175000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Show thực cảnh: Cờ Lau là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Khu du lịch [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261106-2000",
+        "start": "2026-11-06T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 175000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 320000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 530000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "art-workshop-banh-mousse",
+    "title": "Art workshop: Bánh Mousse",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-06T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 480000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Art workshop: Bánh Mousse là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261106-1930",
+        "start": "2026-11-06T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 480000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 860000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1440000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "art-workshop-tart-chanh",
+    "title": "Art workshop: Tart Chanh",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-07T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 390000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Art workshop: Tart Chanh là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261107-1930",
+        "start": "2026-11-07T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 390000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 700000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1170000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "giai-chay-dem-ho-tay",
+    "title": "Giải chạy Đêm Hồ Tây",
+    "category": "the-thao",
+    "categoryLabel": "Thể thao",
+    "marker": "bg-forest",
+    "city": "Hà Nội",
+    "venue": "[ĐỊA ĐIỂM] Hà Nội",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-23T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 450000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Giải chạy Đêm Hồ Tây là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Hà Nội.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261123-1930",
+        "start": "2026-11-23T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 450000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 810000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1350000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "futsal-cup-sai-gon",
+    "title": "Futsal Cup Sài Gòn",
+    "category": "the-thao",
+    "categoryLabel": "Thể thao",
+    "marker": "bg-forest",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-30T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 120000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Futsal Cup Sài Gòn là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261130-1930",
+        "start": "2026-11-30T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 120000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 220000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 360000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "hoi-thao-am-thanh-san-khau",
+    "title": "Hội thảo Âm thanh Sân khấu",
+    "category": "hoi-thao",
+    "categoryLabel": "Hội thảo & Workshop",
+    "marker": "bg-mustard",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-15T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 250000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Hội thảo Âm thanh Sân khấu là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261115-1900",
+        "start": "2026-11-15T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 250000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 450000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 750000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "workshop-lam-nen-thom",
+    "title": "Workshop Làm Nến Thơm",
+    "category": "hoi-thao",
+    "categoryLabel": "Hội thảo & Workshop",
+    "marker": "bg-mustard",
+    "city": "Đà Lạt",
+    "venue": "[ĐỊA ĐIỂM] Đà Lạt",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-08T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 290000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Workshop Làm Nến Thơm là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Đà Lạt.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261108-1930",
+        "start": "2026-11-08T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 290000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 520000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 870000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "tour-dem-pho-co",
+    "title": "Tour Đêm Phố Cổ",
+    "category": "tham-quan",
+    "categoryLabel": "Tham quan & Trải nghiệm",
+    "marker": "bg-tomato",
+    "city": "Hà Nội",
+    "venue": "[ĐỊA ĐIỂM] Hà Nội",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-09T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 199000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Tour Đêm Phố Cổ là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Hà Nội.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261109-1930",
+        "start": "2026-11-09T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 199000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 360000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 600000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "san-may-cau-dat",
+    "title": "Săn Mây Cầu Đất",
+    "category": "tham-quan",
+    "categoryLabel": "Tham quan & Trải nghiệm",
+    "marker": "bg-tomato",
+    "city": "Đà Lạt",
+    "venue": "[ĐỊA ĐIỂM] Đà Lạt",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-16T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 350000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Săn Mây Cầu Đất là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Đà Lạt.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261116-1900",
+        "start": "2026-11-16T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 350000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 630000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1050000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "kich-ngoi-nha-tren-doi",
+    "title": "Kịch: Ngôi Nhà Trên Đồi",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "Đà Lạt",
+    "venue": "[ĐỊA ĐIỂM] Đà Lạt",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-28T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 280000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Kịch: Ngôi Nhà Trên Đồi là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Đà Lạt.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261128-2000",
+        "start": "2026-11-28T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 280000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 500000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 840000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "hoi-cho-do-cu-cuoi-tuan",
+    "title": "Hội chợ Đồ Cũ Cuối Tuần",
+    "category": "khac",
+    "categoryLabel": "Khác",
+    "marker": "bg-transparent",
+    "city": "Huế",
+    "venue": "[ĐỊA ĐIỂM] Huế",
+    "address": "[ĐỊA CHỈ], Huế",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-10T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 50000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Hội chợ Đồ Cũ Cuối Tuần là một trong những sự kiện được mong chờ nhất mùa này tại Huế. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Huế.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261110-2000",
+        "start": "2026-11-10T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 50000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 90000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 150000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "liveshow-pho-bien",
+    "title": "Liveshow Phố Biển",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Đà Nẵng",
+    "venue": "[ĐỊA ĐIỂM] Đà Nẵng",
+    "address": "[ĐỊA CHỈ], Đà Nẵng",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-22T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 700000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Liveshow Phố Biển là một trong những sự kiện được mong chờ nhất mùa này tại Đà Nẵng. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Đà Nẵng.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261122-1930",
+        "start": "2026-11-22T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 700000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 1260000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 2100000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "dem-don-ca-tai-tu",
+    "title": "Đêm Đờn Ca Tài Tử",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "Cần Thơ",
+    "venue": "[ĐỊA ĐIỂM] Cần Thơ",
+    "address": "[ĐỊA CHỈ], Cần Thơ",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-29T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 150000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Đêm Đờn Ca Tài Tử là một trong những sự kiện được mong chờ nhất mùa này tại Cần Thơ. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Cần Thơ.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261129-1930",
+        "start": "2026-11-29T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 150000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 270000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 450000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "le-hoi-am-nhac-thanh-pho",
+    "title": "Lễ hội Âm nhạc Thành Phố",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "TP.HCM",
+    "venue": "Công viên [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "coming",
+    "saleOpensAt": "2026-11-20T10:00:00+07:00",
+    "start": "2026-11-29T17:00:00+07:00",
+    "startTime": "17:00",
+    "endTime": "20:00",
+    "minPrice": 650000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Lễ hội Âm nhạc Thành Phố là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Công viên [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261129-1700",
+        "start": "2026-11-29T17:00:00+07:00",
+        "startTime": "17:00",
+        "endTime": "20:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 650000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 1170000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1950000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "dem-nhac-muoi-nam-nhin-lai",
+    "title": "Đêm nhạc “Mười Năm Nhìn Lại”",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "TP.HCM",
+    "venue": "Nhà hát [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "coming",
+    "saleOpensAt": "2026-11-20T10:00:00+07:00",
+    "start": "2027-01-02T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 450000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Đêm nhạc “Mười Năm Nhìn Lại” là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Nhà hát [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20270102-1930",
+        "start": "2027-01-02T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 450000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 810000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1350000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "song-phung-live-in-saigon",
+    "title": "Song Phụng — Live in Saigon",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Đà Lạt",
+    "venue": "Sân khấu [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "list",
+    "map": null,
+    "status": "coming",
+    "saleOpensAt": "2026-11-20T10:00:00+07:00",
+    "start": "2026-12-18T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 450000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Song Phụng — Live in Saigon là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Sân khấu [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261218-2000",
+        "start": "2026-12-18T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 450000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 810000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1350000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "countdown-bo-song-2027",
+    "title": "Countdown Bờ Sông 2027",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Hà Nội",
+    "venue": "Quảng trường [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "list",
+    "map": null,
+    "status": "coming",
+    "saleOpensAt": "2026-11-20T10:00:00+07:00",
+    "start": "2026-12-31T21:00:00+07:00",
+    "startTime": "21:00",
+    "endTime": "23:00",
+    "minPrice": 350000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Countdown Bờ Sông 2027 là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Quảng trường [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261231-2100",
+        "start": "2026-12-31T21:00:00+07:00",
+        "startTime": "21:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 350000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 630000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1050000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "trien-lam-di-san-phat-giao",
+    "title": "Triển lãm Di sản Phật giáo",
+    "category": "tham-quan",
+    "categoryLabel": "Tham quan & Trải nghiệm",
+    "marker": "bg-tomato",
+    "city": "Đà Lạt",
+    "venue": "Bảo tàng [ĐỊA ĐIỂM]",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-07T09:00:00+07:00",
+    "startTime": "09:00",
+    "endTime": "12:00",
+    "minPrice": 150000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Triển lãm Di sản Phật giáo là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại Bảo tàng [ĐỊA ĐIỂM].",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261107-0900",
+        "start": "2026-11-07T09:00:00+07:00",
+        "startTime": "09:00",
+        "endTime": "12:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 150000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 270000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 450000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "ai-chong-ai",
+    "title": "Ai Chồng Ai",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "Hà Nội",
+    "venue": "[ĐỊA ĐIỂM] Hà Nội",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-28T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 990000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Ai Chồng Ai là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Hà Nội.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261128-1930",
+        "start": "2026-11-28T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 990000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 1780000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 2970000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "hung-dong",
+    "title": "Hừng Đông",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Hà Nội",
+    "venue": "[ĐỊA ĐIỂM] Hà Nội",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-06T19:30:00+07:00",
+    "startTime": "19:30",
+    "endTime": "22:30",
+    "minPrice": 800000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Hừng Đông là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Hà Nội.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261206-1930",
+        "start": "2026-12-06T19:30:00+07:00",
+        "startTime": "19:30",
+        "endTime": "22:30"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 800000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 1440000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 2400000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "da-quang",
+    "title": "Dạ Quang",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Đà Lạt",
+    "venue": "[ĐỊA ĐIỂM] Đà Lạt",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-13T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 600000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Dạ Quang là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Đà Lạt.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261213-2000",
+        "start": "2026-12-13T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 600000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 1080000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1800000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "thanh-pho-mo-mang",
+    "title": "Thành Phố Mở Màng",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Đà Lạt",
+    "venue": "[ĐỊA ĐIỂM] Đà Lạt",
+    "address": "[ĐỊA CHỈ], Đà Lạt",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-12T20:00:00+07:00",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "minPrice": 350000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Thành Phố Mở Màng là một trong những sự kiện được mong chờ nhất mùa này tại Đà Lạt. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Đà Lạt.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261212-2000",
+        "start": "2026-12-12T20:00:00+07:00",
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 350000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 630000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1050000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "anh-kim",
+    "title": "Ánh Kim",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-20T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 600000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Ánh Kim là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261220-1900",
+        "start": "2026-12-20T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 600000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 1080000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1800000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "ganh-hat-rong",
+    "title": "Gánh Hát Rong",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-27T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 990000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Gánh Hát Rong là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20261227-1900",
+        "start": "2026-12-27T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 990000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 1780000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 2970000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "mua-thang-sau",
+    "title": "Mưa Tháng Sáu",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2027-01-03T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 450000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Mưa Tháng Sáu là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 0,
+    "shows": [
+      {
+        "id": "20270103-1900",
+        "start": "2027-01-03T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 450000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 810000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1350000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "live-concert-vu-tru-do-2026",
+    "title": "Live Concert “Vũ Trụ Đỏ” 2026",
+    "category": "nhac-song",
+    "categoryLabel": "Nhạc sống",
+    "marker": "bg-tomato",
+    "city": "Hà Nội",
+    "venue": "[ĐỊA ĐIỂM] Hà Nội",
+    "address": "[ĐỊA CHỈ], Hà Nội",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-12-12T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 450000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Live Concert “Vũ Trụ Đỏ” 2026 là một trong những sự kiện được mong chờ nhất mùa này tại Hà Nội. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] Hà Nội.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 14,
+    "shows": [
+      {
+        "id": "20261212-1900",
+        "start": "2026-12-12T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 450000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 810000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1350000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  },
+  {
+    "slug": "kich-mot-ngay-lam-vua",
+    "title": "Kịch: Một Ngày Làm Vua",
+    "category": "san-khau",
+    "categoryLabel": "Sân khấu & Nghệ thuật",
+    "marker": "bg-cobalt",
+    "city": "TP.HCM",
+    "venue": "[ĐỊA ĐIỂM] TP.HCM",
+    "address": "[ĐỊA CHỈ], TP.HCM",
+    "layout": "list",
+    "map": null,
+    "status": "on-sale",
+    "saleOpensAt": null,
+    "start": "2026-11-20T19:00:00+07:00",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "minPrice": 450000,
+    "organizer": {
+      "name": "[BAN TỔ CHỨC]",
+      "bio": "Đơn vị tổ chức sự kiện đối tác chính thức của TicketNhịp."
+    },
+    "description": [
+      "Kịch: Một Ngày Làm Vua là một trong những sự kiện được mong chờ nhất mùa này tại TP.HCM. Chương trình được đầu tư kỹ lưỡng từ nội dung, âm thanh đến không gian tại [ĐỊA ĐIỂM] TP.HCM.",
+      "Khán giả sẽ được trải nghiệm trọn vẹn không khí của buổi diễn trực tiếp, cùng nhiều hoạt động bên lề và quà tặng dành cho những người đến sớm.",
+      "Số lượng vé có hạn và được phân phối chính thức qua TicketNhịp. Vé điện tử kèm mã QR sẽ được gửi ngay sau khi thanh toán thành công."
+    ],
+    "notes": [
+      "Vé đã mua không hỗ trợ đổi, trả hoặc hoàn tiền (trừ trường hợp sự kiện bị huỷ).",
+      "Trẻ em dưới 8 tuổi không được tham gia; từ 8–16 tuổi cần có người lớn đi kèm.",
+      "Vui lòng mang theo giấy tờ tuỳ thân và mã QR khi check-in.",
+      "Không mang theo đồ ăn, nước uống, vật sắc nhọn và thiết bị quay chụp chuyên nghiệp."
+    ],
+    "resaleCount": 9,
+    "shows": [
+      {
+        "id": "20261120-1900",
+        "start": "2026-11-20T19:00:00+07:00",
+        "startTime": "19:00",
+        "endTime": "22:00"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "pho-thong",
+        "name": "Phổ thông",
+        "price": 450000,
+        "perks": "Khu vực phổ thông, vào cửa theo thứ tự check-in.",
+        "max": 6,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "vip",
+        "name": "VIP",
+        "price": 810000,
+        "perks": "Khu vực gần sân khấu, lối vào riêng, quà lưu niệm.",
+        "max": 4,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      },
+      {
+        "id": "svip",
+        "name": "SVIP",
+        "price": 1350000,
+        "perks": "Hàng ghế đầu, check-in sớm 60 phút, giao lưu cùng nghệ sĩ.",
+        "max": 2,
+        "group": null,
+        "groupLabel": null,
+        "color": null
+      }
+    ]
+  }
+]
