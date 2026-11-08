@@ -1,0 +1,54 @@
+# TicketNhịp — 3 dịch vụ tương ứng 3 máy ảo: db (PostgreSQL + volume lưu trữ), backend (FastAPI), frontend (nginx).
+#   Chạy cả 3 trên một máy:   cp .env.example .env  &&  docker compose up -d --build
+#   Tách 3 máy ảo:            xem docs/TRIEN_KHAI_DOCKER.md (mỗi máy chạy 1 dịch vụ với --no-deps)
+name: ticketnhip
+
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ticketnhip}
+      POSTGRES_USER: ${POSTGRES_USER:-ticketnhip}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Đặt POSTGRES_PASSWORD trong .env}
+    volumes:
+      - db-data:/var/lib/postgresql          # dữ liệu CSDL (PostgreSQL 18 lưu ở /var/lib/postgresql/18/docker)
+      - ./.data/backups:/backups             # nơi lưu bản sao lưu pg_dump (máy ảo lưu trữ)
+    ports:
+      - "${DB_PORT:-5433}:5432"              # 5433 để không đụng PostgreSQL cài sẵn trên máy (5432)
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-ticketnhip}:${POSTGRES_PASSWORD}@${DB_HOST:-db}:${DB_HOST_PORT:-5432}/${POSTGRES_DB:-ticketnhip}
+      ENV: ${APP_ENV:-prod}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@ticketnhip.vn}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Đặt ADMIN_PASSWORD trong .env}
+      SEED_CATALOG: ${SEED_CATALOG:-1}
+      UVICORN_WORKERS: ${UVICORN_WORKERS:-2}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    environment:
+      BACKEND_URL: ${BACKEND_URL:-http://backend:8000}
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "${FRONTEND_PORT:-8080}:80"
+
+volumes:
+  db-data:
