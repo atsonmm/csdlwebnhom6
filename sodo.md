@@ -1,4 +1,5 @@
 <!-- prettier-ignore -->
+```text
 csdlwebnhom6/
 │
 ├── backend/                      ← Phần xử lý phía máy chủ
@@ -67,3 +68,4 @@ csdlwebnhom6/
 ├── .gitignore
 ├── CONTRIBUTING.md
 └── README.md
+``` (Đảm bảo có 3 dấu backtick ở cuối để đóng khối mã lại)
