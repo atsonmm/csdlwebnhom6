@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- TicketNhịp (backend FastAPI + PostgreSQL, frontend Vite)
+node_modules
+dist
+.DS_Store
+*.local
+.data/
+backend/.venv/
+backend/.env
+.superpowers/
+/.env
+frontend/.env
+# lib/ của mẫu Python không áp dụng cho dữ liệu seed JS
+!backend/seed/legacy/lib/
