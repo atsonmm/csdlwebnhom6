@@ -1,0 +1,4 @@
+# Script chạy trong container Linux phải giữ xuống dòng LF kể cả khi checkout trên Windows
+*.sh text eol=lf
+*.template text eol=lf
+Dockerfile text eol=lf
