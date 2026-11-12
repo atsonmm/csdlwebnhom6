@@ -1,0 +1,7306 @@
+[
+  {
+    "id": "arena",
+    "kind": "zones",
+    "name": "Sân khấu Arena",
+    "viewBox": "0 0 1000 680",
+    "decor": [
+      {
+        "kind": "stage",
+        "text": [
+          "STAGE"
+        ],
+        "fs": 40,
+        "shape": {
+          "type": "poly",
+          "points": "330,30 670,30 670,100 580,100 580,150 420,150 420,100 330,100"
+        },
+        "lx": 500,
+        "ly": 88
+      },
+      {
+        "kind": "screen",
+        "text": [
+          "LED"
+        ],
+        "fs": 14,
+        "shape": {
+          "type": "rect",
+          "x": 205,
+          "y": 45,
+          "w": 85,
+          "h": 40
+        }
+      },
+      {
+        "kind": "screen",
+        "text": [
+          "LED"
+        ],
+        "fs": 14,
+        "shape": {
+          "type": "rect",
+          "x": 710,
+          "y": 45,
+          "w": 85,
+          "h": 40
+        }
+      },
+      {
+        "kind": "stage",
+        "text": [],
+        "shape": {
+          "type": "rect",
+          "x": 488,
+          "y": 150,
+          "w": 24,
+          "h": 250
+        }
+      },
+      {
+        "kind": "stage",
+        "text": [
+          "B-STAGE"
+        ],
+        "fs": 22,
+        "shape": {
+          "type": "rect",
+          "x": 380,
+          "y": 400,
+          "w": 240,
+          "h": 44
+        }
+      },
+      {
+        "kind": "foh",
+        "text": [
+          "FOH"
+        ],
+        "fs": 18,
+        "shape": {
+          "type": "rect",
+          "x": 455,
+          "y": 585,
+          "w": 90,
+          "h": 50
+        }
+      }
+    ],
+    "groups": {
+      "sky": {
+        "label": "SKY LOUNGE",
+        "color": "#8be4f7",
+        "ink": true,
+        "max": 2,
+        "perks": "Khu lounge riêng, ghế sofa, đồ uống miễn phí, lối đi riêng."
+      },
+      "svip": {
+        "label": "SVIP",
+        "color": "#4fc3e8",
+        "ink": true,
+        "max": 4,
+        "perks": "Ghế ngồi trung tâm phía sau B-stage, quà tặng độc quyền."
+      },
+      "vip": {
+        "label": "VIP",
+        "color": "#2a86a8",
+        "ink": false,
+        "max": 4,
+        "perks": "Ghế ngồi gần B-stage, check-in sớm."
+      },
+      "fanzone": {
+        "label": "FANZONE",
+        "color": "#8b5cf6",
+        "ink": false,
+        "max": 4,
+        "perks": "Khu đứng sát sân khấu chính và runway."
+      },
+      "ga1": {
+        "label": "GA 1",
+        "color": "#e879f9",
+        "ink": true,
+        "max": 6,
+        "perks": "Khu đứng hai bên fanzone."
+      },
+      "ga2": {
+        "label": "GA 2",
+        "color": "#f0abfc",
+        "ink": true,
+        "max": 6,
+        "perks": "Khu đứng phía ngoài."
+      },
+      "cat1": {
+        "label": "CAT 1",
+        "color": "#a855f7",
+        "ink": false,
+        "max": 6,
+        "perks": "Ghế ngồi khán đài phía sau, nhìn thẳng sân khấu."
+      },
+      "cat2": {
+        "label": "CAT 2",
+        "color": "#6d3fc4",
+        "ink": false,
+        "max": 6,
+        "perks": "Ghế ngồi khán đài hai bên."
+      },
+      "cat3": {
+        "label": "CAT 3",
+        "color": "#c026d3",
+        "ink": false,
+        "max": 6,
+        "perks": "Ghế ngồi khán đài góc."
+      }
+    },
+    "zones": [
+      {
+        "id": "fanzone-a",
+        "label": "FANZONE A",
+        "group": "fanzone",
+        "cap": 600,
+        "text": [
+          "FANZONE",
+          "A"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 330,
+          "y": 180,
+          "w": 145,
+          "h": 200
+        }
+      },
+      {
+        "id": "fanzone-b",
+        "label": "FANZONE B",
+        "group": "fanzone",
+        "cap": 600,
+        "text": [
+          "FANZONE",
+          "B"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 525,
+          "y": 180,
+          "w": 145,
+          "h": 200
+        }
+      },
+      {
+        "id": "ga-1a",
+        "label": "GA 1A",
+        "group": "ga1",
+        "cap": 900,
+        "text": [
+          "GA",
+          "1A"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 230,
+          "y": 170,
+          "w": 85,
+          "h": 280
+        }
+      },
+      {
+        "id": "ga-1b",
+        "label": "GA 1B",
+        "group": "ga1",
+        "cap": 900,
+        "text": [
+          "GA",
+          "1B"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 685,
+          "y": 170,
+          "w": 85,
+          "h": 280
+        }
+      },
+      {
+        "id": "ga-2a",
+        "label": "GA 2A",
+        "group": "ga2",
+        "cap": 800,
+        "text": [
+          "GA",
+          "2A"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 135,
+          "y": 170,
+          "w": 80,
+          "h": 280
+        }
+      },
+      {
+        "id": "ga-2b",
+        "label": "GA 2B",
+        "group": "ga2",
+        "cap": 800,
+        "text": [
+          "GA",
+          "2B"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 785,
+          "y": 170,
+          "w": 80,
+          "h": 280
+        }
+      },
+      {
+        "id": "cat-3a",
+        "label": "CAT 3A",
+        "group": "cat3",
+        "cap": 400,
+        "text": [
+          "CAT",
+          "3A"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 20,
+          "y": 170,
+          "w": 100,
+          "h": 110
+        }
+      },
+      {
+        "id": "cat-3b",
+        "label": "CAT 3B",
+        "group": "cat3",
+        "cap": 400,
+        "text": [
+          "CAT",
+          "3B"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 880,
+          "y": 170,
+          "w": 100,
+          "h": 110
+        }
+      },
+      {
+        "id": "cat-2a",
+        "label": "CAT 2A",
+        "group": "cat2",
+        "cap": 700,
+        "text": [
+          "CAT",
+          "2A"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 20,
+          "y": 295,
+          "w": 100,
+          "h": 240
+        }
+      },
+      {
+        "id": "cat-2b",
+        "label": "CAT 2B",
+        "group": "cat2",
+        "cap": 700,
+        "text": [
+          "CAT",
+          "2B"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 880,
+          "y": 295,
+          "w": 100,
+          "h": 240
+        }
+      },
+      {
+        "id": "vip-a",
+        "label": "VIP A",
+        "group": "vip",
+        "cap": 250,
+        "text": [
+          "VIP A"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 230,
+          "y": 470,
+          "w": 110,
+          "h": 70
+        }
+      },
+      {
+        "id": "vip-b",
+        "label": "VIP B",
+        "group": "vip",
+        "cap": 250,
+        "text": [
+          "VIP B"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 660,
+          "y": 470,
+          "w": 110,
+          "h": 70
+        }
+      },
+      {
+        "id": "svip-a",
+        "label": "SVIP A",
+        "group": "svip",
+        "cap": 120,
+        "text": [
+          "SVIP",
+          "A"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 350,
+          "y": 470,
+          "w": 80,
+          "h": 70
+        }
+      },
+      {
+        "id": "svip-b",
+        "label": "SVIP B",
+        "group": "svip",
+        "cap": 120,
+        "text": [
+          "SVIP",
+          "B"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 570,
+          "y": 470,
+          "w": 80,
+          "h": 70
+        }
+      },
+      {
+        "id": "sky",
+        "label": "SKY LOUNGE",
+        "group": "sky",
+        "cap": 60,
+        "text": [
+          "SKY",
+          "LOUNGE"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 440,
+          "y": 460,
+          "w": 120,
+          "h": 95
+        }
+      },
+      {
+        "id": "cat-1a",
+        "label": "CAT 1A",
+        "group": "cat1",
+        "cap": 1200,
+        "text": [
+          "CAT 1A"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 130,
+          "y": 570,
+          "w": 300,
+          "h": 85
+        }
+      },
+      {
+        "id": "cat-1b",
+        "label": "CAT 1B",
+        "group": "cat1",
+        "cap": 1200,
+        "text": [
+          "CAT 1B"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 570,
+          "y": 570,
+          "w": 300,
+          "h": 85
+        }
+      }
+    ]
+  },
+  {
+    "id": "hall-grid",
+    "kind": "zones",
+    "name": "Hội trường",
+    "viewBox": "0 0 580 560",
+    "decor": [
+      {
+        "kind": "stage",
+        "text": [
+          "STAGE"
+        ],
+        "fs": 30,
+        "shape": {
+          "type": "path",
+          "d": "M190 30 L390 30 A100 80 0 0 1 190 30 Z"
+        },
+        "lx": 290,
+        "ly": 72
+      }
+    ],
+    "groups": {
+      "svip": {
+        "label": "SVIP",
+        "color": "#f5ec7a",
+        "ink": true,
+        "max": 4,
+        "perks": "Hàng đầu sát sân khấu, giao lưu cùng nghệ sĩ."
+      },
+      "vip": {
+        "label": "VIP",
+        "color": "#3b7dd8",
+        "ink": false,
+        "max": 4,
+        "perks": "Vị trí gần sân khấu, quà lưu niệm."
+      },
+      "a": {
+        "label": "KHU A",
+        "color": "#f07a7a",
+        "ink": true,
+        "max": 6,
+        "perks": "Khu giữa hội trường, tầm nhìn tốt."
+      },
+      "b": {
+        "label": "KHU B",
+        "color": "#d27fca",
+        "ink": true,
+        "max": 6,
+        "perks": "Khu phía sau, giá tốt."
+      }
+    },
+    "zones": [
+      {
+        "id": "svip-1",
+        "label": "SVIP-1",
+        "group": "svip",
+        "cap": 60,
+        "text": [
+          "SVIP",
+          "1"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 110,
+          "y": 115,
+          "w": 70,
+          "h": 130
+        }
+      },
+      {
+        "id": "svip-2",
+        "label": "SVIP-2",
+        "group": "svip",
+        "cap": 60,
+        "text": [
+          "SVIP",
+          "2"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 190,
+          "y": 135,
+          "w": 70,
+          "h": 110
+        }
+      },
+      {
+        "id": "svip-3",
+        "label": "SVIP-3",
+        "group": "svip",
+        "cap": 30,
+        "text": [
+          "3"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 270,
+          "y": 135,
+          "w": 40,
+          "h": 110
+        }
+      },
+      {
+        "id": "svip-4",
+        "label": "SVIP-4",
+        "group": "svip",
+        "cap": 60,
+        "text": [
+          "SVIP",
+          "4"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 320,
+          "y": 135,
+          "w": 70,
+          "h": 110
+        }
+      },
+      {
+        "id": "svip-5",
+        "label": "SVIP-5",
+        "group": "svip",
+        "cap": 60,
+        "text": [
+          "SVIP",
+          "5"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 400,
+          "y": 115,
+          "w": 70,
+          "h": 130
+        }
+      },
+      {
+        "id": "vip-1",
+        "label": "VIP-1",
+        "group": "vip",
+        "cap": 80,
+        "text": [
+          "VIP",
+          "1"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 110,
+          "y": 255,
+          "w": 70,
+          "h": 70
+        }
+      },
+      {
+        "id": "vip-2",
+        "label": "VIP-2",
+        "group": "vip",
+        "cap": 80,
+        "text": [
+          "VIP",
+          "2"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 190,
+          "y": 255,
+          "w": 70,
+          "h": 70
+        }
+      },
+      {
+        "id": "vip-3",
+        "label": "VIP-3",
+        "group": "vip",
+        "cap": 40,
+        "text": [
+          "3"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 270,
+          "y": 255,
+          "w": 40,
+          "h": 70
+        }
+      },
+      {
+        "id": "vip-4",
+        "label": "VIP-4",
+        "group": "vip",
+        "cap": 80,
+        "text": [
+          "VIP",
+          "4"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 320,
+          "y": 255,
+          "w": 70,
+          "h": 70
+        }
+      },
+      {
+        "id": "vip-5",
+        "label": "VIP-5",
+        "group": "vip",
+        "cap": 80,
+        "text": [
+          "VIP",
+          "5"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 400,
+          "y": 255,
+          "w": 70,
+          "h": 70
+        }
+      },
+      {
+        "id": "a-1",
+        "label": "KHU A-1",
+        "group": "a",
+        "cap": 140,
+        "text": [
+          "KHU A",
+          "1"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 110,
+          "y": 335,
+          "w": 70,
+          "h": 110
+        }
+      },
+      {
+        "id": "a-2",
+        "label": "KHU A-2",
+        "group": "a",
+        "cap": 140,
+        "text": [
+          "KHU A",
+          "2"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 190,
+          "y": 335,
+          "w": 70,
+          "h": 110
+        }
+      },
+      {
+        "id": "a-3",
+        "label": "KHU A-3",
+        "group": "a",
+        "cap": 70,
+        "text": [
+          "3"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 270,
+          "y": 335,
+          "w": 40,
+          "h": 110
+        }
+      },
+      {
+        "id": "a-4",
+        "label": "KHU A-4",
+        "group": "a",
+        "cap": 140,
+        "text": [
+          "KHU A",
+          "4"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 320,
+          "y": 335,
+          "w": 70,
+          "h": 110
+        }
+      },
+      {
+        "id": "a-5",
+        "label": "KHU A-5",
+        "group": "a",
+        "cap": 140,
+        "text": [
+          "KHU A",
+          "5"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 400,
+          "y": 335,
+          "w": 70,
+          "h": 110
+        }
+      },
+      {
+        "id": "b-1",
+        "label": "KHU B-1",
+        "group": "b",
+        "cap": 100,
+        "text": [
+          "KHU B",
+          "1"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 110,
+          "y": 455,
+          "w": 70,
+          "h": 60
+        }
+      },
+      {
+        "id": "b-2",
+        "label": "KHU B-2",
+        "group": "b",
+        "cap": 100,
+        "text": [
+          "KHU B",
+          "2"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 190,
+          "y": 455,
+          "w": 70,
+          "h": 60
+        }
+      },
+      {
+        "id": "b-3",
+        "label": "KHU B-3",
+        "group": "b",
+        "cap": 50,
+        "text": [
+          "3"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 270,
+          "y": 455,
+          "w": 40,
+          "h": 60
+        }
+      },
+      {
+        "id": "b-4",
+        "label": "KHU B-4",
+        "group": "b",
+        "cap": 100,
+        "text": [
+          "KHU B",
+          "4"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 320,
+          "y": 455,
+          "w": 70,
+          "h": 60
+        }
+      },
+      {
+        "id": "b-5",
+        "label": "KHU B-5",
+        "group": "b",
+        "cap": 100,
+        "text": [
+          "KHU B",
+          "5"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 400,
+          "y": 455,
+          "w": 70,
+          "h": 60
+        }
+      }
+    ]
+  },
+  {
+    "id": "theatre-tiers",
+    "kind": "zones",
+    "name": "Nhà hát 2 tầng",
+    "viewBox": "0 0 800 640",
+    "decor": [
+      {
+        "kind": "stage",
+        "text": [
+          "STAGE"
+        ],
+        "fs": 30,
+        "shape": {
+          "type": "rect",
+          "x": 230,
+          "y": 15,
+          "w": 340,
+          "h": 48
+        }
+      },
+      {
+        "kind": "label",
+        "text": [
+          "TẦNG 1"
+        ],
+        "fs": 30,
+        "lx": 400,
+        "ly": 108
+      },
+      {
+        "kind": "foh",
+        "text": [
+          "FOH"
+        ],
+        "fs": 16,
+        "shape": {
+          "type": "rect",
+          "x": 350,
+          "y": 318,
+          "w": 100,
+          "h": 30
+        }
+      },
+      {
+        "kind": "label",
+        "text": [
+          "TẦNG 2"
+        ],
+        "fs": 30,
+        "lx": 400,
+        "ly": 410
+      }
+    ],
+    "groups": {
+      "to1": {
+        "label": "TỔ 1",
+        "color": "#ef5b4b",
+        "ink": false,
+        "max": 2,
+        "perks": "Ba hàng ghế đầu tầng 1, tham gia ký tặng và chụp ảnh nhóm."
+      },
+      "to2": {
+        "label": "TỔ 2",
+        "color": "#2fa36b",
+        "ink": false,
+        "max": 4,
+        "perks": "Ghế ngồi tầng 1, poster có chữ ký in."
+      },
+      "to3": {
+        "label": "TỔ 3",
+        "color": "#7559f0",
+        "ink": false,
+        "max": 4,
+        "perks": "Ghế ngồi tầng 1 phía sau và tầng 2 phía trước."
+      },
+      "to4": {
+        "label": "TỔ 4",
+        "color": "#f5a524",
+        "ink": true,
+        "max": 6,
+        "perks": "Ghế ngồi tầng 2, nhận lightstick phiên bản đặc biệt."
+      }
+    },
+    "zones": [
+      {
+        "id": "to1",
+        "label": "Tổ 1",
+        "group": "to1",
+        "cap": 90,
+        "text": [
+          "TỔ 1"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "300,130 500,130 520,240 280,240"
+        }
+      },
+      {
+        "id": "to2-trai",
+        "label": "Tổ 2 · Trái",
+        "group": "to2",
+        "cap": 110,
+        "text": [
+          "TỔ 2"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "110,130 260,130 260,240 130,240"
+        }
+      },
+      {
+        "id": "to2-phai",
+        "label": "Tổ 2 · Phải",
+        "group": "to2",
+        "cap": 110,
+        "text": [
+          "TỔ 2"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "540,130 690,130 670,240 540,240"
+        }
+      },
+      {
+        "id": "to2-giua",
+        "label": "Tổ 2 · Giữa",
+        "group": "to2",
+        "cap": 120,
+        "text": [
+          "TỔ 2"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "280,252 520,252 520,318 450,318 450,305 350,305 350,318 280,318"
+        }
+      },
+      {
+        "id": "to3-trai",
+        "label": "Tổ 3 · Trái",
+        "group": "to3",
+        "cap": 90,
+        "text": [
+          "TỔ 3"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "140,252 260,252 260,330 155,330"
+        }
+      },
+      {
+        "id": "to3-phai",
+        "label": "Tổ 3 · Phải",
+        "group": "to3",
+        "cap": 90,
+        "text": [
+          "TỔ 3"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "540,252 660,252 645,330 540,330"
+        }
+      },
+      {
+        "id": "to3-t2-trai",
+        "label": "Tổ 3 · Tầng 2 trái",
+        "group": "to3",
+        "cap": 50,
+        "text": [
+          "TỔ 3"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "150,380 225,380 230,440 145,440"
+        }
+      },
+      {
+        "id": "to3-t2-phai",
+        "label": "Tổ 3 · Tầng 2 phải",
+        "group": "to3",
+        "cap": 50,
+        "text": [
+          "TỔ 3"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "575,380 650,380 655,440 570,440"
+        }
+      },
+      {
+        "id": "to3-hang-trai",
+        "label": "Tổ 3 · Hàng trái",
+        "group": "to3",
+        "cap": 80,
+        "text": [
+          "TỔ 3"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "100,455 260,455 260,500 80,500"
+        }
+      },
+      {
+        "id": "to3-hang-giua",
+        "label": "Tổ 3 · Hàng giữa",
+        "group": "to3",
+        "cap": 90,
+        "text": [
+          "TỔ 3"
+        ],
+        "shape": {
+          "type": "rect",
+          "x": 285,
+          "y": 460,
+          "w": 230,
+          "h": 40
+        }
+      },
+      {
+        "id": "to3-hang-phai",
+        "label": "Tổ 3 · Hàng phải",
+        "group": "to3",
+        "cap": 80,
+        "text": [
+          "TỔ 3"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "540,455 700,455 720,500 540,500"
+        }
+      },
+      {
+        "id": "to4-trai",
+        "label": "Tổ 4 · Trái",
+        "group": "to4",
+        "cap": 160,
+        "text": [
+          "TỔ 4"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "75,512 260,512 260,600 105,600"
+        }
+      },
+      {
+        "id": "to4-giua",
+        "label": "Tổ 4 · Giữa",
+        "group": "to4",
+        "cap": 180,
+        "text": [
+          "TỔ 4"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "275,512 335,512 335,545 465,545 465,512 525,512 535,600 265,600"
+        }
+      },
+      {
+        "id": "to4-phai",
+        "label": "Tổ 4 · Phải",
+        "group": "to4",
+        "cap": 160,
+        "text": [
+          "TỔ 4"
+        ],
+        "shape": {
+          "type": "poly",
+          "points": "540,512 725,512 695,600 540,600"
+        }
+      }
+    ]
+  },
+  {
+    "id": "nha-hat-lon",
+    "kind": "seats",
+    "name": "Nhà hát lớn",
+    "width": 935,
+    "height": 580,
+    "pitch": 26,
+    "radius": 9,
+    "stage": {
+      "x": 236,
+      "y": 18,
+      "w": 460,
+      "h": 50,
+      "text": "SÂN KHẤU"
+    },
+    "labels": [
+      {
+        "text": "BAN CÔNG",
+        "x": 466,
+        "y": 445
+      }
+    ],
+    "rowLabels": [
+      {
+        "text": "A",
+        "x": 69.9,
+        "y": 110
+      },
+      {
+        "text": "B",
+        "x": 69.9,
+        "y": 136
+      },
+      {
+        "text": "C",
+        "x": 17.900000000000002,
+        "y": 162
+      },
+      {
+        "text": "D",
+        "x": 17.900000000000002,
+        "y": 188
+      },
+      {
+        "text": "E",
+        "x": 17.900000000000002,
+        "y": 214
+      },
+      {
+        "text": "F",
+        "x": 17.900000000000002,
+        "y": 240
+      },
+      {
+        "text": "G",
+        "x": 17.900000000000002,
+        "y": 266
+      },
+      {
+        "text": "H",
+        "x": 17.900000000000002,
+        "y": 292
+      },
+      {
+        "text": "I",
+        "x": 17.900000000000002,
+        "y": 318
+      },
+      {
+        "text": "J",
+        "x": 17.900000000000002,
+        "y": 344
+      },
+      {
+        "text": "K",
+        "x": 17.900000000000002,
+        "y": 370
+      },
+      {
+        "text": "L",
+        "x": 17.900000000000002,
+        "y": 396
+      },
+      {
+        "text": "A",
+        "x": 299.9,
+        "y": 110
+      },
+      {
+        "text": "A",
+        "x": 630.1,
+        "y": 110
+      },
+      {
+        "text": "B",
+        "x": 273.9,
+        "y": 136
+      },
+      {
+        "text": "B",
+        "x": 656.1,
+        "y": 136
+      },
+      {
+        "text": "C",
+        "x": 247.9,
+        "y": 162
+      },
+      {
+        "text": "C",
+        "x": 682.1,
+        "y": 162
+      },
+      {
+        "text": "D",
+        "x": 247.9,
+        "y": 188
+      },
+      {
+        "text": "D",
+        "x": 682.1,
+        "y": 188
+      },
+      {
+        "text": "E",
+        "x": 247.9,
+        "y": 214
+      },
+      {
+        "text": "E",
+        "x": 682.1,
+        "y": 214
+      },
+      {
+        "text": "F",
+        "x": 247.9,
+        "y": 240
+      },
+      {
+        "text": "F",
+        "x": 682.1,
+        "y": 240
+      },
+      {
+        "text": "G",
+        "x": 247.9,
+        "y": 266
+      },
+      {
+        "text": "G",
+        "x": 682.1,
+        "y": 266
+      },
+      {
+        "text": "H",
+        "x": 247.9,
+        "y": 292
+      },
+      {
+        "text": "H",
+        "x": 682.1,
+        "y": 292
+      },
+      {
+        "text": "I",
+        "x": 247.9,
+        "y": 318
+      },
+      {
+        "text": "I",
+        "x": 682.1,
+        "y": 318
+      },
+      {
+        "text": "J",
+        "x": 247.9,
+        "y": 344
+      },
+      {
+        "text": "J",
+        "x": 682.1,
+        "y": 344
+      },
+      {
+        "text": "K",
+        "x": 247.9,
+        "y": 370
+      },
+      {
+        "text": "K",
+        "x": 682.1,
+        "y": 370
+      },
+      {
+        "text": "L",
+        "x": 247.9,
+        "y": 396
+      },
+      {
+        "text": "L",
+        "x": 682.1,
+        "y": 396
+      },
+      {
+        "text": "A",
+        "x": 862.1,
+        "y": 110
+      },
+      {
+        "text": "B",
+        "x": 862.1,
+        "y": 136
+      },
+      {
+        "text": "C",
+        "x": 914.1,
+        "y": 162
+      },
+      {
+        "text": "D",
+        "x": 914.1,
+        "y": 188
+      },
+      {
+        "text": "E",
+        "x": 914.1,
+        "y": 214
+      },
+      {
+        "text": "F",
+        "x": 914.1,
+        "y": 240
+      },
+      {
+        "text": "G",
+        "x": 914.1,
+        "y": 266
+      },
+      {
+        "text": "H",
+        "x": 914.1,
+        "y": 292
+      },
+      {
+        "text": "I",
+        "x": 914.1,
+        "y": 318
+      },
+      {
+        "text": "J",
+        "x": 914.1,
+        "y": 344
+      },
+      {
+        "text": "K",
+        "x": 914.1,
+        "y": 370
+      },
+      {
+        "text": "L",
+        "x": 914.1,
+        "y": 396
+      },
+      {
+        "text": "M",
+        "x": 105.9,
+        "y": 460
+      },
+      {
+        "text": "M",
+        "x": 826.1,
+        "y": 460
+      },
+      {
+        "text": "N",
+        "x": 105.9,
+        "y": 486
+      },
+      {
+        "text": "N",
+        "x": 826.1,
+        "y": 486
+      },
+      {
+        "text": "O",
+        "x": 105.9,
+        "y": 512
+      },
+      {
+        "text": "O",
+        "x": 826.1,
+        "y": 512
+      },
+      {
+        "text": "P",
+        "x": 105.9,
+        "y": 538
+      },
+      {
+        "text": "P",
+        "x": 826.1,
+        "y": 538
+      }
+    ],
+    "groups": {
+      "diamond": {
+        "label": "DIAMOND",
+        "color": "#c084fc",
+        "ink": false,
+        "max": null,
+        "perks": "Ba hàng đầu khu giữa, gần sân khấu nhất."
+      },
+      "gold": {
+        "label": "GOLD",
+        "color": "#f2b705",
+        "ink": false,
+        "max": null,
+        "perks": "Khu giữa hàng D–F và hai khu bên hàng A–F."
+      },
+      "silver": {
+        "label": "SILVER",
+        "color": "#7cc4f2",
+        "ink": false,
+        "max": null,
+        "perks": "Hàng G–I, tầm nhìn bao quát."
+      },
+      "bronze": {
+        "label": "BRONZE",
+        "color": "#e9a8c8",
+        "ink": false,
+        "max": null,
+        "perks": "Hàng J–L và ban công."
+      }
+    },
+    "seats": [
+      {
+        "id": "T-A1",
+        "x": 92,
+        "y": 110,
+        "row": "A",
+        "num": 1,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng A · Ghế 1"
+      },
+      {
+        "id": "T-A2",
+        "x": 118,
+        "y": 110,
+        "row": "A",
+        "num": 2,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng A · Ghế 2"
+      },
+      {
+        "id": "T-A3",
+        "x": 144,
+        "y": 110,
+        "row": "A",
+        "num": 3,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng A · Ghế 3"
+      },
+      {
+        "id": "T-A4",
+        "x": 170,
+        "y": 110,
+        "row": "A",
+        "num": 4,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng A · Ghế 4"
+      },
+      {
+        "id": "T-A5",
+        "x": 196,
+        "y": 110,
+        "row": "A",
+        "num": 5,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng A · Ghế 5"
+      },
+      {
+        "id": "T-B1",
+        "x": 92,
+        "y": 136,
+        "row": "B",
+        "num": 1,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng B · Ghế 1"
+      },
+      {
+        "id": "T-B2",
+        "x": 118,
+        "y": 136,
+        "row": "B",
+        "num": 2,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng B · Ghế 2"
+      },
+      {
+        "id": "T-B3",
+        "x": 144,
+        "y": 136,
+        "row": "B",
+        "num": 3,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng B · Ghế 3"
+      },
+      {
+        "id": "T-B4",
+        "x": 170,
+        "y": 136,
+        "row": "B",
+        "num": 4,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng B · Ghế 4"
+      },
+      {
+        "id": "T-B5",
+        "x": 196,
+        "y": 136,
+        "row": "B",
+        "num": 5,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng B · Ghế 5"
+      },
+      {
+        "id": "T-C1",
+        "x": 40,
+        "y": 162,
+        "row": "C",
+        "num": 1,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng C · Ghế 1"
+      },
+      {
+        "id": "T-C2",
+        "x": 66,
+        "y": 162,
+        "row": "C",
+        "num": 2,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng C · Ghế 2"
+      },
+      {
+        "id": "T-C3",
+        "x": 92,
+        "y": 162,
+        "row": "C",
+        "num": 3,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng C · Ghế 3"
+      },
+      {
+        "id": "T-C4",
+        "x": 118,
+        "y": 162,
+        "row": "C",
+        "num": 4,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng C · Ghế 4"
+      },
+      {
+        "id": "T-C5",
+        "x": 144,
+        "y": 162,
+        "row": "C",
+        "num": 5,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng C · Ghế 5"
+      },
+      {
+        "id": "T-C6",
+        "x": 170,
+        "y": 162,
+        "row": "C",
+        "num": 6,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng C · Ghế 6"
+      },
+      {
+        "id": "T-C7",
+        "x": 196,
+        "y": 162,
+        "row": "C",
+        "num": 7,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng C · Ghế 7"
+      },
+      {
+        "id": "T-D1",
+        "x": 40,
+        "y": 188,
+        "row": "D",
+        "num": 1,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng D · Ghế 1"
+      },
+      {
+        "id": "T-D2",
+        "x": 66,
+        "y": 188,
+        "row": "D",
+        "num": 2,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng D · Ghế 2"
+      },
+      {
+        "id": "T-D3",
+        "x": 92,
+        "y": 188,
+        "row": "D",
+        "num": 3,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng D · Ghế 3"
+      },
+      {
+        "id": "T-D4",
+        "x": 118,
+        "y": 188,
+        "row": "D",
+        "num": 4,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng D · Ghế 4"
+      },
+      {
+        "id": "T-D5",
+        "x": 144,
+        "y": 188,
+        "row": "D",
+        "num": 5,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng D · Ghế 5"
+      },
+      {
+        "id": "T-D6",
+        "x": 170,
+        "y": 188,
+        "row": "D",
+        "num": 6,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng D · Ghế 6"
+      },
+      {
+        "id": "T-D7",
+        "x": 196,
+        "y": 188,
+        "row": "D",
+        "num": 7,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng D · Ghế 7"
+      },
+      {
+        "id": "T-E1",
+        "x": 40,
+        "y": 214,
+        "row": "E",
+        "num": 1,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng E · Ghế 1"
+      },
+      {
+        "id": "T-E2",
+        "x": 66,
+        "y": 214,
+        "row": "E",
+        "num": 2,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng E · Ghế 2"
+      },
+      {
+        "id": "T-E3",
+        "x": 92,
+        "y": 214,
+        "row": "E",
+        "num": 3,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng E · Ghế 3"
+      },
+      {
+        "id": "T-E4",
+        "x": 118,
+        "y": 214,
+        "row": "E",
+        "num": 4,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng E · Ghế 4"
+      },
+      {
+        "id": "T-E5",
+        "x": 144,
+        "y": 214,
+        "row": "E",
+        "num": 5,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng E · Ghế 5"
+      },
+      {
+        "id": "T-E6",
+        "x": 170,
+        "y": 214,
+        "row": "E",
+        "num": 6,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng E · Ghế 6"
+      },
+      {
+        "id": "T-E7",
+        "x": 196,
+        "y": 214,
+        "row": "E",
+        "num": 7,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng E · Ghế 7"
+      },
+      {
+        "id": "T-F1",
+        "x": 40,
+        "y": 240,
+        "row": "F",
+        "num": 1,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng F · Ghế 1"
+      },
+      {
+        "id": "T-F2",
+        "x": 66,
+        "y": 240,
+        "row": "F",
+        "num": 2,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng F · Ghế 2"
+      },
+      {
+        "id": "T-F3",
+        "x": 92,
+        "y": 240,
+        "row": "F",
+        "num": 3,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng F · Ghế 3"
+      },
+      {
+        "id": "T-F4",
+        "x": 118,
+        "y": 240,
+        "row": "F",
+        "num": 4,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng F · Ghế 4"
+      },
+      {
+        "id": "T-F5",
+        "x": 144,
+        "y": 240,
+        "row": "F",
+        "num": 5,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng F · Ghế 5"
+      },
+      {
+        "id": "T-F6",
+        "x": 170,
+        "y": 240,
+        "row": "F",
+        "num": 6,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng F · Ghế 6"
+      },
+      {
+        "id": "T-F7",
+        "x": 196,
+        "y": 240,
+        "row": "F",
+        "num": 7,
+        "section": "T",
+        "group": "gold",
+        "label": "Khu trái · Hàng F · Ghế 7"
+      },
+      {
+        "id": "T-G1",
+        "x": 40,
+        "y": 266,
+        "row": "G",
+        "num": 1,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng G · Ghế 1"
+      },
+      {
+        "id": "T-G2",
+        "x": 66,
+        "y": 266,
+        "row": "G",
+        "num": 2,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng G · Ghế 2"
+      },
+      {
+        "id": "T-G3",
+        "x": 92,
+        "y": 266,
+        "row": "G",
+        "num": 3,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng G · Ghế 3"
+      },
+      {
+        "id": "T-G4",
+        "x": 118,
+        "y": 266,
+        "row": "G",
+        "num": 4,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng G · Ghế 4"
+      },
+      {
+        "id": "T-G5",
+        "x": 144,
+        "y": 266,
+        "row": "G",
+        "num": 5,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng G · Ghế 5"
+      },
+      {
+        "id": "T-G6",
+        "x": 170,
+        "y": 266,
+        "row": "G",
+        "num": 6,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng G · Ghế 6"
+      },
+      {
+        "id": "T-G7",
+        "x": 196,
+        "y": 266,
+        "row": "G",
+        "num": 7,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng G · Ghế 7"
+      },
+      {
+        "id": "T-H1",
+        "x": 40,
+        "y": 292,
+        "row": "H",
+        "num": 1,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng H · Ghế 1"
+      },
+      {
+        "id": "T-H2",
+        "x": 66,
+        "y": 292,
+        "row": "H",
+        "num": 2,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng H · Ghế 2"
+      },
+      {
+        "id": "T-H3",
+        "x": 92,
+        "y": 292,
+        "row": "H",
+        "num": 3,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng H · Ghế 3"
+      },
+      {
+        "id": "T-H4",
+        "x": 118,
+        "y": 292,
+        "row": "H",
+        "num": 4,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng H · Ghế 4"
+      },
+      {
+        "id": "T-H5",
+        "x": 144,
+        "y": 292,
+        "row": "H",
+        "num": 5,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng H · Ghế 5"
+      },
+      {
+        "id": "T-H6",
+        "x": 170,
+        "y": 292,
+        "row": "H",
+        "num": 6,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng H · Ghế 6"
+      },
+      {
+        "id": "T-H7",
+        "x": 196,
+        "y": 292,
+        "row": "H",
+        "num": 7,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng H · Ghế 7"
+      },
+      {
+        "id": "T-I1",
+        "x": 40,
+        "y": 318,
+        "row": "I",
+        "num": 1,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng I · Ghế 1"
+      },
+      {
+        "id": "T-I2",
+        "x": 66,
+        "y": 318,
+        "row": "I",
+        "num": 2,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng I · Ghế 2"
+      },
+      {
+        "id": "T-I3",
+        "x": 92,
+        "y": 318,
+        "row": "I",
+        "num": 3,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng I · Ghế 3"
+      },
+      {
+        "id": "T-I4",
+        "x": 118,
+        "y": 318,
+        "row": "I",
+        "num": 4,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng I · Ghế 4"
+      },
+      {
+        "id": "T-I5",
+        "x": 144,
+        "y": 318,
+        "row": "I",
+        "num": 5,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng I · Ghế 5"
+      },
+      {
+        "id": "T-I6",
+        "x": 170,
+        "y": 318,
+        "row": "I",
+        "num": 6,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng I · Ghế 6"
+      },
+      {
+        "id": "T-I7",
+        "x": 196,
+        "y": 318,
+        "row": "I",
+        "num": 7,
+        "section": "T",
+        "group": "silver",
+        "label": "Khu trái · Hàng I · Ghế 7"
+      },
+      {
+        "id": "T-J1",
+        "x": 40,
+        "y": 344,
+        "row": "J",
+        "num": 1,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng J · Ghế 1"
+      },
+      {
+        "id": "T-J2",
+        "x": 66,
+        "y": 344,
+        "row": "J",
+        "num": 2,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng J · Ghế 2"
+      },
+      {
+        "id": "T-J3",
+        "x": 92,
+        "y": 344,
+        "row": "J",
+        "num": 3,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng J · Ghế 3"
+      },
+      {
+        "id": "T-J4",
+        "x": 118,
+        "y": 344,
+        "row": "J",
+        "num": 4,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng J · Ghế 4"
+      },
+      {
+        "id": "T-J5",
+        "x": 144,
+        "y": 344,
+        "row": "J",
+        "num": 5,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng J · Ghế 5"
+      },
+      {
+        "id": "T-J6",
+        "x": 170,
+        "y": 344,
+        "row": "J",
+        "num": 6,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng J · Ghế 6"
+      },
+      {
+        "id": "T-J7",
+        "x": 196,
+        "y": 344,
+        "row": "J",
+        "num": 7,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng J · Ghế 7"
+      },
+      {
+        "id": "T-K1",
+        "x": 40,
+        "y": 370,
+        "row": "K",
+        "num": 1,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng K · Ghế 1"
+      },
+      {
+        "id": "T-K2",
+        "x": 66,
+        "y": 370,
+        "row": "K",
+        "num": 2,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng K · Ghế 2"
+      },
+      {
+        "id": "T-K3",
+        "x": 92,
+        "y": 370,
+        "row": "K",
+        "num": 3,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng K · Ghế 3"
+      },
+      {
+        "id": "T-K4",
+        "x": 118,
+        "y": 370,
+        "row": "K",
+        "num": 4,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng K · Ghế 4"
+      },
+      {
+        "id": "T-K5",
+        "x": 144,
+        "y": 370,
+        "row": "K",
+        "num": 5,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng K · Ghế 5"
+      },
+      {
+        "id": "T-K6",
+        "x": 170,
+        "y": 370,
+        "row": "K",
+        "num": 6,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng K · Ghế 6"
+      },
+      {
+        "id": "T-K7",
+        "x": 196,
+        "y": 370,
+        "row": "K",
+        "num": 7,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng K · Ghế 7"
+      },
+      {
+        "id": "T-L1",
+        "x": 40,
+        "y": 396,
+        "row": "L",
+        "num": 1,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng L · Ghế 1"
+      },
+      {
+        "id": "T-L2",
+        "x": 66,
+        "y": 396,
+        "row": "L",
+        "num": 2,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng L · Ghế 2"
+      },
+      {
+        "id": "T-L3",
+        "x": 92,
+        "y": 396,
+        "row": "L",
+        "num": 3,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng L · Ghế 3"
+      },
+      {
+        "id": "T-L4",
+        "x": 118,
+        "y": 396,
+        "row": "L",
+        "num": 4,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng L · Ghế 4"
+      },
+      {
+        "id": "T-L5",
+        "x": 144,
+        "y": 396,
+        "row": "L",
+        "num": 5,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng L · Ghế 5"
+      },
+      {
+        "id": "T-L6",
+        "x": 170,
+        "y": 396,
+        "row": "L",
+        "num": 6,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng L · Ghế 6"
+      },
+      {
+        "id": "T-L7",
+        "x": 196,
+        "y": 396,
+        "row": "L",
+        "num": 7,
+        "section": "T",
+        "group": "bronze",
+        "label": "Khu trái · Hàng L · Ghế 7"
+      },
+      {
+        "id": "G-A1",
+        "x": 322,
+        "y": 110,
+        "row": "A",
+        "num": 1,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 1"
+      },
+      {
+        "id": "G-A2",
+        "x": 348,
+        "y": 110,
+        "row": "A",
+        "num": 2,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 2"
+      },
+      {
+        "id": "G-A3",
+        "x": 374,
+        "y": 110,
+        "row": "A",
+        "num": 3,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 3"
+      },
+      {
+        "id": "G-A4",
+        "x": 400,
+        "y": 110,
+        "row": "A",
+        "num": 4,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 4"
+      },
+      {
+        "id": "G-A5",
+        "x": 426,
+        "y": 110,
+        "row": "A",
+        "num": 5,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 5"
+      },
+      {
+        "id": "G-A6",
+        "x": 452,
+        "y": 110,
+        "row": "A",
+        "num": 6,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 6"
+      },
+      {
+        "id": "G-A7",
+        "x": 478,
+        "y": 110,
+        "row": "A",
+        "num": 7,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 7"
+      },
+      {
+        "id": "G-A8",
+        "x": 504,
+        "y": 110,
+        "row": "A",
+        "num": 8,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 8"
+      },
+      {
+        "id": "G-A9",
+        "x": 530,
+        "y": 110,
+        "row": "A",
+        "num": 9,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 9"
+      },
+      {
+        "id": "G-A10",
+        "x": 556,
+        "y": 110,
+        "row": "A",
+        "num": 10,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 10"
+      },
+      {
+        "id": "G-A11",
+        "x": 582,
+        "y": 110,
+        "row": "A",
+        "num": 11,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 11"
+      },
+      {
+        "id": "G-A12",
+        "x": 608,
+        "y": 110,
+        "row": "A",
+        "num": 12,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng A · Ghế 12"
+      },
+      {
+        "id": "G-B1",
+        "x": 296,
+        "y": 136,
+        "row": "B",
+        "num": 1,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 1"
+      },
+      {
+        "id": "G-B2",
+        "x": 322,
+        "y": 136,
+        "row": "B",
+        "num": 2,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 2"
+      },
+      {
+        "id": "G-B3",
+        "x": 348,
+        "y": 136,
+        "row": "B",
+        "num": 3,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 3"
+      },
+      {
+        "id": "G-B4",
+        "x": 374,
+        "y": 136,
+        "row": "B",
+        "num": 4,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 4"
+      },
+      {
+        "id": "G-B5",
+        "x": 400,
+        "y": 136,
+        "row": "B",
+        "num": 5,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 5"
+      },
+      {
+        "id": "G-B6",
+        "x": 426,
+        "y": 136,
+        "row": "B",
+        "num": 6,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 6"
+      },
+      {
+        "id": "G-B7",
+        "x": 452,
+        "y": 136,
+        "row": "B",
+        "num": 7,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 7"
+      },
+      {
+        "id": "G-B8",
+        "x": 478,
+        "y": 136,
+        "row": "B",
+        "num": 8,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 8"
+      },
+      {
+        "id": "G-B9",
+        "x": 504,
+        "y": 136,
+        "row": "B",
+        "num": 9,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 9"
+      },
+      {
+        "id": "G-B10",
+        "x": 530,
+        "y": 136,
+        "row": "B",
+        "num": 10,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 10"
+      },
+      {
+        "id": "G-B11",
+        "x": 556,
+        "y": 136,
+        "row": "B",
+        "num": 11,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 11"
+      },
+      {
+        "id": "G-B12",
+        "x": 582,
+        "y": 136,
+        "row": "B",
+        "num": 12,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 12"
+      },
+      {
+        "id": "G-B13",
+        "x": 608,
+        "y": 136,
+        "row": "B",
+        "num": 13,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 13"
+      },
+      {
+        "id": "G-B14",
+        "x": 634,
+        "y": 136,
+        "row": "B",
+        "num": 14,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng B · Ghế 14"
+      },
+      {
+        "id": "G-C1",
+        "x": 270,
+        "y": 162,
+        "row": "C",
+        "num": 1,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 1"
+      },
+      {
+        "id": "G-C2",
+        "x": 296,
+        "y": 162,
+        "row": "C",
+        "num": 2,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 2"
+      },
+      {
+        "id": "G-C3",
+        "x": 322,
+        "y": 162,
+        "row": "C",
+        "num": 3,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 3"
+      },
+      {
+        "id": "G-C4",
+        "x": 348,
+        "y": 162,
+        "row": "C",
+        "num": 4,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 4"
+      },
+      {
+        "id": "G-C5",
+        "x": 374,
+        "y": 162,
+        "row": "C",
+        "num": 5,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 5"
+      },
+      {
+        "id": "G-C6",
+        "x": 400,
+        "y": 162,
+        "row": "C",
+        "num": 6,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 6"
+      },
+      {
+        "id": "G-C7",
+        "x": 426,
+        "y": 162,
+        "row": "C",
+        "num": 7,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 7"
+      },
+      {
+        "id": "G-C8",
+        "x": 452,
+        "y": 162,
+        "row": "C",
+        "num": 8,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 8"
+      },
+      {
+        "id": "G-C9",
+        "x": 478,
+        "y": 162,
+        "row": "C",
+        "num": 9,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 9"
+      },
+      {
+        "id": "G-C10",
+        "x": 504,
+        "y": 162,
+        "row": "C",
+        "num": 10,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 10"
+      },
+      {
+        "id": "G-C11",
+        "x": 530,
+        "y": 162,
+        "row": "C",
+        "num": 11,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 11"
+      },
+      {
+        "id": "G-C12",
+        "x": 556,
+        "y": 162,
+        "row": "C",
+        "num": 12,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 12"
+      },
+      {
+        "id": "G-C13",
+        "x": 582,
+        "y": 162,
+        "row": "C",
+        "num": 13,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 13"
+      },
+      {
+        "id": "G-C14",
+        "x": 608,
+        "y": 162,
+        "row": "C",
+        "num": 14,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 14"
+      },
+      {
+        "id": "G-C15",
+        "x": 634,
+        "y": 162,
+        "row": "C",
+        "num": 15,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 15"
+      },
+      {
+        "id": "G-C16",
+        "x": 660,
+        "y": 162,
+        "row": "C",
+        "num": 16,
+        "section": "G",
+        "group": "diamond",
+        "label": "Khu giữa · Hàng C · Ghế 16"
+      },
+      {
+        "id": "G-D1",
+        "x": 270,
+        "y": 188,
+        "row": "D",
+        "num": 1,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 1"
+      },
+      {
+        "id": "G-D2",
+        "x": 296,
+        "y": 188,
+        "row": "D",
+        "num": 2,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 2"
+      },
+      {
+        "id": "G-D3",
+        "x": 322,
+        "y": 188,
+        "row": "D",
+        "num": 3,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 3"
+      },
+      {
+        "id": "G-D4",
+        "x": 348,
+        "y": 188,
+        "row": "D",
+        "num": 4,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 4"
+      },
+      {
+        "id": "G-D5",
+        "x": 374,
+        "y": 188,
+        "row": "D",
+        "num": 5,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 5"
+      },
+      {
+        "id": "G-D6",
+        "x": 400,
+        "y": 188,
+        "row": "D",
+        "num": 6,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 6"
+      },
+      {
+        "id": "G-D7",
+        "x": 426,
+        "y": 188,
+        "row": "D",
+        "num": 7,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 7"
+      },
+      {
+        "id": "G-D8",
+        "x": 452,
+        "y": 188,
+        "row": "D",
+        "num": 8,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 8"
+      },
+      {
+        "id": "G-D9",
+        "x": 478,
+        "y": 188,
+        "row": "D",
+        "num": 9,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 9"
+      },
+      {
+        "id": "G-D10",
+        "x": 504,
+        "y": 188,
+        "row": "D",
+        "num": 10,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 10"
+      },
+      {
+        "id": "G-D11",
+        "x": 530,
+        "y": 188,
+        "row": "D",
+        "num": 11,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 11"
+      },
+      {
+        "id": "G-D12",
+        "x": 556,
+        "y": 188,
+        "row": "D",
+        "num": 12,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 12"
+      },
+      {
+        "id": "G-D13",
+        "x": 582,
+        "y": 188,
+        "row": "D",
+        "num": 13,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 13"
+      },
+      {
+        "id": "G-D14",
+        "x": 608,
+        "y": 188,
+        "row": "D",
+        "num": 14,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 14"
+      },
+      {
+        "id": "G-D15",
+        "x": 634,
+        "y": 188,
+        "row": "D",
+        "num": 15,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 15"
+      },
+      {
+        "id": "G-D16",
+        "x": 660,
+        "y": 188,
+        "row": "D",
+        "num": 16,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng D · Ghế 16"
+      },
+      {
+        "id": "G-E1",
+        "x": 270,
+        "y": 214,
+        "row": "E",
+        "num": 1,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 1"
+      },
+      {
+        "id": "G-E2",
+        "x": 296,
+        "y": 214,
+        "row": "E",
+        "num": 2,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 2"
+      },
+      {
+        "id": "G-E3",
+        "x": 322,
+        "y": 214,
+        "row": "E",
+        "num": 3,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 3"
+      },
+      {
+        "id": "G-E4",
+        "x": 348,
+        "y": 214,
+        "row": "E",
+        "num": 4,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 4"
+      },
+      {
+        "id": "G-E5",
+        "x": 374,
+        "y": 214,
+        "row": "E",
+        "num": 5,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 5"
+      },
+      {
+        "id": "G-E6",
+        "x": 400,
+        "y": 214,
+        "row": "E",
+        "num": 6,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 6"
+      },
+      {
+        "id": "G-E7",
+        "x": 426,
+        "y": 214,
+        "row": "E",
+        "num": 7,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 7"
+      },
+      {
+        "id": "G-E8",
+        "x": 452,
+        "y": 214,
+        "row": "E",
+        "num": 8,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 8"
+      },
+      {
+        "id": "G-E9",
+        "x": 478,
+        "y": 214,
+        "row": "E",
+        "num": 9,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 9"
+      },
+      {
+        "id": "G-E10",
+        "x": 504,
+        "y": 214,
+        "row": "E",
+        "num": 10,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 10"
+      },
+      {
+        "id": "G-E11",
+        "x": 530,
+        "y": 214,
+        "row": "E",
+        "num": 11,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 11"
+      },
+      {
+        "id": "G-E12",
+        "x": 556,
+        "y": 214,
+        "row": "E",
+        "num": 12,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 12"
+      },
+      {
+        "id": "G-E13",
+        "x": 582,
+        "y": 214,
+        "row": "E",
+        "num": 13,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 13"
+      },
+      {
+        "id": "G-E14",
+        "x": 608,
+        "y": 214,
+        "row": "E",
+        "num": 14,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 14"
+      },
+      {
+        "id": "G-E15",
+        "x": 634,
+        "y": 214,
+        "row": "E",
+        "num": 15,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 15"
+      },
+      {
+        "id": "G-E16",
+        "x": 660,
+        "y": 214,
+        "row": "E",
+        "num": 16,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng E · Ghế 16"
+      },
+      {
+        "id": "G-F1",
+        "x": 270,
+        "y": 240,
+        "row": "F",
+        "num": 1,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 1"
+      },
+      {
+        "id": "G-F2",
+        "x": 296,
+        "y": 240,
+        "row": "F",
+        "num": 2,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 2"
+      },
+      {
+        "id": "G-F3",
+        "x": 322,
+        "y": 240,
+        "row": "F",
+        "num": 3,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 3"
+      },
+      {
+        "id": "G-F4",
+        "x": 348,
+        "y": 240,
+        "row": "F",
+        "num": 4,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 4"
+      },
+      {
+        "id": "G-F5",
+        "x": 374,
+        "y": 240,
+        "row": "F",
+        "num": 5,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 5"
+      },
+      {
+        "id": "G-F6",
+        "x": 400,
+        "y": 240,
+        "row": "F",
+        "num": 6,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 6"
+      },
+      {
+        "id": "G-F7",
+        "x": 426,
+        "y": 240,
+        "row": "F",
+        "num": 7,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 7"
+      },
+      {
+        "id": "G-F8",
+        "x": 452,
+        "y": 240,
+        "row": "F",
+        "num": 8,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 8"
+      },
+      {
+        "id": "G-F9",
+        "x": 478,
+        "y": 240,
+        "row": "F",
+        "num": 9,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 9"
+      },
+      {
+        "id": "G-F10",
+        "x": 504,
+        "y": 240,
+        "row": "F",
+        "num": 10,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 10"
+      },
+      {
+        "id": "G-F11",
+        "x": 530,
+        "y": 240,
+        "row": "F",
+        "num": 11,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 11"
+      },
+      {
+        "id": "G-F12",
+        "x": 556,
+        "y": 240,
+        "row": "F",
+        "num": 12,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 12"
+      },
+      {
+        "id": "G-F13",
+        "x": 582,
+        "y": 240,
+        "row": "F",
+        "num": 13,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 13"
+      },
+      {
+        "id": "G-F14",
+        "x": 608,
+        "y": 240,
+        "row": "F",
+        "num": 14,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 14"
+      },
+      {
+        "id": "G-F15",
+        "x": 634,
+        "y": 240,
+        "row": "F",
+        "num": 15,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 15"
+      },
+      {
+        "id": "G-F16",
+        "x": 660,
+        "y": 240,
+        "row": "F",
+        "num": 16,
+        "section": "G",
+        "group": "gold",
+        "label": "Khu giữa · Hàng F · Ghế 16"
+      },
+      {
+        "id": "G-G1",
+        "x": 270,
+        "y": 266,
+        "row": "G",
+        "num": 1,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 1"
+      },
+      {
+        "id": "G-G2",
+        "x": 296,
+        "y": 266,
+        "row": "G",
+        "num": 2,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 2"
+      },
+      {
+        "id": "G-G3",
+        "x": 322,
+        "y": 266,
+        "row": "G",
+        "num": 3,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 3"
+      },
+      {
+        "id": "G-G4",
+        "x": 348,
+        "y": 266,
+        "row": "G",
+        "num": 4,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 4"
+      },
+      {
+        "id": "G-G5",
+        "x": 374,
+        "y": 266,
+        "row": "G",
+        "num": 5,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 5"
+      },
+      {
+        "id": "G-G6",
+        "x": 400,
+        "y": 266,
+        "row": "G",
+        "num": 6,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 6"
+      },
+      {
+        "id": "G-G7",
+        "x": 426,
+        "y": 266,
+        "row": "G",
+        "num": 7,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 7"
+      },
+      {
+        "id": "G-G8",
+        "x": 452,
+        "y": 266,
+        "row": "G",
+        "num": 8,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 8"
+      },
+      {
+        "id": "G-G9",
+        "x": 478,
+        "y": 266,
+        "row": "G",
+        "num": 9,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 9"
+      },
+      {
+        "id": "G-G10",
+        "x": 504,
+        "y": 266,
+        "row": "G",
+        "num": 10,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 10"
+      },
+      {
+        "id": "G-G11",
+        "x": 530,
+        "y": 266,
+        "row": "G",
+        "num": 11,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 11"
+      },
+      {
+        "id": "G-G12",
+        "x": 556,
+        "y": 266,
+        "row": "G",
+        "num": 12,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 12"
+      },
+      {
+        "id": "G-G13",
+        "x": 582,
+        "y": 266,
+        "row": "G",
+        "num": 13,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 13"
+      },
+      {
+        "id": "G-G14",
+        "x": 608,
+        "y": 266,
+        "row": "G",
+        "num": 14,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 14"
+      },
+      {
+        "id": "G-G15",
+        "x": 634,
+        "y": 266,
+        "row": "G",
+        "num": 15,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 15"
+      },
+      {
+        "id": "G-G16",
+        "x": 660,
+        "y": 266,
+        "row": "G",
+        "num": 16,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng G · Ghế 16"
+      },
+      {
+        "id": "G-H1",
+        "x": 270,
+        "y": 292,
+        "row": "H",
+        "num": 1,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 1"
+      },
+      {
+        "id": "G-H2",
+        "x": 296,
+        "y": 292,
+        "row": "H",
+        "num": 2,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 2"
+      },
+      {
+        "id": "G-H3",
+        "x": 322,
+        "y": 292,
+        "row": "H",
+        "num": 3,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 3"
+      },
+      {
+        "id": "G-H4",
+        "x": 348,
+        "y": 292,
+        "row": "H",
+        "num": 4,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 4"
+      },
+      {
+        "id": "G-H5",
+        "x": 374,
+        "y": 292,
+        "row": "H",
+        "num": 5,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 5"
+      },
+      {
+        "id": "G-H6",
+        "x": 400,
+        "y": 292,
+        "row": "H",
+        "num": 6,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 6"
+      },
+      {
+        "id": "G-H7",
+        "x": 426,
+        "y": 292,
+        "row": "H",
+        "num": 7,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 7"
+      },
+      {
+        "id": "G-H8",
+        "x": 452,
+        "y": 292,
+        "row": "H",
+        "num": 8,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 8"
+      },
+      {
+        "id": "G-H9",
+        "x": 478,
+        "y": 292,
+        "row": "H",
+        "num": 9,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 9"
+      },
+      {
+        "id": "G-H10",
+        "x": 504,
+        "y": 292,
+        "row": "H",
+        "num": 10,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 10"
+      },
+      {
+        "id": "G-H11",
+        "x": 530,
+        "y": 292,
+        "row": "H",
+        "num": 11,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 11"
+      },
+      {
+        "id": "G-H12",
+        "x": 556,
+        "y": 292,
+        "row": "H",
+        "num": 12,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 12"
+      },
+      {
+        "id": "G-H13",
+        "x": 582,
+        "y": 292,
+        "row": "H",
+        "num": 13,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 13"
+      },
+      {
+        "id": "G-H14",
+        "x": 608,
+        "y": 292,
+        "row": "H",
+        "num": 14,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 14"
+      },
+      {
+        "id": "G-H15",
+        "x": 634,
+        "y": 292,
+        "row": "H",
+        "num": 15,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 15"
+      },
+      {
+        "id": "G-H16",
+        "x": 660,
+        "y": 292,
+        "row": "H",
+        "num": 16,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng H · Ghế 16"
+      },
+      {
+        "id": "G-I1",
+        "x": 270,
+        "y": 318,
+        "row": "I",
+        "num": 1,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 1"
+      },
+      {
+        "id": "G-I2",
+        "x": 296,
+        "y": 318,
+        "row": "I",
+        "num": 2,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 2"
+      },
+      {
+        "id": "G-I3",
+        "x": 322,
+        "y": 318,
+        "row": "I",
+        "num": 3,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 3"
+      },
+      {
+        "id": "G-I4",
+        "x": 348,
+        "y": 318,
+        "row": "I",
+        "num": 4,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 4"
+      },
+      {
+        "id": "G-I5",
+        "x": 374,
+        "y": 318,
+        "row": "I",
+        "num": 5,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 5"
+      },
+      {
+        "id": "G-I6",
+        "x": 400,
+        "y": 318,
+        "row": "I",
+        "num": 6,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 6"
+      },
+      {
+        "id": "G-I7",
+        "x": 426,
+        "y": 318,
+        "row": "I",
+        "num": 7,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 7"
+      },
+      {
+        "id": "G-I8",
+        "x": 452,
+        "y": 318,
+        "row": "I",
+        "num": 8,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 8"
+      },
+      {
+        "id": "G-I9",
+        "x": 478,
+        "y": 318,
+        "row": "I",
+        "num": 9,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 9"
+      },
+      {
+        "id": "G-I10",
+        "x": 504,
+        "y": 318,
+        "row": "I",
+        "num": 10,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 10"
+      },
+      {
+        "id": "G-I11",
+        "x": 530,
+        "y": 318,
+        "row": "I",
+        "num": 11,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 11"
+      },
+      {
+        "id": "G-I12",
+        "x": 556,
+        "y": 318,
+        "row": "I",
+        "num": 12,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 12"
+      },
+      {
+        "id": "G-I13",
+        "x": 582,
+        "y": 318,
+        "row": "I",
+        "num": 13,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 13"
+      },
+      {
+        "id": "G-I14",
+        "x": 608,
+        "y": 318,
+        "row": "I",
+        "num": 14,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 14"
+      },
+      {
+        "id": "G-I15",
+        "x": 634,
+        "y": 318,
+        "row": "I",
+        "num": 15,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 15"
+      },
+      {
+        "id": "G-I16",
+        "x": 660,
+        "y": 318,
+        "row": "I",
+        "num": 16,
+        "section": "G",
+        "group": "silver",
+        "label": "Khu giữa · Hàng I · Ghế 16"
+      },
+      {
+        "id": "G-J1",
+        "x": 270,
+        "y": 344,
+        "row": "J",
+        "num": 1,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 1"
+      },
+      {
+        "id": "G-J2",
+        "x": 296,
+        "y": 344,
+        "row": "J",
+        "num": 2,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 2"
+      },
+      {
+        "id": "G-J3",
+        "x": 322,
+        "y": 344,
+        "row": "J",
+        "num": 3,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 3"
+      },
+      {
+        "id": "G-J4",
+        "x": 348,
+        "y": 344,
+        "row": "J",
+        "num": 4,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 4"
+      },
+      {
+        "id": "G-J5",
+        "x": 374,
+        "y": 344,
+        "row": "J",
+        "num": 5,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 5"
+      },
+      {
+        "id": "G-J6",
+        "x": 400,
+        "y": 344,
+        "row": "J",
+        "num": 6,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 6"
+      },
+      {
+        "id": "G-J7",
+        "x": 426,
+        "y": 344,
+        "row": "J",
+        "num": 7,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 7"
+      },
+      {
+        "id": "G-J8",
+        "x": 452,
+        "y": 344,
+        "row": "J",
+        "num": 8,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 8"
+      },
+      {
+        "id": "G-J9",
+        "x": 478,
+        "y": 344,
+        "row": "J",
+        "num": 9,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 9"
+      },
+      {
+        "id": "G-J10",
+        "x": 504,
+        "y": 344,
+        "row": "J",
+        "num": 10,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 10"
+      },
+      {
+        "id": "G-J11",
+        "x": 530,
+        "y": 344,
+        "row": "J",
+        "num": 11,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 11"
+      },
+      {
+        "id": "G-J12",
+        "x": 556,
+        "y": 344,
+        "row": "J",
+        "num": 12,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 12"
+      },
+      {
+        "id": "G-J13",
+        "x": 582,
+        "y": 344,
+        "row": "J",
+        "num": 13,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 13"
+      },
+      {
+        "id": "G-J14",
+        "x": 608,
+        "y": 344,
+        "row": "J",
+        "num": 14,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 14"
+      },
+      {
+        "id": "G-J15",
+        "x": 634,
+        "y": 344,
+        "row": "J",
+        "num": 15,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 15"
+      },
+      {
+        "id": "G-J16",
+        "x": 660,
+        "y": 344,
+        "row": "J",
+        "num": 16,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng J · Ghế 16"
+      },
+      {
+        "id": "G-K1",
+        "x": 270,
+        "y": 370,
+        "row": "K",
+        "num": 1,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 1"
+      },
+      {
+        "id": "G-K2",
+        "x": 296,
+        "y": 370,
+        "row": "K",
+        "num": 2,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 2"
+      },
+      {
+        "id": "G-K3",
+        "x": 322,
+        "y": 370,
+        "row": "K",
+        "num": 3,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 3"
+      },
+      {
+        "id": "G-K4",
+        "x": 348,
+        "y": 370,
+        "row": "K",
+        "num": 4,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 4"
+      },
+      {
+        "id": "G-K5",
+        "x": 374,
+        "y": 370,
+        "row": "K",
+        "num": 5,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 5"
+      },
+      {
+        "id": "G-K6",
+        "x": 400,
+        "y": 370,
+        "row": "K",
+        "num": 6,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 6"
+      },
+      {
+        "id": "G-K7",
+        "x": 426,
+        "y": 370,
+        "row": "K",
+        "num": 7,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 7"
+      },
+      {
+        "id": "G-K8",
+        "x": 452,
+        "y": 370,
+        "row": "K",
+        "num": 8,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 8"
+      },
+      {
+        "id": "G-K9",
+        "x": 478,
+        "y": 370,
+        "row": "K",
+        "num": 9,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 9"
+      },
+      {
+        "id": "G-K10",
+        "x": 504,
+        "y": 370,
+        "row": "K",
+        "num": 10,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 10"
+      },
+      {
+        "id": "G-K11",
+        "x": 530,
+        "y": 370,
+        "row": "K",
+        "num": 11,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 11"
+      },
+      {
+        "id": "G-K12",
+        "x": 556,
+        "y": 370,
+        "row": "K",
+        "num": 12,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 12"
+      },
+      {
+        "id": "G-K13",
+        "x": 582,
+        "y": 370,
+        "row": "K",
+        "num": 13,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 13"
+      },
+      {
+        "id": "G-K14",
+        "x": 608,
+        "y": 370,
+        "row": "K",
+        "num": 14,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 14"
+      },
+      {
+        "id": "G-K15",
+        "x": 634,
+        "y": 370,
+        "row": "K",
+        "num": 15,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 15"
+      },
+      {
+        "id": "G-K16",
+        "x": 660,
+        "y": 370,
+        "row": "K",
+        "num": 16,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng K · Ghế 16"
+      },
+      {
+        "id": "G-L1",
+        "x": 270,
+        "y": 396,
+        "row": "L",
+        "num": 1,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 1"
+      },
+      {
+        "id": "G-L2",
+        "x": 296,
+        "y": 396,
+        "row": "L",
+        "num": 2,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 2"
+      },
+      {
+        "id": "G-L3",
+        "x": 322,
+        "y": 396,
+        "row": "L",
+        "num": 3,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 3"
+      },
+      {
+        "id": "G-L4",
+        "x": 348,
+        "y": 396,
+        "row": "L",
+        "num": 4,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 4"
+      },
+      {
+        "id": "G-L5",
+        "x": 374,
+        "y": 396,
+        "row": "L",
+        "num": 5,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 5"
+      },
+      {
+        "id": "G-L6",
+        "x": 400,
+        "y": 396,
+        "row": "L",
+        "num": 6,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 6"
+      },
+      {
+        "id": "G-L7",
+        "x": 426,
+        "y": 396,
+        "row": "L",
+        "num": 7,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 7"
+      },
+      {
+        "id": "G-L8",
+        "x": 452,
+        "y": 396,
+        "row": "L",
+        "num": 8,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 8"
+      },
+      {
+        "id": "G-L9",
+        "x": 478,
+        "y": 396,
+        "row": "L",
+        "num": 9,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 9"
+      },
+      {
+        "id": "G-L10",
+        "x": 504,
+        "y": 396,
+        "row": "L",
+        "num": 10,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 10"
+      },
+      {
+        "id": "G-L11",
+        "x": 530,
+        "y": 396,
+        "row": "L",
+        "num": 11,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 11"
+      },
+      {
+        "id": "G-L12",
+        "x": 556,
+        "y": 396,
+        "row": "L",
+        "num": 12,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 12"
+      },
+      {
+        "id": "G-L13",
+        "x": 582,
+        "y": 396,
+        "row": "L",
+        "num": 13,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 13"
+      },
+      {
+        "id": "G-L14",
+        "x": 608,
+        "y": 396,
+        "row": "L",
+        "num": 14,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 14"
+      },
+      {
+        "id": "G-L15",
+        "x": 634,
+        "y": 396,
+        "row": "L",
+        "num": 15,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 15"
+      },
+      {
+        "id": "G-L16",
+        "x": 660,
+        "y": 396,
+        "row": "L",
+        "num": 16,
+        "section": "G",
+        "group": "bronze",
+        "label": "Khu giữa · Hàng L · Ghế 16"
+      },
+      {
+        "id": "P-A1",
+        "x": 736,
+        "y": 110,
+        "row": "A",
+        "num": 1,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng A · Ghế 1"
+      },
+      {
+        "id": "P-A2",
+        "x": 762,
+        "y": 110,
+        "row": "A",
+        "num": 2,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng A · Ghế 2"
+      },
+      {
+        "id": "P-A3",
+        "x": 788,
+        "y": 110,
+        "row": "A",
+        "num": 3,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng A · Ghế 3"
+      },
+      {
+        "id": "P-A4",
+        "x": 814,
+        "y": 110,
+        "row": "A",
+        "num": 4,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng A · Ghế 4"
+      },
+      {
+        "id": "P-A5",
+        "x": 840,
+        "y": 110,
+        "row": "A",
+        "num": 5,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng A · Ghế 5"
+      },
+      {
+        "id": "P-B1",
+        "x": 736,
+        "y": 136,
+        "row": "B",
+        "num": 1,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng B · Ghế 1"
+      },
+      {
+        "id": "P-B2",
+        "x": 762,
+        "y": 136,
+        "row": "B",
+        "num": 2,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng B · Ghế 2"
+      },
+      {
+        "id": "P-B3",
+        "x": 788,
+        "y": 136,
+        "row": "B",
+        "num": 3,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng B · Ghế 3"
+      },
+      {
+        "id": "P-B4",
+        "x": 814,
+        "y": 136,
+        "row": "B",
+        "num": 4,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng B · Ghế 4"
+      },
+      {
+        "id": "P-B5",
+        "x": 840,
+        "y": 136,
+        "row": "B",
+        "num": 5,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng B · Ghế 5"
+      },
+      {
+        "id": "P-C1",
+        "x": 736,
+        "y": 162,
+        "row": "C",
+        "num": 1,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng C · Ghế 1"
+      },
+      {
+        "id": "P-C2",
+        "x": 762,
+        "y": 162,
+        "row": "C",
+        "num": 2,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng C · Ghế 2"
+      },
+      {
+        "id": "P-C3",
+        "x": 788,
+        "y": 162,
+        "row": "C",
+        "num": 3,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng C · Ghế 3"
+      },
+      {
+        "id": "P-C4",
+        "x": 814,
+        "y": 162,
+        "row": "C",
+        "num": 4,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng C · Ghế 4"
+      },
+      {
+        "id": "P-C5",
+        "x": 840,
+        "y": 162,
+        "row": "C",
+        "num": 5,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng C · Ghế 5"
+      },
+      {
+        "id": "P-C6",
+        "x": 866,
+        "y": 162,
+        "row": "C",
+        "num": 6,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng C · Ghế 6"
+      },
+      {
+        "id": "P-C7",
+        "x": 892,
+        "y": 162,
+        "row": "C",
+        "num": 7,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng C · Ghế 7"
+      },
+      {
+        "id": "P-D1",
+        "x": 736,
+        "y": 188,
+        "row": "D",
+        "num": 1,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng D · Ghế 1"
+      },
+      {
+        "id": "P-D2",
+        "x": 762,
+        "y": 188,
+        "row": "D",
+        "num": 2,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng D · Ghế 2"
+      },
+      {
+        "id": "P-D3",
+        "x": 788,
+        "y": 188,
+        "row": "D",
+        "num": 3,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng D · Ghế 3"
+      },
+      {
+        "id": "P-D4",
+        "x": 814,
+        "y": 188,
+        "row": "D",
+        "num": 4,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng D · Ghế 4"
+      },
+      {
+        "id": "P-D5",
+        "x": 840,
+        "y": 188,
+        "row": "D",
+        "num": 5,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng D · Ghế 5"
+      },
+      {
+        "id": "P-D6",
+        "x": 866,
+        "y": 188,
+        "row": "D",
+        "num": 6,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng D · Ghế 6"
+      },
+      {
+        "id": "P-D7",
+        "x": 892,
+        "y": 188,
+        "row": "D",
+        "num": 7,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng D · Ghế 7"
+      },
+      {
+        "id": "P-E1",
+        "x": 736,
+        "y": 214,
+        "row": "E",
+        "num": 1,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng E · Ghế 1"
+      },
+      {
+        "id": "P-E2",
+        "x": 762,
+        "y": 214,
+        "row": "E",
+        "num": 2,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng E · Ghế 2"
+      },
+      {
+        "id": "P-E3",
+        "x": 788,
+        "y": 214,
+        "row": "E",
+        "num": 3,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng E · Ghế 3"
+      },
+      {
+        "id": "P-E4",
+        "x": 814,
+        "y": 214,
+        "row": "E",
+        "num": 4,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng E · Ghế 4"
+      },
+      {
+        "id": "P-E5",
+        "x": 840,
+        "y": 214,
+        "row": "E",
+        "num": 5,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng E · Ghế 5"
+      },
+      {
+        "id": "P-E6",
+        "x": 866,
+        "y": 214,
+        "row": "E",
+        "num": 6,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng E · Ghế 6"
+      },
+      {
+        "id": "P-E7",
+        "x": 892,
+        "y": 214,
+        "row": "E",
+        "num": 7,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng E · Ghế 7"
+      },
+      {
+        "id": "P-F1",
+        "x": 736,
+        "y": 240,
+        "row": "F",
+        "num": 1,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng F · Ghế 1"
+      },
+      {
+        "id": "P-F2",
+        "x": 762,
+        "y": 240,
+        "row": "F",
+        "num": 2,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng F · Ghế 2"
+      },
+      {
+        "id": "P-F3",
+        "x": 788,
+        "y": 240,
+        "row": "F",
+        "num": 3,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng F · Ghế 3"
+      },
+      {
+        "id": "P-F4",
+        "x": 814,
+        "y": 240,
+        "row": "F",
+        "num": 4,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng F · Ghế 4"
+      },
+      {
+        "id": "P-F5",
+        "x": 840,
+        "y": 240,
+        "row": "F",
+        "num": 5,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng F · Ghế 5"
+      },
+      {
+        "id": "P-F6",
+        "x": 866,
+        "y": 240,
+        "row": "F",
+        "num": 6,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng F · Ghế 6"
+      },
+      {
+        "id": "P-F7",
+        "x": 892,
+        "y": 240,
+        "row": "F",
+        "num": 7,
+        "section": "P",
+        "group": "gold",
+        "label": "Khu phải · Hàng F · Ghế 7"
+      },
+      {
+        "id": "P-G1",
+        "x": 736,
+        "y": 266,
+        "row": "G",
+        "num": 1,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng G · Ghế 1"
+      },
+      {
+        "id": "P-G2",
+        "x": 762,
+        "y": 266,
+        "row": "G",
+        "num": 2,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng G · Ghế 2"
+      },
+      {
+        "id": "P-G3",
+        "x": 788,
+        "y": 266,
+        "row": "G",
+        "num": 3,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng G · Ghế 3"
+      },
+      {
+        "id": "P-G4",
+        "x": 814,
+        "y": 266,
+        "row": "G",
+        "num": 4,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng G · Ghế 4"
+      },
+      {
+        "id": "P-G5",
+        "x": 840,
+        "y": 266,
+        "row": "G",
+        "num": 5,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng G · Ghế 5"
+      },
+      {
+        "id": "P-G6",
+        "x": 866,
+        "y": 266,
+        "row": "G",
+        "num": 6,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng G · Ghế 6"
+      },
+      {
+        "id": "P-G7",
+        "x": 892,
+        "y": 266,
+        "row": "G",
+        "num": 7,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng G · Ghế 7"
+      },
+      {
+        "id": "P-H1",
+        "x": 736,
+        "y": 292,
+        "row": "H",
+        "num": 1,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng H · Ghế 1"
+      },
+      {
+        "id": "P-H2",
+        "x": 762,
+        "y": 292,
+        "row": "H",
+        "num": 2,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng H · Ghế 2"
+      },
+      {
+        "id": "P-H3",
+        "x": 788,
+        "y": 292,
+        "row": "H",
+        "num": 3,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng H · Ghế 3"
+      },
+      {
+        "id": "P-H4",
+        "x": 814,
+        "y": 292,
+        "row": "H",
+        "num": 4,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng H · Ghế 4"
+      },
+      {
+        "id": "P-H5",
+        "x": 840,
+        "y": 292,
+        "row": "H",
+        "num": 5,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng H · Ghế 5"
+      },
+      {
+        "id": "P-H6",
+        "x": 866,
+        "y": 292,
+        "row": "H",
+        "num": 6,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng H · Ghế 6"
+      },
+      {
+        "id": "P-H7",
+        "x": 892,
+        "y": 292,
+        "row": "H",
+        "num": 7,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng H · Ghế 7"
+      },
+      {
+        "id": "P-I1",
+        "x": 736,
+        "y": 318,
+        "row": "I",
+        "num": 1,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng I · Ghế 1"
+      },
+      {
+        "id": "P-I2",
+        "x": 762,
+        "y": 318,
+        "row": "I",
+        "num": 2,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng I · Ghế 2"
+      },
+      {
+        "id": "P-I3",
+        "x": 788,
+        "y": 318,
+        "row": "I",
+        "num": 3,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng I · Ghế 3"
+      },
+      {
+        "id": "P-I4",
+        "x": 814,
+        "y": 318,
+        "row": "I",
+        "num": 4,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng I · Ghế 4"
+      },
+      {
+        "id": "P-I5",
+        "x": 840,
+        "y": 318,
+        "row": "I",
+        "num": 5,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng I · Ghế 5"
+      },
+      {
+        "id": "P-I6",
+        "x": 866,
+        "y": 318,
+        "row": "I",
+        "num": 6,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng I · Ghế 6"
+      },
+      {
+        "id": "P-I7",
+        "x": 892,
+        "y": 318,
+        "row": "I",
+        "num": 7,
+        "section": "P",
+        "group": "silver",
+        "label": "Khu phải · Hàng I · Ghế 7"
+      },
+      {
+        "id": "P-J1",
+        "x": 736,
+        "y": 344,
+        "row": "J",
+        "num": 1,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng J · Ghế 1"
+      },
+      {
+        "id": "P-J2",
+        "x": 762,
+        "y": 344,
+        "row": "J",
+        "num": 2,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng J · Ghế 2"
+      },
+      {
+        "id": "P-J3",
+        "x": 788,
+        "y": 344,
+        "row": "J",
+        "num": 3,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng J · Ghế 3"
+      },
+      {
+        "id": "P-J4",
+        "x": 814,
+        "y": 344,
+        "row": "J",
+        "num": 4,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng J · Ghế 4"
+      },
+      {
+        "id": "P-J5",
+        "x": 840,
+        "y": 344,
+        "row": "J",
+        "num": 5,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng J · Ghế 5"
+      },
+      {
+        "id": "P-J6",
+        "x": 866,
+        "y": 344,
+        "row": "J",
+        "num": 6,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng J · Ghế 6"
+      },
+      {
+        "id": "P-J7",
+        "x": 892,
+        "y": 344,
+        "row": "J",
+        "num": 7,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng J · Ghế 7"
+      },
+      {
+        "id": "P-K1",
+        "x": 736,
+        "y": 370,
+        "row": "K",
+        "num": 1,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng K · Ghế 1"
+      },
+      {
+        "id": "P-K2",
+        "x": 762,
+        "y": 370,
+        "row": "K",
+        "num": 2,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng K · Ghế 2"
+      },
+      {
+        "id": "P-K3",
+        "x": 788,
+        "y": 370,
+        "row": "K",
+        "num": 3,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng K · Ghế 3"
+      },
+      {
+        "id": "P-K4",
+        "x": 814,
+        "y": 370,
+        "row": "K",
+        "num": 4,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng K · Ghế 4"
+      },
+      {
+        "id": "P-K5",
+        "x": 840,
+        "y": 370,
+        "row": "K",
+        "num": 5,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng K · Ghế 5"
+      },
+      {
+        "id": "P-K6",
+        "x": 866,
+        "y": 370,
+        "row": "K",
+        "num": 6,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng K · Ghế 6"
+      },
+      {
+        "id": "P-K7",
+        "x": 892,
+        "y": 370,
+        "row": "K",
+        "num": 7,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng K · Ghế 7"
+      },
+      {
+        "id": "P-L1",
+        "x": 736,
+        "y": 396,
+        "row": "L",
+        "num": 1,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng L · Ghế 1"
+      },
+      {
+        "id": "P-L2",
+        "x": 762,
+        "y": 396,
+        "row": "L",
+        "num": 2,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng L · Ghế 2"
+      },
+      {
+        "id": "P-L3",
+        "x": 788,
+        "y": 396,
+        "row": "L",
+        "num": 3,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng L · Ghế 3"
+      },
+      {
+        "id": "P-L4",
+        "x": 814,
+        "y": 396,
+        "row": "L",
+        "num": 4,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng L · Ghế 4"
+      },
+      {
+        "id": "P-L5",
+        "x": 840,
+        "y": 396,
+        "row": "L",
+        "num": 5,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng L · Ghế 5"
+      },
+      {
+        "id": "P-L6",
+        "x": 866,
+        "y": 396,
+        "row": "L",
+        "num": 6,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng L · Ghế 6"
+      },
+      {
+        "id": "P-L7",
+        "x": 892,
+        "y": 396,
+        "row": "L",
+        "num": 7,
+        "section": "P",
+        "group": "bronze",
+        "label": "Khu phải · Hàng L · Ghế 7"
+      },
+      {
+        "id": "B-M1",
+        "x": 128,
+        "y": 460,
+        "row": "M",
+        "num": 1,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 1"
+      },
+      {
+        "id": "B-M2",
+        "x": 154,
+        "y": 460,
+        "row": "M",
+        "num": 2,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 2"
+      },
+      {
+        "id": "B-M3",
+        "x": 180,
+        "y": 460,
+        "row": "M",
+        "num": 3,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 3"
+      },
+      {
+        "id": "B-M4",
+        "x": 206,
+        "y": 460,
+        "row": "M",
+        "num": 4,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 4"
+      },
+      {
+        "id": "B-M5",
+        "x": 232,
+        "y": 460,
+        "row": "M",
+        "num": 5,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 5"
+      },
+      {
+        "id": "B-M6",
+        "x": 258,
+        "y": 460,
+        "row": "M",
+        "num": 6,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 6"
+      },
+      {
+        "id": "B-M7",
+        "x": 284,
+        "y": 460,
+        "row": "M",
+        "num": 7,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 7"
+      },
+      {
+        "id": "B-M8",
+        "x": 310,
+        "y": 460,
+        "row": "M",
+        "num": 8,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 8"
+      },
+      {
+        "id": "B-M9",
+        "x": 336,
+        "y": 460,
+        "row": "M",
+        "num": 9,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 9"
+      },
+      {
+        "id": "B-M10",
+        "x": 362,
+        "y": 460,
+        "row": "M",
+        "num": 10,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 10"
+      },
+      {
+        "id": "B-M11",
+        "x": 388,
+        "y": 460,
+        "row": "M",
+        "num": 11,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 11"
+      },
+      {
+        "id": "B-M12",
+        "x": 414,
+        "y": 460,
+        "row": "M",
+        "num": 12,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 12"
+      },
+      {
+        "id": "B-M13",
+        "x": 440,
+        "y": 460,
+        "row": "M",
+        "num": 13,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 13"
+      },
+      {
+        "id": "B-M14",
+        "x": 492,
+        "y": 460,
+        "row": "M",
+        "num": 14,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 14"
+      },
+      {
+        "id": "B-M15",
+        "x": 518,
+        "y": 460,
+        "row": "M",
+        "num": 15,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 15"
+      },
+      {
+        "id": "B-M16",
+        "x": 544,
+        "y": 460,
+        "row": "M",
+        "num": 16,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 16"
+      },
+      {
+        "id": "B-M17",
+        "x": 570,
+        "y": 460,
+        "row": "M",
+        "num": 17,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 17"
+      },
+      {
+        "id": "B-M18",
+        "x": 596,
+        "y": 460,
+        "row": "M",
+        "num": 18,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 18"
+      },
+      {
+        "id": "B-M19",
+        "x": 622,
+        "y": 460,
+        "row": "M",
+        "num": 19,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 19"
+      },
+      {
+        "id": "B-M20",
+        "x": 648,
+        "y": 460,
+        "row": "M",
+        "num": 20,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 20"
+      },
+      {
+        "id": "B-M21",
+        "x": 674,
+        "y": 460,
+        "row": "M",
+        "num": 21,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 21"
+      },
+      {
+        "id": "B-M22",
+        "x": 700,
+        "y": 460,
+        "row": "M",
+        "num": 22,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 22"
+      },
+      {
+        "id": "B-M23",
+        "x": 726,
+        "y": 460,
+        "row": "M",
+        "num": 23,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 23"
+      },
+      {
+        "id": "B-M24",
+        "x": 752,
+        "y": 460,
+        "row": "M",
+        "num": 24,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 24"
+      },
+      {
+        "id": "B-M25",
+        "x": 778,
+        "y": 460,
+        "row": "M",
+        "num": 25,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 25"
+      },
+      {
+        "id": "B-M26",
+        "x": 804,
+        "y": 460,
+        "row": "M",
+        "num": 26,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng M · Ghế 26"
+      },
+      {
+        "id": "B-N1",
+        "x": 128,
+        "y": 486,
+        "row": "N",
+        "num": 1,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 1"
+      },
+      {
+        "id": "B-N2",
+        "x": 154,
+        "y": 486,
+        "row": "N",
+        "num": 2,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 2"
+      },
+      {
+        "id": "B-N3",
+        "x": 180,
+        "y": 486,
+        "row": "N",
+        "num": 3,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 3"
+      },
+      {
+        "id": "B-N4",
+        "x": 206,
+        "y": 486,
+        "row": "N",
+        "num": 4,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 4"
+      },
+      {
+        "id": "B-N5",
+        "x": 232,
+        "y": 486,
+        "row": "N",
+        "num": 5,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 5"
+      },
+      {
+        "id": "B-N6",
+        "x": 258,
+        "y": 486,
+        "row": "N",
+        "num": 6,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 6"
+      },
+      {
+        "id": "B-N7",
+        "x": 284,
+        "y": 486,
+        "row": "N",
+        "num": 7,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 7"
+      },
+      {
+        "id": "B-N8",
+        "x": 310,
+        "y": 486,
+        "row": "N",
+        "num": 8,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 8"
+      },
+      {
+        "id": "B-N9",
+        "x": 336,
+        "y": 486,
+        "row": "N",
+        "num": 9,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 9"
+      },
+      {
+        "id": "B-N10",
+        "x": 362,
+        "y": 486,
+        "row": "N",
+        "num": 10,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 10"
+      },
+      {
+        "id": "B-N11",
+        "x": 388,
+        "y": 486,
+        "row": "N",
+        "num": 11,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 11"
+      },
+      {
+        "id": "B-N12",
+        "x": 414,
+        "y": 486,
+        "row": "N",
+        "num": 12,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 12"
+      },
+      {
+        "id": "B-N13",
+        "x": 440,
+        "y": 486,
+        "row": "N",
+        "num": 13,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 13"
+      },
+      {
+        "id": "B-N14",
+        "x": 492,
+        "y": 486,
+        "row": "N",
+        "num": 14,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 14"
+      },
+      {
+        "id": "B-N15",
+        "x": 518,
+        "y": 486,
+        "row": "N",
+        "num": 15,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 15"
+      },
+      {
+        "id": "B-N16",
+        "x": 544,
+        "y": 486,
+        "row": "N",
+        "num": 16,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 16"
+      },
+      {
+        "id": "B-N17",
+        "x": 570,
+        "y": 486,
+        "row": "N",
+        "num": 17,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 17"
+      },
+      {
+        "id": "B-N18",
+        "x": 596,
+        "y": 486,
+        "row": "N",
+        "num": 18,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 18"
+      },
+      {
+        "id": "B-N19",
+        "x": 622,
+        "y": 486,
+        "row": "N",
+        "num": 19,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 19"
+      },
+      {
+        "id": "B-N20",
+        "x": 648,
+        "y": 486,
+        "row": "N",
+        "num": 20,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 20"
+      },
+      {
+        "id": "B-N21",
+        "x": 674,
+        "y": 486,
+        "row": "N",
+        "num": 21,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 21"
+      },
+      {
+        "id": "B-N22",
+        "x": 700,
+        "y": 486,
+        "row": "N",
+        "num": 22,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 22"
+      },
+      {
+        "id": "B-N23",
+        "x": 726,
+        "y": 486,
+        "row": "N",
+        "num": 23,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 23"
+      },
+      {
+        "id": "B-N24",
+        "x": 752,
+        "y": 486,
+        "row": "N",
+        "num": 24,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 24"
+      },
+      {
+        "id": "B-N25",
+        "x": 778,
+        "y": 486,
+        "row": "N",
+        "num": 25,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 25"
+      },
+      {
+        "id": "B-N26",
+        "x": 804,
+        "y": 486,
+        "row": "N",
+        "num": 26,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng N · Ghế 26"
+      },
+      {
+        "id": "B-O1",
+        "x": 128,
+        "y": 512,
+        "row": "O",
+        "num": 1,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 1"
+      },
+      {
+        "id": "B-O2",
+        "x": 154,
+        "y": 512,
+        "row": "O",
+        "num": 2,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 2"
+      },
+      {
+        "id": "B-O3",
+        "x": 180,
+        "y": 512,
+        "row": "O",
+        "num": 3,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 3"
+      },
+      {
+        "id": "B-O4",
+        "x": 206,
+        "y": 512,
+        "row": "O",
+        "num": 4,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 4"
+      },
+      {
+        "id": "B-O5",
+        "x": 232,
+        "y": 512,
+        "row": "O",
+        "num": 5,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 5"
+      },
+      {
+        "id": "B-O6",
+        "x": 258,
+        "y": 512,
+        "row": "O",
+        "num": 6,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 6"
+      },
+      {
+        "id": "B-O7",
+        "x": 284,
+        "y": 512,
+        "row": "O",
+        "num": 7,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 7"
+      },
+      {
+        "id": "B-O8",
+        "x": 310,
+        "y": 512,
+        "row": "O",
+        "num": 8,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 8"
+      },
+      {
+        "id": "B-O9",
+        "x": 336,
+        "y": 512,
+        "row": "O",
+        "num": 9,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 9"
+      },
+      {
+        "id": "B-O10",
+        "x": 362,
+        "y": 512,
+        "row": "O",
+        "num": 10,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 10"
+      },
+      {
+        "id": "B-O11",
+        "x": 388,
+        "y": 512,
+        "row": "O",
+        "num": 11,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 11"
+      },
+      {
+        "id": "B-O12",
+        "x": 414,
+        "y": 512,
+        "row": "O",
+        "num": 12,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 12"
+      },
+      {
+        "id": "B-O13",
+        "x": 440,
+        "y": 512,
+        "row": "O",
+        "num": 13,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 13"
+      },
+      {
+        "id": "B-O14",
+        "x": 492,
+        "y": 512,
+        "row": "O",
+        "num": 14,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 14"
+      },
+      {
+        "id": "B-O15",
+        "x": 518,
+        "y": 512,
+        "row": "O",
+        "num": 15,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 15"
+      },
+      {
+        "id": "B-O16",
+        "x": 544,
+        "y": 512,
+        "row": "O",
+        "num": 16,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 16"
+      },
+      {
+        "id": "B-O17",
+        "x": 570,
+        "y": 512,
+        "row": "O",
+        "num": 17,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 17"
+      },
+      {
+        "id": "B-O18",
+        "x": 596,
+        "y": 512,
+        "row": "O",
+        "num": 18,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 18"
+      },
+      {
+        "id": "B-O19",
+        "x": 622,
+        "y": 512,
+        "row": "O",
+        "num": 19,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 19"
+      },
+      {
+        "id": "B-O20",
+        "x": 648,
+        "y": 512,
+        "row": "O",
+        "num": 20,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 20"
+      },
+      {
+        "id": "B-O21",
+        "x": 674,
+        "y": 512,
+        "row": "O",
+        "num": 21,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 21"
+      },
+      {
+        "id": "B-O22",
+        "x": 700,
+        "y": 512,
+        "row": "O",
+        "num": 22,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 22"
+      },
+      {
+        "id": "B-O23",
+        "x": 726,
+        "y": 512,
+        "row": "O",
+        "num": 23,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 23"
+      },
+      {
+        "id": "B-O24",
+        "x": 752,
+        "y": 512,
+        "row": "O",
+        "num": 24,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 24"
+      },
+      {
+        "id": "B-O25",
+        "x": 778,
+        "y": 512,
+        "row": "O",
+        "num": 25,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 25"
+      },
+      {
+        "id": "B-O26",
+        "x": 804,
+        "y": 512,
+        "row": "O",
+        "num": 26,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng O · Ghế 26"
+      },
+      {
+        "id": "B-P1",
+        "x": 128,
+        "y": 538,
+        "row": "P",
+        "num": 1,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 1"
+      },
+      {
+        "id": "B-P2",
+        "x": 154,
+        "y": 538,
+        "row": "P",
+        "num": 2,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 2"
+      },
+      {
+        "id": "B-P3",
+        "x": 180,
+        "y": 538,
+        "row": "P",
+        "num": 3,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 3"
+      },
+      {
+        "id": "B-P4",
+        "x": 206,
+        "y": 538,
+        "row": "P",
+        "num": 4,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 4"
+      },
+      {
+        "id": "B-P5",
+        "x": 232,
+        "y": 538,
+        "row": "P",
+        "num": 5,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 5"
+      },
+      {
+        "id": "B-P6",
+        "x": 258,
+        "y": 538,
+        "row": "P",
+        "num": 6,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 6"
+      },
+      {
+        "id": "B-P7",
+        "x": 284,
+        "y": 538,
+        "row": "P",
+        "num": 7,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 7"
+      },
+      {
+        "id": "B-P8",
+        "x": 310,
+        "y": 538,
+        "row": "P",
+        "num": 8,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 8"
+      },
+      {
+        "id": "B-P9",
+        "x": 336,
+        "y": 538,
+        "row": "P",
+        "num": 9,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 9"
+      },
+      {
+        "id": "B-P10",
+        "x": 362,
+        "y": 538,
+        "row": "P",
+        "num": 10,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 10"
+      },
+      {
+        "id": "B-P11",
+        "x": 388,
+        "y": 538,
+        "row": "P",
+        "num": 11,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 11"
+      },
+      {
+        "id": "B-P12",
+        "x": 414,
+        "y": 538,
+        "row": "P",
+        "num": 12,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 12"
+      },
+      {
+        "id": "B-P13",
+        "x": 440,
+        "y": 538,
+        "row": "P",
+        "num": 13,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 13"
+      },
+      {
+        "id": "B-P14",
+        "x": 492,
+        "y": 538,
+        "row": "P",
+        "num": 14,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 14"
+      },
+      {
+        "id": "B-P15",
+        "x": 518,
+        "y": 538,
+        "row": "P",
+        "num": 15,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 15"
+      },
+      {
+        "id": "B-P16",
+        "x": 544,
+        "y": 538,
+        "row": "P",
+        "num": 16,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 16"
+      },
+      {
+        "id": "B-P17",
+        "x": 570,
+        "y": 538,
+        "row": "P",
+        "num": 17,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 17"
+      },
+      {
+        "id": "B-P18",
+        "x": 596,
+        "y": 538,
+        "row": "P",
+        "num": 18,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 18"
+      },
+      {
+        "id": "B-P19",
+        "x": 622,
+        "y": 538,
+        "row": "P",
+        "num": 19,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 19"
+      },
+      {
+        "id": "B-P20",
+        "x": 648,
+        "y": 538,
+        "row": "P",
+        "num": 20,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 20"
+      },
+      {
+        "id": "B-P21",
+        "x": 674,
+        "y": 538,
+        "row": "P",
+        "num": 21,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 21"
+      },
+      {
+        "id": "B-P22",
+        "x": 700,
+        "y": 538,
+        "row": "P",
+        "num": 22,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 22"
+      },
+      {
+        "id": "B-P23",
+        "x": 726,
+        "y": 538,
+        "row": "P",
+        "num": 23,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 23"
+      },
+      {
+        "id": "B-P24",
+        "x": 752,
+        "y": 538,
+        "row": "P",
+        "num": 24,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 24"
+      },
+      {
+        "id": "B-P25",
+        "x": 778,
+        "y": 538,
+        "row": "P",
+        "num": 25,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 25"
+      },
+      {
+        "id": "B-P26",
+        "x": 804,
+        "y": 538,
+        "row": "P",
+        "num": 26,
+        "section": "B",
+        "group": "bronze",
+        "label": "Ban công · Hàng P · Ghế 26"
+      }
+    ]
+  },
+  {
+    "id": "san-khau-nho",
+    "kind": "seats",
+    "name": "Sân khấu kịch",
+    "width": 512,
+    "height": 380,
+    "pitch": 28,
+    "radius": 10,
+    "stage": {
+      "x": 76,
+      "y": 18,
+      "w": 360,
+      "h": 46,
+      "text": "SÂN KHẤU"
+    },
+    "labels": [],
+    "rowLabels": [
+      {
+        "text": "A",
+        "x": 64.2,
+        "y": 110
+      },
+      {
+        "text": "A",
+        "x": 447.8,
+        "y": 110
+      },
+      {
+        "text": "B",
+        "x": 36.2,
+        "y": 138
+      },
+      {
+        "text": "B",
+        "x": 475.8,
+        "y": 138
+      },
+      {
+        "text": "C",
+        "x": 36.2,
+        "y": 166
+      },
+      {
+        "text": "C",
+        "x": 475.8,
+        "y": 166
+      },
+      {
+        "text": "D",
+        "x": 36.2,
+        "y": 194
+      },
+      {
+        "text": "D",
+        "x": 475.8,
+        "y": 194
+      },
+      {
+        "text": "E",
+        "x": 36.2,
+        "y": 222
+      },
+      {
+        "text": "E",
+        "x": 475.8,
+        "y": 222
+      },
+      {
+        "text": "F",
+        "x": 36.2,
+        "y": 250
+      },
+      {
+        "text": "F",
+        "x": 475.8,
+        "y": 250
+      },
+      {
+        "text": "G",
+        "x": 36.2,
+        "y": 278
+      },
+      {
+        "text": "G",
+        "x": 475.8,
+        "y": 278
+      },
+      {
+        "text": "H",
+        "x": 36.2,
+        "y": 306
+      },
+      {
+        "text": "H",
+        "x": 475.8,
+        "y": 306
+      },
+      {
+        "text": "I",
+        "x": 36.2,
+        "y": 334
+      },
+      {
+        "text": "I",
+        "x": 475.8,
+        "y": 334
+      }
+    ],
+    "groups": {
+      "vip": {
+        "label": "VIP",
+        "color": "#f2b705",
+        "ink": false,
+        "max": null,
+        "perks": "Ba hàng đầu, gần sân khấu."
+      },
+      "thuong": {
+        "label": "VÉ THƯỜNG",
+        "color": "#7cc4f2",
+        "ink": false,
+        "max": null,
+        "perks": "Hàng D–I."
+      }
+    },
+    "seats": [
+      {
+        "id": "S-A1",
+        "x": 88,
+        "y": 110,
+        "row": "A",
+        "num": 1,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 1"
+      },
+      {
+        "id": "S-A2",
+        "x": 116,
+        "y": 110,
+        "row": "A",
+        "num": 2,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 2"
+      },
+      {
+        "id": "S-A3",
+        "x": 144,
+        "y": 110,
+        "row": "A",
+        "num": 3,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 3"
+      },
+      {
+        "id": "S-A4",
+        "x": 172,
+        "y": 110,
+        "row": "A",
+        "num": 4,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 4"
+      },
+      {
+        "id": "S-A5",
+        "x": 200,
+        "y": 110,
+        "row": "A",
+        "num": 5,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 5"
+      },
+      {
+        "id": "S-A6",
+        "x": 228,
+        "y": 110,
+        "row": "A",
+        "num": 6,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 6"
+      },
+      {
+        "id": "S-A7",
+        "x": 284,
+        "y": 110,
+        "row": "A",
+        "num": 7,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 7"
+      },
+      {
+        "id": "S-A8",
+        "x": 312,
+        "y": 110,
+        "row": "A",
+        "num": 8,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 8"
+      },
+      {
+        "id": "S-A9",
+        "x": 340,
+        "y": 110,
+        "row": "A",
+        "num": 9,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 9"
+      },
+      {
+        "id": "S-A10",
+        "x": 368,
+        "y": 110,
+        "row": "A",
+        "num": 10,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 10"
+      },
+      {
+        "id": "S-A11",
+        "x": 396,
+        "y": 110,
+        "row": "A",
+        "num": 11,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 11"
+      },
+      {
+        "id": "S-A12",
+        "x": 424,
+        "y": 110,
+        "row": "A",
+        "num": 12,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng A · Ghế 12"
+      },
+      {
+        "id": "S-B1",
+        "x": 60,
+        "y": 138,
+        "row": "B",
+        "num": 1,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 1"
+      },
+      {
+        "id": "S-B2",
+        "x": 88,
+        "y": 138,
+        "row": "B",
+        "num": 2,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 2"
+      },
+      {
+        "id": "S-B3",
+        "x": 116,
+        "y": 138,
+        "row": "B",
+        "num": 3,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 3"
+      },
+      {
+        "id": "S-B4",
+        "x": 144,
+        "y": 138,
+        "row": "B",
+        "num": 4,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 4"
+      },
+      {
+        "id": "S-B5",
+        "x": 172,
+        "y": 138,
+        "row": "B",
+        "num": 5,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 5"
+      },
+      {
+        "id": "S-B6",
+        "x": 200,
+        "y": 138,
+        "row": "B",
+        "num": 6,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 6"
+      },
+      {
+        "id": "S-B7",
+        "x": 228,
+        "y": 138,
+        "row": "B",
+        "num": 7,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 7"
+      },
+      {
+        "id": "S-B8",
+        "x": 284,
+        "y": 138,
+        "row": "B",
+        "num": 8,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 8"
+      },
+      {
+        "id": "S-B9",
+        "x": 312,
+        "y": 138,
+        "row": "B",
+        "num": 9,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 9"
+      },
+      {
+        "id": "S-B10",
+        "x": 340,
+        "y": 138,
+        "row": "B",
+        "num": 10,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 10"
+      },
+      {
+        "id": "S-B11",
+        "x": 368,
+        "y": 138,
+        "row": "B",
+        "num": 11,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 11"
+      },
+      {
+        "id": "S-B12",
+        "x": 396,
+        "y": 138,
+        "row": "B",
+        "num": 12,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 12"
+      },
+      {
+        "id": "S-B13",
+        "x": 424,
+        "y": 138,
+        "row": "B",
+        "num": 13,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 13"
+      },
+      {
+        "id": "S-B14",
+        "x": 452,
+        "y": 138,
+        "row": "B",
+        "num": 14,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng B · Ghế 14"
+      },
+      {
+        "id": "S-C1",
+        "x": 60,
+        "y": 166,
+        "row": "C",
+        "num": 1,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 1"
+      },
+      {
+        "id": "S-C2",
+        "x": 88,
+        "y": 166,
+        "row": "C",
+        "num": 2,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 2"
+      },
+      {
+        "id": "S-C3",
+        "x": 116,
+        "y": 166,
+        "row": "C",
+        "num": 3,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 3"
+      },
+      {
+        "id": "S-C4",
+        "x": 144,
+        "y": 166,
+        "row": "C",
+        "num": 4,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 4"
+      },
+      {
+        "id": "S-C5",
+        "x": 172,
+        "y": 166,
+        "row": "C",
+        "num": 5,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 5"
+      },
+      {
+        "id": "S-C6",
+        "x": 200,
+        "y": 166,
+        "row": "C",
+        "num": 6,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 6"
+      },
+      {
+        "id": "S-C7",
+        "x": 228,
+        "y": 166,
+        "row": "C",
+        "num": 7,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 7"
+      },
+      {
+        "id": "S-C8",
+        "x": 284,
+        "y": 166,
+        "row": "C",
+        "num": 8,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 8"
+      },
+      {
+        "id": "S-C9",
+        "x": 312,
+        "y": 166,
+        "row": "C",
+        "num": 9,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 9"
+      },
+      {
+        "id": "S-C10",
+        "x": 340,
+        "y": 166,
+        "row": "C",
+        "num": 10,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 10"
+      },
+      {
+        "id": "S-C11",
+        "x": 368,
+        "y": 166,
+        "row": "C",
+        "num": 11,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 11"
+      },
+      {
+        "id": "S-C12",
+        "x": 396,
+        "y": 166,
+        "row": "C",
+        "num": 12,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 12"
+      },
+      {
+        "id": "S-C13",
+        "x": 424,
+        "y": 166,
+        "row": "C",
+        "num": 13,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 13"
+      },
+      {
+        "id": "S-C14",
+        "x": 452,
+        "y": 166,
+        "row": "C",
+        "num": 14,
+        "section": "S",
+        "group": "vip",
+        "label": "Khán phòng · Hàng C · Ghế 14"
+      },
+      {
+        "id": "S-D1",
+        "x": 60,
+        "y": 194,
+        "row": "D",
+        "num": 1,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 1"
+      },
+      {
+        "id": "S-D2",
+        "x": 88,
+        "y": 194,
+        "row": "D",
+        "num": 2,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 2"
+      },
+      {
+        "id": "S-D3",
+        "x": 116,
+        "y": 194,
+        "row": "D",
+        "num": 3,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 3"
+      },
+      {
+        "id": "S-D4",
+        "x": 144,
+        "y": 194,
+        "row": "D",
+        "num": 4,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 4"
+      },
+      {
+        "id": "S-D5",
+        "x": 172,
+        "y": 194,
+        "row": "D",
+        "num": 5,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 5"
+      },
+      {
+        "id": "S-D6",
+        "x": 200,
+        "y": 194,
+        "row": "D",
+        "num": 6,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 6"
+      },
+      {
+        "id": "S-D7",
+        "x": 228,
+        "y": 194,
+        "row": "D",
+        "num": 7,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 7"
+      },
+      {
+        "id": "S-D8",
+        "x": 284,
+        "y": 194,
+        "row": "D",
+        "num": 8,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 8"
+      },
+      {
+        "id": "S-D9",
+        "x": 312,
+        "y": 194,
+        "row": "D",
+        "num": 9,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 9"
+      },
+      {
+        "id": "S-D10",
+        "x": 340,
+        "y": 194,
+        "row": "D",
+        "num": 10,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 10"
+      },
+      {
+        "id": "S-D11",
+        "x": 368,
+        "y": 194,
+        "row": "D",
+        "num": 11,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 11"
+      },
+      {
+        "id": "S-D12",
+        "x": 396,
+        "y": 194,
+        "row": "D",
+        "num": 12,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 12"
+      },
+      {
+        "id": "S-D13",
+        "x": 424,
+        "y": 194,
+        "row": "D",
+        "num": 13,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 13"
+      },
+      {
+        "id": "S-D14",
+        "x": 452,
+        "y": 194,
+        "row": "D",
+        "num": 14,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng D · Ghế 14"
+      },
+      {
+        "id": "S-E1",
+        "x": 60,
+        "y": 222,
+        "row": "E",
+        "num": 1,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 1"
+      },
+      {
+        "id": "S-E2",
+        "x": 88,
+        "y": 222,
+        "row": "E",
+        "num": 2,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 2"
+      },
+      {
+        "id": "S-E3",
+        "x": 116,
+        "y": 222,
+        "row": "E",
+        "num": 3,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 3"
+      },
+      {
+        "id": "S-E4",
+        "x": 144,
+        "y": 222,
+        "row": "E",
+        "num": 4,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 4"
+      },
+      {
+        "id": "S-E5",
+        "x": 172,
+        "y": 222,
+        "row": "E",
+        "num": 5,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 5"
+      },
+      {
+        "id": "S-E6",
+        "x": 200,
+        "y": 222,
+        "row": "E",
+        "num": 6,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 6"
+      },
+      {
+        "id": "S-E7",
+        "x": 228,
+        "y": 222,
+        "row": "E",
+        "num": 7,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 7"
+      },
+      {
+        "id": "S-E8",
+        "x": 284,
+        "y": 222,
+        "row": "E",
+        "num": 8,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 8"
+      },
+      {
+        "id": "S-E9",
+        "x": 312,
+        "y": 222,
+        "row": "E",
+        "num": 9,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 9"
+      },
+      {
+        "id": "S-E10",
+        "x": 340,
+        "y": 222,
+        "row": "E",
+        "num": 10,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 10"
+      },
+      {
+        "id": "S-E11",
+        "x": 368,
+        "y": 222,
+        "row": "E",
+        "num": 11,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 11"
+      },
+      {
+        "id": "S-E12",
+        "x": 396,
+        "y": 222,
+        "row": "E",
+        "num": 12,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 12"
+      },
+      {
+        "id": "S-E13",
+        "x": 424,
+        "y": 222,
+        "row": "E",
+        "num": 13,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 13"
+      },
+      {
+        "id": "S-E14",
+        "x": 452,
+        "y": 222,
+        "row": "E",
+        "num": 14,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng E · Ghế 14"
+      },
+      {
+        "id": "S-F1",
+        "x": 60,
+        "y": 250,
+        "row": "F",
+        "num": 1,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 1"
+      },
+      {
+        "id": "S-F2",
+        "x": 88,
+        "y": 250,
+        "row": "F",
+        "num": 2,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 2"
+      },
+      {
+        "id": "S-F3",
+        "x": 116,
+        "y": 250,
+        "row": "F",
+        "num": 3,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 3"
+      },
+      {
+        "id": "S-F4",
+        "x": 144,
+        "y": 250,
+        "row": "F",
+        "num": 4,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 4"
+      },
+      {
+        "id": "S-F5",
+        "x": 172,
+        "y": 250,
+        "row": "F",
+        "num": 5,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 5"
+      },
+      {
+        "id": "S-F6",
+        "x": 200,
+        "y": 250,
+        "row": "F",
+        "num": 6,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 6"
+      },
+      {
+        "id": "S-F7",
+        "x": 228,
+        "y": 250,
+        "row": "F",
+        "num": 7,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 7"
+      },
+      {
+        "id": "S-F8",
+        "x": 284,
+        "y": 250,
+        "row": "F",
+        "num": 8,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 8"
+      },
+      {
+        "id": "S-F9",
+        "x": 312,
+        "y": 250,
+        "row": "F",
+        "num": 9,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 9"
+      },
+      {
+        "id": "S-F10",
+        "x": 340,
+        "y": 250,
+        "row": "F",
+        "num": 10,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 10"
+      },
+      {
+        "id": "S-F11",
+        "x": 368,
+        "y": 250,
+        "row": "F",
+        "num": 11,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 11"
+      },
+      {
+        "id": "S-F12",
+        "x": 396,
+        "y": 250,
+        "row": "F",
+        "num": 12,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 12"
+      },
+      {
+        "id": "S-F13",
+        "x": 424,
+        "y": 250,
+        "row": "F",
+        "num": 13,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 13"
+      },
+      {
+        "id": "S-F14",
+        "x": 452,
+        "y": 250,
+        "row": "F",
+        "num": 14,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng F · Ghế 14"
+      },
+      {
+        "id": "S-G1",
+        "x": 60,
+        "y": 278,
+        "row": "G",
+        "num": 1,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 1"
+      },
+      {
+        "id": "S-G2",
+        "x": 88,
+        "y": 278,
+        "row": "G",
+        "num": 2,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 2"
+      },
+      {
+        "id": "S-G3",
+        "x": 116,
+        "y": 278,
+        "row": "G",
+        "num": 3,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 3"
+      },
+      {
+        "id": "S-G4",
+        "x": 144,
+        "y": 278,
+        "row": "G",
+        "num": 4,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 4"
+      },
+      {
+        "id": "S-G5",
+        "x": 172,
+        "y": 278,
+        "row": "G",
+        "num": 5,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 5"
+      },
+      {
+        "id": "S-G6",
+        "x": 200,
+        "y": 278,
+        "row": "G",
+        "num": 6,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 6"
+      },
+      {
+        "id": "S-G7",
+        "x": 228,
+        "y": 278,
+        "row": "G",
+        "num": 7,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 7"
+      },
+      {
+        "id": "S-G8",
+        "x": 284,
+        "y": 278,
+        "row": "G",
+        "num": 8,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 8"
+      },
+      {
+        "id": "S-G9",
+        "x": 312,
+        "y": 278,
+        "row": "G",
+        "num": 9,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 9"
+      },
+      {
+        "id": "S-G10",
+        "x": 340,
+        "y": 278,
+        "row": "G",
+        "num": 10,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 10"
+      },
+      {
+        "id": "S-G11",
+        "x": 368,
+        "y": 278,
+        "row": "G",
+        "num": 11,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 11"
+      },
+      {
+        "id": "S-G12",
+        "x": 396,
+        "y": 278,
+        "row": "G",
+        "num": 12,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 12"
+      },
+      {
+        "id": "S-G13",
+        "x": 424,
+        "y": 278,
+        "row": "G",
+        "num": 13,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 13"
+      },
+      {
+        "id": "S-G14",
+        "x": 452,
+        "y": 278,
+        "row": "G",
+        "num": 14,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng G · Ghế 14"
+      },
+      {
+        "id": "S-H1",
+        "x": 60,
+        "y": 306,
+        "row": "H",
+        "num": 1,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 1"
+      },
+      {
+        "id": "S-H2",
+        "x": 88,
+        "y": 306,
+        "row": "H",
+        "num": 2,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 2"
+      },
+      {
+        "id": "S-H3",
+        "x": 116,
+        "y": 306,
+        "row": "H",
+        "num": 3,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 3"
+      },
+      {
+        "id": "S-H4",
+        "x": 144,
+        "y": 306,
+        "row": "H",
+        "num": 4,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 4"
+      },
+      {
+        "id": "S-H5",
+        "x": 172,
+        "y": 306,
+        "row": "H",
+        "num": 5,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 5"
+      },
+      {
+        "id": "S-H6",
+        "x": 200,
+        "y": 306,
+        "row": "H",
+        "num": 6,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 6"
+      },
+      {
+        "id": "S-H7",
+        "x": 228,
+        "y": 306,
+        "row": "H",
+        "num": 7,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 7"
+      },
+      {
+        "id": "S-H8",
+        "x": 284,
+        "y": 306,
+        "row": "H",
+        "num": 8,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 8"
+      },
+      {
+        "id": "S-H9",
+        "x": 312,
+        "y": 306,
+        "row": "H",
+        "num": 9,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 9"
+      },
+      {
+        "id": "S-H10",
+        "x": 340,
+        "y": 306,
+        "row": "H",
+        "num": 10,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 10"
+      },
+      {
+        "id": "S-H11",
+        "x": 368,
+        "y": 306,
+        "row": "H",
+        "num": 11,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 11"
+      },
+      {
+        "id": "S-H12",
+        "x": 396,
+        "y": 306,
+        "row": "H",
+        "num": 12,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 12"
+      },
+      {
+        "id": "S-H13",
+        "x": 424,
+        "y": 306,
+        "row": "H",
+        "num": 13,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 13"
+      },
+      {
+        "id": "S-H14",
+        "x": 452,
+        "y": 306,
+        "row": "H",
+        "num": 14,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng H · Ghế 14"
+      },
+      {
+        "id": "S-I1",
+        "x": 60,
+        "y": 334,
+        "row": "I",
+        "num": 1,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 1"
+      },
+      {
+        "id": "S-I2",
+        "x": 88,
+        "y": 334,
+        "row": "I",
+        "num": 2,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 2"
+      },
+      {
+        "id": "S-I3",
+        "x": 116,
+        "y": 334,
+        "row": "I",
+        "num": 3,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 3"
+      },
+      {
+        "id": "S-I4",
+        "x": 144,
+        "y": 334,
+        "row": "I",
+        "num": 4,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 4"
+      },
+      {
+        "id": "S-I5",
+        "x": 172,
+        "y": 334,
+        "row": "I",
+        "num": 5,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 5"
+      },
+      {
+        "id": "S-I6",
+        "x": 200,
+        "y": 334,
+        "row": "I",
+        "num": 6,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 6"
+      },
+      {
+        "id": "S-I7",
+        "x": 228,
+        "y": 334,
+        "row": "I",
+        "num": 7,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 7"
+      },
+      {
+        "id": "S-I8",
+        "x": 284,
+        "y": 334,
+        "row": "I",
+        "num": 8,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 8"
+      },
+      {
+        "id": "S-I9",
+        "x": 312,
+        "y": 334,
+        "row": "I",
+        "num": 9,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 9"
+      },
+      {
+        "id": "S-I10",
+        "x": 340,
+        "y": 334,
+        "row": "I",
+        "num": 10,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 10"
+      },
+      {
+        "id": "S-I11",
+        "x": 368,
+        "y": 334,
+        "row": "I",
+        "num": 11,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 11"
+      },
+      {
+        "id": "S-I12",
+        "x": 396,
+        "y": 334,
+        "row": "I",
+        "num": 12,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 12"
+      },
+      {
+        "id": "S-I13",
+        "x": 424,
+        "y": 334,
+        "row": "I",
+        "num": 13,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 13"
+      },
+      {
+        "id": "S-I14",
+        "x": 452,
+        "y": 334,
+        "row": "I",
+        "num": 14,
+        "section": "S",
+        "group": "thuong",
+        "label": "Khán phòng · Hàng I · Ghế 14"
+      }
+    ]
+  }
+]
