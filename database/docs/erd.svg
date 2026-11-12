@@ -1,0 +1,751 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="1554" viewBox="0 0 1760 1554" font-family="Segoe UI, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="46" font-size="26" font-weight="700" fill="#1c1914">ERD — CSDL TicketNhịp (PostgreSQL 18, migration 0008)</text>
+<text x="40" y="72" font-size="14" fill="#555">20 bảng · 27 khoá ngoại · PK = khoá chính, FK = khoá ngoại, NN = NOT NULL · đường nối: N (bảng con) → 1 (bảng cha)</text>
+<text x="40" y="116" font-size="15" font-weight="700" fill="#2f6f4f">TÀI KHOẢN &amp; BAN TỔ CHỨC</text>
+<text x="490" y="116" font-size="15" font-weight="700" fill="#8a4b12">DANH MỤC SỰ KIỆN</text>
+<text x="940" y="116" font-size="15" font-weight="700" fill="#3b4f8f">SUẤT · HẠNG VÉ · SƠ ĐỒ</text>
+<text x="1390" y="116" font-size="15" font-weight="700" fill="#8f2f3b">BÁN VÉ</text>
+<path d="M1720,1270.5 C1746,1270.5 1746,330.5 1720,330.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1725" y="1267.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1725" y="327.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1720" cy="330.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1390,1219.5 C1330.0,1219.5 1330.0,180.5 1270,180.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1377" y="1216.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1275" y="177.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1270" cy="180.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1720,851.5 C1762,851.5 1762,330.5 1720,330.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1725" y="848.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1725" y="327.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1720" cy="330.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1390,868.5 C1330.0,868.5 1330.0,347.5 1270,347.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1377" y="865.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1275" y="344.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1270" cy="347.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1270,1202.5 C1328,1202.5 1328,599.5 1270,599.5" fill="none" stroke="#3b4f8f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1275" y="1199.5" font-size="10" font-weight="700" fill="#3b4f8f">N</text>
+<text x="1275" y="596.5" font-size="10" font-weight="700" fill="#3b4f8f">1</text>
+<circle cx="1270" cy="599.5" r="2.6" fill="#3b4f8f"/>
+<path d="M1270,1202.5 C1296,1202.5 1296,766.5 1270,766.5" fill="none" stroke="#3b4f8f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1275" y="1199.5" font-size="10" font-weight="700" fill="#3b4f8f">N</text>
+<text x="1275" y="763.5" font-size="10" font-weight="700" fill="#3b4f8f">1</text>
+<circle cx="1270" cy="766.5" r="2.6" fill="#3b4f8f"/>
+<path d="M370,848.5 C404,848.5 404,664.5 370,664.5" fill="none" stroke="#2f6f4f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="375" y="845.5" font-size="10" font-weight="700" fill="#2f6f4f">N</text>
+<text x="375" y="661.5" font-size="10" font-weight="700" fill="#2f6f4f">1</text>
+<circle cx="370" cy="664.5" r="2.6" fill="#2f6f4f"/>
+<path d="M370,1001.5 C412,1001.5 412,180.5 370,180.5" fill="none" stroke="#2f6f4f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="375" y="998.5" font-size="10" font-weight="700" fill="#2f6f4f">N</text>
+<text x="375" y="177.5" font-size="10" font-weight="700" fill="#2f6f4f">1</text>
+<circle cx="370" cy="180.5" r="2.6" fill="#2f6f4f"/>
+<path d="M370,664.5 C420,664.5 420,180.5 370,180.5" fill="none" stroke="#2f6f4f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="375" y="661.5" font-size="10" font-weight="700" fill="#2f6f4f">N</text>
+<text x="375" y="177.5" font-size="10" font-weight="700" fill="#2f6f4f">1</text>
+<circle cx="370" cy="180.5" r="2.6" fill="#2f6f4f"/>
+<path d="M370,531.5 C428,531.5 428,180.5 370,180.5" fill="none" stroke="#2f6f4f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="375" y="528.5" font-size="10" font-weight="700" fill="#2f6f4f">N</text>
+<text x="375" y="177.5" font-size="10" font-weight="700" fill="#2f6f4f">1</text>
+<circle cx="370" cy="180.5" r="2.6" fill="#2f6f4f"/>
+<path d="M370,398.5 C396,398.5 396,180.5 370,180.5" fill="none" stroke="#2f6f4f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="375" y="395.5" font-size="10" font-weight="700" fill="#2f6f4f">N</text>
+<text x="375" y="177.5" font-size="10" font-weight="700" fill="#2f6f4f">1</text>
+<circle cx="370" cy="180.5" r="2.6" fill="#2f6f4f"/>
+<path d="M1270,766.5 C1304,766.5 1304,599.5 1270,599.5" fill="none" stroke="#3b4f8f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1275" y="763.5" font-size="10" font-weight="700" fill="#3b4f8f">N</text>
+<text x="1275" y="596.5" font-size="10" font-weight="700" fill="#3b4f8f">1</text>
+<circle cx="1270" cy="599.5" r="2.6" fill="#3b4f8f"/>
+<path d="M820,398.5 C862,398.5 862,180.5 820,180.5" fill="none" stroke="#8a4b12" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="825" y="395.5" font-size="10" font-weight="700" fill="#8a4b12">N</text>
+<text x="825" y="177.5" font-size="10" font-weight="700" fill="#8a4b12">1</text>
+<circle cx="820" cy="180.5" r="2.6" fill="#8a4b12"/>
+<path d="M820,483.5 C880.0,483.5 880.0,599.5 940,599.5" fill="none" stroke="#8a4b12" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="825" y="480.5" font-size="10" font-weight="700" fill="#8a4b12">N</text>
+<text x="929" y="596.5" font-size="10" font-weight="700" fill="#8a4b12">1</text>
+<circle cx="940" cy="599.5" r="2.6" fill="#8a4b12"/>
+<path d="M490,500.5 C430.0,500.5 430.0,664.5 370,664.5" fill="none" stroke="#8a4b12" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="477" y="497.5" font-size="10" font-weight="700" fill="#8a4b12">N</text>
+<text x="375" y="661.5" font-size="10" font-weight="700" fill="#8a4b12">1</text>
+<circle cx="370" cy="664.5" r="2.6" fill="#8a4b12"/>
+<path d="M940,180.5 C880.0,180.5 880.0,330.5 820,330.5" fill="none" stroke="#3b4f8f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="927" y="177.5" font-size="10" font-weight="700" fill="#3b4f8f">N</text>
+<text x="825" y="327.5" font-size="10" font-weight="700" fill="#3b4f8f">1</text>
+<circle cx="820" cy="330.5" r="2.6" fill="#3b4f8f"/>
+<path d="M940,347.5 C880.0,347.5 880.0,330.5 820,330.5" fill="none" stroke="#3b4f8f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="927" y="344.5" font-size="10" font-weight="700" fill="#3b4f8f">N</text>
+<text x="825" y="327.5" font-size="10" font-weight="700" fill="#3b4f8f">1</text>
+<circle cx="820" cy="330.5" r="2.6" fill="#3b4f8f"/>
+<path d="M820,871.5 C862,871.5 862,330.5 820,330.5" fill="none" stroke="#8a4b12" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="825" y="868.5" font-size="10" font-weight="700" fill="#8a4b12">N</text>
+<text x="825" y="327.5" font-size="10" font-weight="700" fill="#8a4b12">1</text>
+<circle cx="820" cy="330.5" r="2.6" fill="#8a4b12"/>
+<path d="M1270,984.5 C1320,984.5 1320,599.5 1270,599.5" fill="none" stroke="#3b4f8f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1275" y="981.5" font-size="10" font-weight="700" fill="#3b4f8f">N</text>
+<text x="1275" y="596.5" font-size="10" font-weight="700" fill="#3b4f8f">1</text>
+<circle cx="1270" cy="599.5" r="2.6" fill="#3b4f8f"/>
+<path d="M1270,984.5 C1328,984.5 1328,766.5 1270,766.5" fill="none" stroke="#3b4f8f" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1275" y="981.5" font-size="10" font-weight="700" fill="#3b4f8f">N</text>
+<text x="1275" y="763.5" font-size="10" font-weight="700" fill="#3b4f8f">1</text>
+<circle cx="1270" cy="766.5" r="2.6" fill="#3b4f8f"/>
+<path d="M1720,432.5 C1746,432.5 1746,180.5 1720,180.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1725" y="429.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1725" y="177.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1720" cy="180.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1390,364.5 C1330.0,364.5 1330.0,180.5 1270,180.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1377" y="361.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1275" y="177.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1270" cy="180.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1390,347.5 C880.0,347.5 880.0,180.5 370,180.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1377" y="344.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="375" y="177.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="370" cy="180.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1390,1035.5 C1330.0,1035.5 1330.0,180.5 1270,180.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1377" y="1032.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1275" y="177.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1270" cy="180.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1390,1035.5 C1330.0,1035.5 1330.0,347.5 1270,347.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1377" y="1032.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1275" y="344.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1270" cy="347.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1720,667.5 C1746,667.5 1746,330.5 1720,330.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1725" y="664.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1725" y="327.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1720" cy="330.5" r="2.6" fill="#8f2f3b"/>
+<path d="M1390,701.5 C1330.0,701.5 1330.0,347.5 1270,347.5" fill="none" stroke="#8f2f3b" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="1377" y="698.5" font-size="10" font-weight="700" fill="#8f2f3b">N</text>
+<text x="1275" y="344.5" font-size="10" font-weight="700" fill="#8f2f3b">1</text>
+<circle cx="1270" cy="347.5" r="2.6" fill="#8f2f3b"/>
+<g><rect x="1390" y="1169" width="330" height="116" rx="6" fill="#fffdf8" stroke="#8f2f3b" stroke-width="1.5"/>
+<rect x="1390" y="1169" width="330" height="36" rx="6" fill="#8f2f3b"/>
+<text x="1400" y="1185" font-size="14" font-weight="700" fill="#fff">seat_holds</text>
+<text x="1400" y="1199" font-size="10" fill="#fff" fill-opacity="0.9">Ghế đã bán theo suất; order_id NULL = đã bán sẵn. …</text>
+<rect x="1391" y="1210" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="1223" font-size="9.5" font-weight="700" fill="#8f2f3b">PK FK</text>
+<text x="1434" y="1223" font-size="12" font-weight="700" fill="#1c1914">event_id</text>
+<text x="1712" y="1223" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="1398" y="1240" font-size="9.5" font-weight="700" fill="#8f2f3b">PK FK</text>
+<text x="1434" y="1240" font-size="12" font-weight="700" fill="#1c1914">show_id</text>
+<text x="1712" y="1240" font-size="11" fill="#6b6257" text-anchor="end">varchar(13)</text>
+<rect x="1391" y="1244" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="1257" font-size="9.5" font-weight="700" fill="#8f2f3b">PK</text>
+<text x="1434" y="1257" font-size="12" font-weight="700" fill="#1c1914">seat_id</text>
+<text x="1712" y="1257" font-size="11" fill="#6b6257" text-anchor="end">varchar(30)</text>
+<text x="1398" y="1274" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="1274" font-size="12" font-weight="400" fill="#1c1914">order_id</text>
+<text x="1712" y="1274" font-size="11" fill="#6b6257" text-anchor="end">varchar(20)</text>
+</g>
+<g><rect x="1390" y="784" width="330" height="167" rx="6" fill="#fffdf8" stroke="#8f2f3b" stroke-width="1.5"/>
+<rect x="1390" y="784" width="330" height="36" rx="6" fill="#8f2f3b"/>
+<text x="1400" y="800" font-size="14" font-weight="700" fill="#fff">tickets</text>
+<text x="1400" y="814" font-size="10" fill="#fff" fill-opacity="0.9">Vé điện tử; mỗi vé một mã check-in riêng</text>
+<rect x="1391" y="825" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="838" font-size="9.5" font-weight="700" fill="#8f2f3b">PK</text>
+<text x="1434" y="838" font-size="12" font-weight="700" fill="#1c1914">code</text>
+<text x="1712" y="838" font-size="11" fill="#6b6257" text-anchor="end">varchar(20)</text>
+<text x="1398" y="855" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="855" font-size="12" font-weight="400" fill="#1c1914">order_id</text>
+<text x="1712" y="855" font-size="11" fill="#6b6257" text-anchor="end">varchar(20) NN</text>
+<rect x="1391" y="859" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="872" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="872" font-size="12" font-weight="400" fill="#1c1914">event_id</text>
+<text x="1712" y="872" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="1398" y="889" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="889" font-size="12" font-weight="400" fill="#1c1914">tier_id</text>
+<text x="1712" y="889" font-size="11" fill="#6b6257" text-anchor="end">varchar(60) NN</text>
+<rect x="1391" y="893" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="906" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="906" font-size="12" font-weight="400" fill="#1c1914">price</text>
+<text x="1712" y="906" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="1398" y="923" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="923" font-size="12" font-weight="400" fill="#1c1914">seat_id</text>
+<text x="1712" y="923" font-size="11" fill="#6b6257" text-anchor="end">varchar(30)</text>
+<rect x="1391" y="927" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="940" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="940" font-size="12" font-weight="400" fill="#1c1914">checked_in_at</text>
+<text x="1712" y="940" font-size="11" fill="#6b6257" text-anchor="end">timestamp</text>
+</g>
+<g><rect x="940" y="1152" width="330" height="218" rx="6" fill="#fffdf8" stroke="#3b4f8f" stroke-width="1.5"/>
+<rect x="940" y="1152" width="330" height="36" rx="6" fill="#3b4f8f"/>
+<text x="950" y="1168" font-size="14" font-weight="700" fill="#fff">map_seats</text>
+<text x="950" y="1182" font-size="10" fill="#fff" fill-opacity="0.9">Ghế trên sơ đồ ghế (hàng, số, toạ độ)</text>
+<rect x="941" y="1193" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="1206" font-size="9.5" font-weight="700" fill="#3b4f8f">PK FK</text>
+<text x="984" y="1206" font-size="12" font-weight="700" fill="#1c1914">map_id</text>
+<text x="1262" y="1206" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<text x="948" y="1223" font-size="9.5" font-weight="700" fill="#3b4f8f">PK</text>
+<text x="984" y="1223" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="1262" y="1223" font-size="11" fill="#6b6257" text-anchor="end">varchar(30)</text>
+<rect x="941" y="1227" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="1240" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1240" font-size="12" font-weight="400" fill="#1c1914">section</text>
+<text x="1262" y="1240" font-size="11" fill="#6b6257" text-anchor="end">varchar(20) NN</text>
+<text x="948" y="1257" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1257" font-size="12" font-weight="400" fill="#1c1914">row_label</text>
+<text x="1262" y="1257" font-size="11" fill="#6b6257" text-anchor="end">varchar(10) NN</text>
+<rect x="941" y="1261" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="1274" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1274" font-size="12" font-weight="400" fill="#1c1914">num</text>
+<text x="1262" y="1274" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="948" y="1291" font-size="9.5" font-weight="700" fill="#3b4f8f">FK</text>
+<text x="984" y="1291" font-size="12" font-weight="400" fill="#1c1914">group_id</text>
+<text x="1262" y="1291" font-size="11" fill="#6b6257" text-anchor="end">varchar(60) NN</text>
+<rect x="941" y="1295" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="1308" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1308" font-size="12" font-weight="400" fill="#1c1914">label</text>
+<text x="1262" y="1308" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="948" y="1325" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1325" font-size="12" font-weight="400" fill="#1c1914">x</text>
+<text x="1262" y="1325" font-size="11" fill="#6b6257" text-anchor="end">float8 NN</text>
+<rect x="941" y="1329" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="1342" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1342" font-size="12" font-weight="400" fill="#1c1914">y</text>
+<text x="1262" y="1342" font-size="11" fill="#6b6257" text-anchor="end">float8 NN</text>
+<text x="948" y="1359" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1359" font-size="12" font-weight="400" fill="#1c1914">sort_order</text>
+<text x="1262" y="1359" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+</g>
+<g><rect x="40" y="781" width="330" height="235" rx="6" fill="#fffdf8" stroke="#2f6f4f" stroke-width="1.5"/>
+<rect x="40" y="781" width="330" height="36" rx="6" fill="#2f6f4f"/>
+<text x="50" y="797" font-size="14" font-weight="700" fill="#fff">withdrawals</text>
+<text x="50" y="811" font-size="10" fill="#fff" fill-opacity="0.9">Yêu cầu rút tiền của Ban tổ chức: chờ xử lý → Admi…</text>
+<rect x="41" y="822" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="835" font-size="9.5" font-weight="700" fill="#2f6f4f">PK</text>
+<text x="84" y="835" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="362" y="835" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="48" y="852" font-size="9.5" font-weight="700" fill="#2f6f4f">FK</text>
+<text x="84" y="852" font-size="12" font-weight="400" fill="#1c1914">organizer_id</text>
+<text x="362" y="852" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="41" y="856" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="869" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="869" font-size="12" font-weight="400" fill="#1c1914">amount</text>
+<text x="362" y="869" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="48" y="886" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="886" font-size="12" font-weight="400" fill="#1c1914">bank_name</text>
+<text x="362" y="886" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="41" y="890" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="903" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="903" font-size="12" font-weight="400" fill="#1c1914">account_no</text>
+<text x="362" y="903" font-size="11" fill="#6b6257" text-anchor="end">varchar(20) NN</text>
+<text x="48" y="920" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="920" font-size="12" font-weight="400" fill="#1c1914">account_name</text>
+<text x="362" y="920" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="41" y="924" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="937" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="937" font-size="12" font-weight="400" fill="#1c1914">status</text>
+<text x="362" y="937" font-size="11" fill="#6b6257" text-anchor="end">varchar(10) NN</text>
+<text x="48" y="954" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="954" font-size="12" font-weight="400" fill="#1c1914">note</text>
+<text x="362" y="954" font-size="11" fill="#6b6257" text-anchor="end">text</text>
+<rect x="41" y="958" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="971" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="971" font-size="12" font-weight="400" fill="#1c1914">created_at</text>
+<text x="362" y="971" font-size="11" fill="#6b6257" text-anchor="end">timestamp NN</text>
+<text x="48" y="988" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="988" font-size="12" font-weight="400" fill="#1c1914">processed_at</text>
+<text x="362" y="988" font-size="11" fill="#6b6257" text-anchor="end">timestamp</text>
+<rect x="41" y="992" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="1005" font-size="9.5" font-weight="700" fill="#2f6f4f">FK</text>
+<text x="84" y="1005" font-size="12" font-weight="400" fill="#1c1914">processed_by</text>
+<text x="362" y="1005" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+</g>
+<g><rect x="940" y="549" width="330" height="133" rx="6" fill="#fffdf8" stroke="#3b4f8f" stroke-width="1.5"/>
+<rect x="940" y="549" width="330" height="36" rx="6" fill="#3b4f8f"/>
+<text x="950" y="565" font-size="14" font-weight="700" fill="#fff">venue_maps</text>
+<text x="950" y="579" font-size="10" fill="#fff" fill-opacity="0.9">Sơ đồ địa điểm: sơ đồ khu vực (zones) hoặc sơ đồ g…</text>
+<rect x="941" y="590" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="603" font-size="9.5" font-weight="700" fill="#3b4f8f">PK</text>
+<text x="984" y="603" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="1262" y="603" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<text x="948" y="620" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="620" font-size="12" font-weight="400" fill="#1c1914">kind</text>
+<text x="1262" y="620" font-size="11" fill="#6b6257" text-anchor="end">varchar(10) NN</text>
+<rect x="941" y="624" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="637" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="637" font-size="12" font-weight="400" fill="#1c1914">name</text>
+<text x="1262" y="637" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="948" y="654" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="654" font-size="12" font-weight="400" fill="#1c1914">view_box</text>
+<text x="1262" y="654" font-size="11" fill="#6b6257" text-anchor="end">text</text>
+<rect x="941" y="658" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="671" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="671" font-size="12" font-weight="400" fill="#1c1914">decor</text>
+<text x="1262" y="671" font-size="11" fill="#6b6257" text-anchor="end">jsonb NN</text>
+</g>
+<g><rect x="40" y="130" width="330" height="167" rx="6" fill="#fffdf8" stroke="#2f6f4f" stroke-width="1.5"/>
+<rect x="40" y="130" width="330" height="36" rx="6" fill="#2f6f4f"/>
+<text x="50" y="146" font-size="14" font-weight="700" fill="#fff">users</text>
+<text x="50" y="160" font-size="10" fill="#fff" fill-opacity="0.9">Tài khoản: khách (customer), Ban tổ chức (organize…</text>
+<rect x="41" y="171" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="184" font-size="9.5" font-weight="700" fill="#2f6f4f">PK</text>
+<text x="84" y="184" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="362" y="184" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="48" y="201" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="201" font-size="12" font-weight="400" fill="#1c1914">name</text>
+<text x="362" y="201" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="41" y="205" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="218" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="218" font-size="12" font-weight="400" fill="#1c1914">email</text>
+<text x="362" y="218" font-size="11" fill="#6b6257" text-anchor="end">varchar(254)</text>
+<text x="48" y="235" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="235" font-size="12" font-weight="400" fill="#1c1914">phone</text>
+<text x="362" y="235" font-size="11" fill="#6b6257" text-anchor="end">varchar(20)</text>
+<rect x="41" y="239" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="252" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="252" font-size="12" font-weight="400" fill="#1c1914">password_hash</text>
+<text x="362" y="252" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="48" y="269" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="269" font-size="12" font-weight="400" fill="#1c1914">role</text>
+<text x="362" y="269" font-size="11" fill="#6b6257" text-anchor="end">varchar(10) NN</text>
+<rect x="41" y="273" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="286" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="286" font-size="12" font-weight="400" fill="#1c1914">created_at</text>
+<text x="362" y="286" font-size="11" fill="#6b6257" text-anchor="end">timestamp NN</text>
+</g>
+<g><rect x="40" y="614" width="330" height="133" rx="6" fill="#fffdf8" stroke="#2f6f4f" stroke-width="1.5"/>
+<rect x="40" y="614" width="330" height="36" rx="6" fill="#2f6f4f"/>
+<text x="50" y="630" font-size="14" font-weight="700" fill="#fff">organizers</text>
+<text x="50" y="644" font-size="10" fill="#fff" fill-opacity="0.9">Hồ sơ Ban tổ chức; 1 tài khoản = 1 đơn vị tổ chức</text>
+<rect x="41" y="655" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="668" font-size="9.5" font-weight="700" fill="#2f6f4f">PK FK</text>
+<text x="84" y="668" font-size="12" font-weight="700" fill="#1c1914">user_id</text>
+<text x="362" y="668" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="48" y="685" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="685" font-size="12" font-weight="400" fill="#1c1914">org_name</text>
+<text x="362" y="685" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="41" y="689" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="702" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="702" font-size="12" font-weight="400" fill="#1c1914">phone</text>
+<text x="362" y="702" font-size="11" fill="#6b6257" text-anchor="end">varchar(20) NN</text>
+<text x="48" y="719" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="719" font-size="12" font-weight="400" fill="#1c1914">description</text>
+<text x="362" y="719" font-size="11" fill="#6b6257" text-anchor="end">text</text>
+<rect x="41" y="723" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="736" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="736" font-size="12" font-weight="400" fill="#1c1914">created_at</text>
+<text x="362" y="736" font-size="11" fill="#6b6257" text-anchor="end">timestamp NN</text>
+</g>
+<g><rect x="40" y="464" width="330" height="116" rx="6" fill="#fffdf8" stroke="#2f6f4f" stroke-width="1.5"/>
+<rect x="40" y="464" width="330" height="36" rx="6" fill="#2f6f4f"/>
+<text x="50" y="480" font-size="14" font-weight="700" fill="#fff">password_resets</text>
+<text x="50" y="494" font-size="10" fill="#fff" fill-opacity="0.9">Yêu cầu đặt lại mật khẩu (token băm, hạn dùng, đã …</text>
+<rect x="41" y="505" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="518" font-size="9.5" font-weight="700" fill="#2f6f4f">PK</text>
+<text x="84" y="518" font-size="12" font-weight="700" fill="#1c1914">token_hash</text>
+<text x="362" y="518" font-size="11" fill="#6b6257" text-anchor="end">varchar(64)</text>
+<text x="48" y="535" font-size="9.5" font-weight="700" fill="#2f6f4f">FK</text>
+<text x="84" y="535" font-size="12" font-weight="400" fill="#1c1914">user_id</text>
+<text x="362" y="535" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="41" y="539" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="552" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="552" font-size="12" font-weight="400" fill="#1c1914">expires_at</text>
+<text x="362" y="552" font-size="11" fill="#6b6257" text-anchor="end">timestamp NN</text>
+<text x="48" y="569" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="569" font-size="12" font-weight="400" fill="#1c1914">used</text>
+<text x="362" y="569" font-size="11" fill="#6b6257" text-anchor="end">boolean NN</text>
+</g>
+<g><rect x="40" y="331" width="330" height="99" rx="6" fill="#fffdf8" stroke="#2f6f4f" stroke-width="1.5"/>
+<rect x="40" y="331" width="330" height="36" rx="6" fill="#2f6f4f"/>
+<text x="50" y="347" font-size="14" font-weight="700" fill="#fff">sessions</text>
+<text x="50" y="361" font-size="10" fill="#fff" fill-opacity="0.9">Phiên đăng nhập; chỉ lưu SHA-256 của token, không …</text>
+<rect x="41" y="372" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="385" font-size="9.5" font-weight="700" fill="#2f6f4f">PK</text>
+<text x="84" y="385" font-size="12" font-weight="700" fill="#1c1914">token_hash</text>
+<text x="362" y="385" font-size="11" fill="#6b6257" text-anchor="end">varchar(64)</text>
+<text x="48" y="402" font-size="9.5" font-weight="700" fill="#2f6f4f">FK</text>
+<text x="84" y="402" font-size="12" font-weight="400" fill="#1c1914">user_id</text>
+<text x="362" y="402" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="41" y="406" width="328" height="17" fill="#f4efe6"/>
+<text x="48" y="419" font-size="9.5" font-weight="700" fill="#2f6f4f"></text>
+<text x="84" y="419" font-size="12" font-weight="400" fill="#1c1914">expires_at</text>
+<text x="362" y="419" font-size="11" fill="#6b6257" text-anchor="end">timestamp NN</text>
+</g>
+<g><rect x="940" y="716" width="330" height="184" rx="6" fill="#fffdf8" stroke="#3b4f8f" stroke-width="1.5"/>
+<rect x="940" y="716" width="330" height="36" rx="6" fill="#3b4f8f"/>
+<text x="950" y="732" font-size="14" font-weight="700" fill="#fff">map_groups</text>
+<text x="950" y="746" font-size="10" fill="#fff" fill-opacity="0.9">Nhóm khu / hạng ghế trong một sơ đồ (màu, quyền lợ…</text>
+<rect x="941" y="757" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="770" font-size="9.5" font-weight="700" fill="#3b4f8f">PK FK</text>
+<text x="984" y="770" font-size="12" font-weight="700" fill="#1c1914">map_id</text>
+<text x="1262" y="770" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<text x="948" y="787" font-size="9.5" font-weight="700" fill="#3b4f8f">PK</text>
+<text x="984" y="787" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="1262" y="787" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<rect x="941" y="791" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="804" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="804" font-size="12" font-weight="400" fill="#1c1914">label</text>
+<text x="1262" y="804" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="948" y="821" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="821" font-size="12" font-weight="400" fill="#1c1914">color</text>
+<text x="1262" y="821" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="941" y="825" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="838" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="838" font-size="12" font-weight="400" fill="#1c1914">ink</text>
+<text x="1262" y="838" font-size="11" fill="#6b6257" text-anchor="end">boolean NN</text>
+<text x="948" y="855" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="855" font-size="12" font-weight="400" fill="#1c1914">max_per_order</text>
+<text x="1262" y="855" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<rect x="941" y="859" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="872" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="872" font-size="12" font-weight="400" fill="#1c1914">perks</text>
+<text x="1262" y="872" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="948" y="889" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="889" font-size="12" font-weight="400" fill="#1c1914">sort_order</text>
+<text x="1262" y="889" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+</g>
+<g><rect x="490" y="130" width="330" height="116" rx="6" fill="#fffdf8" stroke="#8a4b12" stroke-width="1.5"/>
+<rect x="490" y="130" width="330" height="36" rx="6" fill="#8a4b12"/>
+<text x="500" y="146" font-size="14" font-weight="700" fill="#fff">categories</text>
+<text x="500" y="160" font-size="10" fill="#fff" fill-opacity="0.9">Thể loại sự kiện (Nhạc sống, Sân khấu…)</text>
+<rect x="491" y="171" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="184" font-size="9.5" font-weight="700" fill="#8a4b12">PK</text>
+<text x="534" y="184" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="812" y="184" font-size="11" fill="#6b6257" text-anchor="end">varchar(40)</text>
+<text x="498" y="201" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="201" font-size="12" font-weight="400" fill="#1c1914">label</text>
+<text x="812" y="201" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="491" y="205" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="218" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="218" font-size="12" font-weight="400" fill="#1c1914">dot</text>
+<text x="812" y="218" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="498" y="235" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="235" font-size="12" font-weight="400" fill="#1c1914">sort_order</text>
+<text x="812" y="235" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+</g>
+<g><rect x="490" y="280" width="330" height="473" rx="6" fill="#fffdf8" stroke="#8a4b12" stroke-width="1.5"/>
+<rect x="490" y="280" width="330" height="36" rx="6" fill="#8a4b12"/>
+<text x="500" y="296" font-size="14" font-weight="700" fill="#fff">events</text>
+<text x="500" y="310" font-size="10" fill="#fff" fill-opacity="0.9">Sự kiện: của sàn (organizer_id NULL) hoặc do Ban t…</text>
+<rect x="491" y="321" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="334" font-size="9.5" font-weight="700" fill="#8a4b12">PK</text>
+<text x="534" y="334" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="812" y="334" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="498" y="351" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="351" font-size="12" font-weight="400" fill="#1c1914">slug</text>
+<text x="812" y="351" font-size="11" fill="#6b6257" text-anchor="end">varchar(160) NN</text>
+<rect x="491" y="355" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="368" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="368" font-size="12" font-weight="400" fill="#1c1914">title</text>
+<text x="812" y="368" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="498" y="385" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="385" font-size="12" font-weight="400" fill="#1c1914">search_text</text>
+<text x="812" y="385" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="491" y="389" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="402" font-size="9.5" font-weight="700" fill="#8a4b12">FK</text>
+<text x="534" y="402" font-size="12" font-weight="400" fill="#1c1914">category_id</text>
+<text x="812" y="402" font-size="11" fill="#6b6257" text-anchor="end">varchar(40) NN</text>
+<text x="498" y="419" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="419" font-size="12" font-weight="400" fill="#1c1914">city</text>
+<text x="812" y="419" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="491" y="423" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="436" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="436" font-size="12" font-weight="400" fill="#1c1914">venue</text>
+<text x="812" y="436" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="498" y="453" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="453" font-size="12" font-weight="400" fill="#1c1914">address</text>
+<text x="812" y="453" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="491" y="457" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="470" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="470" font-size="12" font-weight="400" fill="#1c1914">layout</text>
+<text x="812" y="470" font-size="11" fill="#6b6257" text-anchor="end">varchar(10) NN</text>
+<text x="498" y="487" font-size="9.5" font-weight="700" fill="#8a4b12">FK</text>
+<text x="534" y="487" font-size="12" font-weight="400" fill="#1c1914">map_id</text>
+<text x="812" y="487" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<rect x="491" y="491" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="504" font-size="9.5" font-weight="700" fill="#8a4b12">FK</text>
+<text x="534" y="504" font-size="12" font-weight="400" fill="#1c1914">organizer_id</text>
+<text x="812" y="504" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="498" y="521" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="521" font-size="12" font-weight="400" fill="#1c1914">host_name</text>
+<text x="812" y="521" font-size="11" fill="#6b6257" text-anchor="end">text</text>
+<rect x="491" y="525" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="538" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="538" font-size="12" font-weight="400" fill="#1c1914">host_bio</text>
+<text x="812" y="538" font-size="11" fill="#6b6257" text-anchor="end">text</text>
+<text x="498" y="555" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="555" font-size="12" font-weight="400" fill="#1c1914">description</text>
+<text x="812" y="555" font-size="11" fill="#6b6257" text-anchor="end">array NN</text>
+<rect x="491" y="559" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="572" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="572" font-size="12" font-weight="400" fill="#1c1914">notes</text>
+<text x="812" y="572" font-size="11" fill="#6b6257" text-anchor="end">array NN</text>
+<text x="498" y="589" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="589" font-size="12" font-weight="400" fill="#1c1914">status</text>
+<text x="812" y="589" font-size="11" fill="#6b6257" text-anchor="end">varchar(10) NN</text>
+<rect x="491" y="593" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="606" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="606" font-size="12" font-weight="400" fill="#1c1914">reject_reason</text>
+<text x="812" y="606" font-size="11" fill="#6b6257" text-anchor="end">text</text>
+<text x="498" y="623" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="623" font-size="12" font-weight="400" fill="#1c1914">sale_start</text>
+<text x="812" y="623" font-size="11" fill="#6b6257" text-anchor="end">timestamp</text>
+<rect x="491" y="627" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="640" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="640" font-size="12" font-weight="400" fill="#1c1914">resale_count</text>
+<text x="812" y="640" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="498" y="657" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="657" font-size="12" font-weight="400" fill="#1c1914">created_at</text>
+<text x="812" y="657" font-size="11" fill="#6b6257" text-anchor="end">timestamp NN</text>
+<rect x="491" y="661" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="674" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="674" font-size="12" font-weight="400" fill="#1c1914">reviewed_at</text>
+<text x="812" y="674" font-size="11" fill="#6b6257" text-anchor="end">timestamp</text>
+<text x="498" y="691" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="691" font-size="12" font-weight="400" fill="#1c1914">active</text>
+<text x="812" y="691" font-size="11" fill="#6b6257" text-anchor="end">boolean NN</text>
+<rect x="491" y="695" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="708" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="708" font-size="12" font-weight="400" fill="#1c1914">cancel_reason</text>
+<text x="812" y="708" font-size="11" fill="#6b6257" text-anchor="end">text</text>
+<text x="498" y="725" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="725" font-size="12" font-weight="400" fill="#1c1914">cancelled_at</text>
+<text x="812" y="725" font-size="11" fill="#6b6257" text-anchor="end">timestamp</text>
+<rect x="491" y="729" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="742" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="742" font-size="12" font-weight="400" fill="#1c1914">cancelled_by</text>
+<text x="812" y="742" font-size="11" fill="#6b6257" text-anchor="end">varchar(10)</text>
+</g>
+<g><rect x="940" y="130" width="330" height="133" rx="6" fill="#fffdf8" stroke="#3b4f8f" stroke-width="1.5"/>
+<rect x="940" y="130" width="330" height="36" rx="6" fill="#3b4f8f"/>
+<text x="950" y="146" font-size="14" font-weight="700" fill="#fff">shows</text>
+<text x="950" y="160" font-size="10" fill="#fff" fill-opacity="0.9">Suất diễn của sự kiện; id dạng YYYYMMDD-HHMM theo …</text>
+<rect x="941" y="171" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="184" font-size="9.5" font-weight="700" fill="#3b4f8f">PK FK</text>
+<text x="984" y="184" font-size="12" font-weight="700" fill="#1c1914">event_id</text>
+<text x="1262" y="184" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="948" y="201" font-size="9.5" font-weight="700" fill="#3b4f8f">PK</text>
+<text x="984" y="201" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="1262" y="201" font-size="11" fill="#6b6257" text-anchor="end">varchar(13)</text>
+<rect x="941" y="205" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="218" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="218" font-size="12" font-weight="400" fill="#1c1914">starts_at</text>
+<text x="1262" y="218" font-size="11" fill="#6b6257" text-anchor="end">timestamp NN</text>
+<text x="948" y="235" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="235" font-size="12" font-weight="400" fill="#1c1914">end_time</text>
+<text x="1262" y="235" font-size="11" fill="#6b6257" text-anchor="end">time NN</text>
+<rect x="941" y="239" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="252" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="252" font-size="12" font-weight="400" fill="#1c1914">active</text>
+<text x="1262" y="252" font-size="11" fill="#6b6257" text-anchor="end">boolean NN</text>
+</g>
+<g><rect x="940" y="297" width="330" height="218" rx="6" fill="#fffdf8" stroke="#3b4f8f" stroke-width="1.5"/>
+<rect x="940" y="297" width="330" height="36" rx="6" fill="#3b4f8f"/>
+<text x="950" y="313" font-size="14" font-weight="700" fill="#fff">ticket_tiers</text>
+<text x="950" y="327" font-size="10" fill="#fff" fill-opacity="0.9">Hạng vé của sự kiện (với sơ đồ khu/ghế: mỗi khu ho…</text>
+<rect x="941" y="338" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="351" font-size="9.5" font-weight="700" fill="#3b4f8f">PK FK</text>
+<text x="984" y="351" font-size="12" font-weight="700" fill="#1c1914">event_id</text>
+<text x="1262" y="351" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="948" y="368" font-size="9.5" font-weight="700" fill="#3b4f8f">PK</text>
+<text x="984" y="368" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="1262" y="368" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<rect x="941" y="372" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="385" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="385" font-size="12" font-weight="400" fill="#1c1914">name</text>
+<text x="1262" y="385" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="948" y="402" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="402" font-size="12" font-weight="400" fill="#1c1914">price</text>
+<text x="1262" y="402" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="941" y="406" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="419" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="419" font-size="12" font-weight="400" fill="#1c1914">capacity</text>
+<text x="1262" y="419" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="948" y="436" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="436" font-size="12" font-weight="400" fill="#1c1914">max_per_order</text>
+<text x="1262" y="436" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="941" y="440" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="453" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="453" font-size="12" font-weight="400" fill="#1c1914">perks</text>
+<text x="1262" y="453" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="948" y="470" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="470" font-size="12" font-weight="400" fill="#1c1914">group_id</text>
+<text x="1262" y="470" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<rect x="941" y="474" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="487" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="487" font-size="12" font-weight="400" fill="#1c1914">sort_order</text>
+<text x="1262" y="487" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="948" y="504" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="504" font-size="12" font-weight="400" fill="#1c1914">active</text>
+<text x="1262" y="504" font-size="11" fill="#6b6257" text-anchor="end">boolean NN</text>
+</g>
+<g><rect x="490" y="787" width="330" height="116" rx="6" fill="#fffdf8" stroke="#8a4b12" stroke-width="1.5"/>
+<rect x="490" y="787" width="330" height="36" rx="6" fill="#8a4b12"/>
+<text x="500" y="803" font-size="14" font-weight="700" fill="#fff">home_slots</text>
+<text x="500" y="817" font-size="10" fill="#fff" fill-opacity="0.9">Vị trí sự kiện trên các khu của trang chủ; meta ch…</text>
+<rect x="491" y="828" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="841" font-size="9.5" font-weight="700" fill="#8a4b12">PK</text>
+<text x="534" y="841" font-size="12" font-weight="700" fill="#1c1914">section</text>
+<text x="812" y="841" font-size="11" fill="#6b6257" text-anchor="end">varchar(30)</text>
+<text x="498" y="858" font-size="9.5" font-weight="700" fill="#8a4b12">PK</text>
+<text x="534" y="858" font-size="12" font-weight="700" fill="#1c1914">position</text>
+<text x="812" y="858" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<rect x="491" y="862" width="328" height="17" fill="#f4efe6"/>
+<text x="498" y="875" font-size="9.5" font-weight="700" fill="#8a4b12">FK</text>
+<text x="534" y="875" font-size="12" font-weight="400" fill="#1c1914">event_id</text>
+<text x="812" y="875" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="498" y="892" font-size="9.5" font-weight="700" fill="#8a4b12"></text>
+<text x="534" y="892" font-size="12" font-weight="400" fill="#1c1914">meta</text>
+<text x="812" y="892" font-size="11" fill="#6b6257" text-anchor="end">jsonb NN</text>
+</g>
+<g><rect x="940" y="934" width="330" height="184" rx="6" fill="#fffdf8" stroke="#3b4f8f" stroke-width="1.5"/>
+<rect x="940" y="934" width="330" height="36" rx="6" fill="#3b4f8f"/>
+<text x="950" y="950" font-size="14" font-weight="700" fill="#fff">map_zones</text>
+<text x="950" y="964" font-size="10" fill="#fff" fill-opacity="0.9">Khu vực trên sơ đồ khu (sức chứa, hình vẽ)</text>
+<rect x="941" y="975" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="988" font-size="9.5" font-weight="700" fill="#3b4f8f">PK FK</text>
+<text x="984" y="988" font-size="12" font-weight="700" fill="#1c1914">map_id</text>
+<text x="1262" y="988" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<text x="948" y="1005" font-size="9.5" font-weight="700" fill="#3b4f8f">PK</text>
+<text x="984" y="1005" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="1262" y="1005" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<rect x="941" y="1009" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="1022" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1022" font-size="12" font-weight="400" fill="#1c1914">label</text>
+<text x="1262" y="1022" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<text x="948" y="1039" font-size="9.5" font-weight="700" fill="#3b4f8f">FK</text>
+<text x="984" y="1039" font-size="12" font-weight="400" fill="#1c1914">group_id</text>
+<text x="1262" y="1039" font-size="11" fill="#6b6257" text-anchor="end">varchar(60) NN</text>
+<rect x="941" y="1043" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="1056" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1056" font-size="12" font-weight="400" fill="#1c1914">capacity</text>
+<text x="1262" y="1056" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="948" y="1073" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1073" font-size="12" font-weight="400" fill="#1c1914">shape</text>
+<text x="1262" y="1073" font-size="11" fill="#6b6257" text-anchor="end">jsonb NN</text>
+<rect x="941" y="1077" width="328" height="17" fill="#f4efe6"/>
+<text x="948" y="1090" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1090" font-size="12" font-weight="400" fill="#1c1914">text</text>
+<text x="1262" y="1090" font-size="11" fill="#6b6257" text-anchor="end">jsonb NN</text>
+<text x="948" y="1107" font-size="9.5" font-weight="700" fill="#3b4f8f"></text>
+<text x="984" y="1107" font-size="12" font-weight="400" fill="#1c1914">sort_order</text>
+<text x="1262" y="1107" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+</g>
+<g><rect x="1390" y="280" width="330" height="303" rx="6" fill="#fffdf8" stroke="#8f2f3b" stroke-width="1.5"/>
+<rect x="1390" y="280" width="330" height="36" rx="6" fill="#8f2f3b"/>
+<text x="1400" y="296" font-size="14" font-weight="700" fill="#fff">orders</text>
+<text x="1400" y="310" font-size="10" fill="#fff" fill-opacity="0.9">Đơn hàng; total = subtotal − discount (Ban tổ chức…</text>
+<rect x="1391" y="321" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="334" font-size="9.5" font-weight="700" fill="#8f2f3b">PK</text>
+<text x="1434" y="334" font-size="12" font-weight="700" fill="#1c1914">id</text>
+<text x="1712" y="334" font-size="11" fill="#6b6257" text-anchor="end">varchar(20)</text>
+<text x="1398" y="351" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="351" font-size="12" font-weight="400" fill="#1c1914">user_id</text>
+<text x="1712" y="351" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="1391" y="355" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="368" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="368" font-size="12" font-weight="400" fill="#1c1914">event_id</text>
+<text x="1712" y="368" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="1398" y="385" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="385" font-size="12" font-weight="400" fill="#1c1914">show_id</text>
+<text x="1712" y="385" font-size="11" fill="#6b6257" text-anchor="end">varchar(13) NN</text>
+<rect x="1391" y="389" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="402" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="402" font-size="12" font-weight="400" fill="#1c1914">subtotal</text>
+<text x="1712" y="402" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="1398" y="419" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="419" font-size="12" font-weight="400" fill="#1c1914">discount</text>
+<text x="1712" y="419" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="1391" y="423" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="436" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="436" font-size="12" font-weight="400" fill="#1c1914">coupon_code</text>
+<text x="1712" y="436" font-size="11" fill="#6b6257" text-anchor="end">varchar(30)</text>
+<text x="1398" y="453" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="453" font-size="12" font-weight="400" fill="#1c1914">total</text>
+<text x="1712" y="453" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="1391" y="457" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="470" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="470" font-size="12" font-weight="400" fill="#1c1914">method</text>
+<text x="1712" y="470" font-size="11" fill="#6b6257" text-anchor="end">varchar(10) NN</text>
+<text x="1398" y="487" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="487" font-size="12" font-weight="400" fill="#1c1914">buyer_name</text>
+<text x="1712" y="487" font-size="11" fill="#6b6257" text-anchor="end">text NN</text>
+<rect x="1391" y="491" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="504" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="504" font-size="12" font-weight="400" fill="#1c1914">buyer_email</text>
+<text x="1712" y="504" font-size="11" fill="#6b6257" text-anchor="end">varchar(254) NN</text>
+<text x="1398" y="521" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="521" font-size="12" font-weight="400" fill="#1c1914">buyer_phone</text>
+<text x="1712" y="521" font-size="11" fill="#6b6257" text-anchor="end">varchar(20) NN</text>
+<rect x="1391" y="525" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="538" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="538" font-size="12" font-weight="400" fill="#1c1914">status</text>
+<text x="1712" y="538" font-size="11" fill="#6b6257" text-anchor="end">varchar(10) NN</text>
+<text x="1398" y="555" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="555" font-size="12" font-weight="400" fill="#1c1914">created_at</text>
+<text x="1712" y="555" font-size="11" fill="#6b6257" text-anchor="end">timestamp NN</text>
+<rect x="1391" y="559" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="572" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="572" font-size="12" font-weight="400" fill="#1c1914">refunded_at</text>
+<text x="1712" y="572" font-size="11" fill="#6b6257" text-anchor="end">timestamp</text>
+</g>
+<g><rect x="1390" y="130" width="330" height="116" rx="6" fill="#fffdf8" stroke="#8f2f3b" stroke-width="1.5"/>
+<rect x="1390" y="130" width="330" height="36" rx="6" fill="#8f2f3b"/>
+<text x="1400" y="146" font-size="14" font-weight="700" fill="#fff">coupons</text>
+<text x="1400" y="160" font-size="10" fill="#fff" fill-opacity="0.9">Mã giảm giá: số tiền giảm và giá trị đơn tối thiểu</text>
+<rect x="1391" y="171" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="184" font-size="9.5" font-weight="700" fill="#8f2f3b">PK</text>
+<text x="1434" y="184" font-size="12" font-weight="700" fill="#1c1914">code</text>
+<text x="1712" y="184" font-size="11" fill="#6b6257" text-anchor="end">varchar(30)</text>
+<text x="1398" y="201" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="201" font-size="12" font-weight="400" fill="#1c1914">amount</text>
+<text x="1712" y="201" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="1391" y="205" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="218" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="218" font-size="12" font-weight="400" fill="#1c1914">min_order</text>
+<text x="1712" y="218" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="1398" y="235" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="235" font-size="12" font-weight="400" fill="#1c1914">active</text>
+<text x="1712" y="235" font-size="11" fill="#6b6257" text-anchor="end">boolean NN</text>
+</g>
+<g><rect x="1390" y="985" width="330" height="150" rx="6" fill="#fffdf8" stroke="#8f2f3b" stroke-width="1.5"/>
+<rect x="1390" y="985" width="330" height="36" rx="6" fill="#8f2f3b"/>
+<text x="1400" y="1001" font-size="14" font-weight="700" fill="#fff">tier_stock</text>
+<text x="1400" y="1015" font-size="10" fill="#fff" fill-opacity="0.9">Kho vé theo suất + hạng: presold (bán sẵn trước kh…</text>
+<rect x="1391" y="1026" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="1039" font-size="9.5" font-weight="700" fill="#8f2f3b">PK FK</text>
+<text x="1434" y="1039" font-size="12" font-weight="700" fill="#1c1914">event_id</text>
+<text x="1712" y="1039" font-size="11" fill="#6b6257" text-anchor="end">integer</text>
+<text x="1398" y="1056" font-size="9.5" font-weight="700" fill="#8f2f3b">PK FK</text>
+<text x="1434" y="1056" font-size="12" font-weight="700" fill="#1c1914">show_id</text>
+<text x="1712" y="1056" font-size="11" fill="#6b6257" text-anchor="end">varchar(13)</text>
+<rect x="1391" y="1060" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="1073" font-size="9.5" font-weight="700" fill="#8f2f3b">PK FK</text>
+<text x="1434" y="1073" font-size="12" font-weight="700" fill="#1c1914">tier_id</text>
+<text x="1712" y="1073" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<text x="1398" y="1090" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="1090" font-size="12" font-weight="400" fill="#1c1914">capacity</text>
+<text x="1712" y="1090" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="1391" y="1094" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="1107" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="1107" font-size="12" font-weight="400" fill="#1c1914">presold</text>
+<text x="1712" y="1107" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="1398" y="1124" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="1124" font-size="12" font-weight="400" fill="#1c1914">sold</text>
+<text x="1712" y="1124" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+</g>
+<g><rect x="1390" y="617" width="330" height="133" rx="6" fill="#fffdf8" stroke="#8f2f3b" stroke-width="1.5"/>
+<rect x="1390" y="617" width="330" height="36" rx="6" fill="#8f2f3b"/>
+<text x="1400" y="633" font-size="14" font-weight="700" fill="#fff">order_items</text>
+<text x="1400" y="647" font-size="10" fill="#fff" fill-opacity="0.9">Dòng đơn hàng: hạng vé × số lượng, price là giá tạ…</text>
+<rect x="1391" y="658" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="671" font-size="9.5" font-weight="700" fill="#8f2f3b">PK FK</text>
+<text x="1434" y="671" font-size="12" font-weight="700" fill="#1c1914">order_id</text>
+<text x="1712" y="671" font-size="11" fill="#6b6257" text-anchor="end">varchar(20)</text>
+<text x="1398" y="688" font-size="9.5" font-weight="700" fill="#8f2f3b">PK FK</text>
+<text x="1434" y="688" font-size="12" font-weight="700" fill="#1c1914">tier_id</text>
+<text x="1712" y="688" font-size="11" fill="#6b6257" text-anchor="end">varchar(60)</text>
+<rect x="1391" y="692" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="705" font-size="9.5" font-weight="700" fill="#8f2f3b">FK</text>
+<text x="1434" y="705" font-size="12" font-weight="400" fill="#1c1914">event_id</text>
+<text x="1712" y="705" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<text x="1398" y="722" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="722" font-size="12" font-weight="400" fill="#1c1914">price</text>
+<text x="1712" y="722" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+<rect x="1391" y="726" width="328" height="17" fill="#f4efe6"/>
+<text x="1398" y="739" font-size="9.5" font-weight="700" fill="#8f2f3b"></text>
+<text x="1434" y="739" font-size="12" font-weight="400" fill="#1c1914">qty</text>
+<text x="1712" y="739" font-size="11" fill="#6b6257" text-anchor="end">integer NN</text>
+</g>
+<text x="40" y="1444" font-size="14" font-weight="700" fill="#1c1914">VIEW</text>
+<text x="40" y="1466" font-size="12" fill="#333">v_event_sales · v_daily_revenue (dựa trên orders, order_items, tickets, events)</text>
+<text x="40" y="1490" font-size="12" fill="#333">Ràng buộc nổi bật: CHECK trạng thái / số tiền / kho (presold + sold ≤ capacity), khoá ngoại nhiều cột (order_id, event_id) giữ vé và dòng đơn cùng sự kiện, UNIQUE email / SĐT / slug, chỉ mục GIN trigram tìm đơn (0008).</text>
+<text x="40" y="1514" font-size="11" fill="#777">Sinh tự động bằng backend/scripts/generate_erd.py từ lược đồ thật (SQLAlchemy inspect) — chạy lại sau mỗi migration.</text>
+</svg>
